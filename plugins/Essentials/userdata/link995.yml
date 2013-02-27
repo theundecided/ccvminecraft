@@ -1,0 +1,31 @@
+npc: false
+socialspy: false
+timestamps:
+    login: 1328036917584
+    logout: 1328036972427
+    lastteleport: 1328036930927
+powertoolsenabled: true
+muted: false
+inventory:
+    size: 0
+godmode: false
+teleportenabled: true
+newplayer: false
+afk: false
+ipAddress: 24.35.120.239
+jailed: false
+lastlocation:
+    yaw: 0.1467962
+    pitch: 5.227391
+    z: -776.904353070912
+    y: 70.0
+    world: world
+    x: 1240.5033061544486
+homes:
+    hyrule:
+        yaw: -103.93045
+        pitch: 13.200029
+        z: 194.5
+        y: 69.0
+        world: world
+        x: -227.5

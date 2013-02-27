@@ -1,0 +1,3 @@
+update-repository-url: http://dl.dropbox.com/u/32644765/up/voxelplugins/VoxelUpdate.xml
+automatic-update-enabled: false
+update-interval: 15

@@ -1,0 +1,33 @@
+npc: false
+socialspy: false
+timestamps:
+    login: 1328745925479
+    logout: 1328751228051
+    lastteleport: 1326253703399
+powertoolsenabled: true
+muted: false
+inventory:
+    size: 0
+godmode: false
+teleportenabled: true
+newplayer: false
+afk: false
+ipAddress: 143.236.161.87
+jailed: false
+lastlocation:
+    yaw: 0.0
+    pitch: 0.0
+    z: 216.5
+    y: 69.62000000476837
+    world: world
+    x: 162.5
+homes:
+    home:
+        yaw: -92.96301
+        pitch: 27.749287
+        z: 364.1288484301656
+        y: 80.0
+        world: world
+        x: 24.180024733980837
+money: 0.0
+nickname: the_architect

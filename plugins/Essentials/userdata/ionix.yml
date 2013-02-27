@@ -1,0 +1,15 @@
+npc: false
+socialspy: false
+timestamps:
+    login: 1324536929959
+    logout: 1324537951651
+powertoolsenabled: true
+muted: false
+inventory:
+    size: 0
+godmode: false
+teleportenabled: true
+newplayer: true
+afk: false
+ipAddress: 174.61.106.254
+jailed: false

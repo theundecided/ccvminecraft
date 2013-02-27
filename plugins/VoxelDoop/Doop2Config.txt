@@ -1,0 +1,15 @@
+digTool:284
+chopTool:286
+instaTool:278
+knockTool:285
+voxelGuest:false
+voxelGuestDupe:true
+voxelGuestPaint:true
+voxelGuestScroll:true
+dupeTool:275
+paintTool:341
+scrollerTool:352
+knockToolReverse:348
+explorationDay:false
+undupable:8,9,10,11,46,
+scrollable:8,9,10,11,46,68,69,65,66,67,77,78,17,18,86,81,23,25,26,91,35,100,98,99,96,43,108,109,106,107,104,44,105,53,63,61,
