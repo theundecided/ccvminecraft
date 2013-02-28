@@ -1,33 +1,40 @@
 npc: false
 socialspy: false
 timestamps:
-    login: 1329007660394
-    logout: 1329007724589
-    lastteleport: 1327622406878
-    jail: 0
+  login: 1362020599695
+  logout: 1362024173345
+  lastteleport: 1327622406878
+  jail: 0
 powertoolsenabled: true
 muted: false
 inventory:
-    size: 0
+  size: 0
 godmode: false
 teleportenabled: true
 newplayer: false
 afk: false
-ipAddress: 98.252.160.94
+ipAddress: 98.219.55.114
 jailed: false
 lastlocation:
-    yaw: 0.0
-    pitch: 0.0
-    z: 216.5
-    y: 68.62000000476837
-    world: world
-    x: 160.5
+  yaw: 279.8501
+  pitch: 4.9501486
+  z: 187.76544858700575
+  y: 64.5
+  world: world
+  x: 131.5174325989206
 homes:
-    home:
-        yaw: 196.49475
-        pitch: -78.449974
-        z: 489.84409878688274
-        y: 77.0
-        world: world
-        x: 36.22406820326694
+  home:
+    yaw: 196.49475
+    pitch: -78.449974
+    z: 489.84409878688274
+    y: 77.0
+    world: world
+    x: 36.22406820326694
 money: 0.0
+logoutlocation:
+  world: world
+  x: 160.54010412413072
+  y: 63.0
+  z: 107.67067880135541
+  yaw: 197.33696
+  pitch: 7.799964

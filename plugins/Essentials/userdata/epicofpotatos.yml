@@ -1,0 +1,22 @@
+timestamps:
+  login: 1362026950345
+  logout: 1362027458345
+  jail: 0
+  lastteleport: 1362025534853
+ipAddress: 98.243.213.161
+lastlocation:
+  world: world
+  x: -21.69999998807908
+  y: 13.0
+  z: 180.10262243165602
+  yaw: 21.317505
+  pitch: -9.78441
+logoutlocation:
+  world: world
+  x: 87.1187078807708
+  y: 68.0
+  z: 179.92487350626132
+  yaw: 201.34686
+  pitch: 16.663385
+nickname: EmmEt
+jailed: false

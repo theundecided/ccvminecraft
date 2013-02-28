@@ -1,0 +1,28 @@
+timestamps:
+  login: 1362024960495
+  lastteleport: 1362032390450
+  logout: 1362032643345
+ipAddress: 76.20.148.7
+lastlocation:
+  world: world
+  x: -70.24658891907544
+  y: 32.0
+  z: -71.95243236396331
+  yaw: -338.00073
+  pitch: -2.1000571
+nickname: jim
+homes:
+  home:
+    world: world
+    x: 121.78951776333773
+    y: 66.0
+    z: 151.69227279060755
+    yaw: -189.64102
+    pitch: 28.599688
+logoutlocation:
+  world: world
+  x: 131.51814237161034
+  y: 58.5
+  z: 181.8153141669464
+  yaw: -2.5914001
+  pitch: -3.2004106
