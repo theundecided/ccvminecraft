@@ -552,3 +552,183 @@ Caused by: java.lang.ClassNotFoundException: org.bukkit.util.config.Configuratio
 2013-02-27 17:44:51 [INFO] Saving chunks for level 'world_nether'/Nether
 2013-02-27 17:44:51 [INFO] Saving chunks for level 'world_the_end'/The End
 2013-02-27 17:44:51 [INFO] Stopping server
+2013-02-27 20:15:43 [INFO] Starting minecraft server version 1.4.7
+2013-02-27 20:15:43 [INFO] Loading properties
+2013-02-27 20:15:43 [INFO] Default game type: SURVIVAL
+2013-02-27 20:15:43 [INFO] Generating keypair
+2013-02-27 20:15:43 [INFO] Starting Minecraft server on *:25565
+2013-02-27 20:15:44 [INFO] This server is running CraftBukkit version git-Bukkit-1.4.7-R1.0-b2624jnks (MC: 1.4.7) (Implementing API version 1.4.7-R1.0)
+2013-02-27 20:15:44 [SEVERE] Could not load 'plugins\WorldEdit.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: org/bukkit/event/Event$Type
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:184)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.<init>(CraftServer.java:217)
+	at net.minecraft.server.v1_4_R1.PlayerList.<init>(PlayerList.java:55)
+	at net.minecraft.server.v1_4_R1.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.init(DedicatedServer.java:104)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:399)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.NoClassDefFoundError: org/bukkit/event/Event$Type
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:173)
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: org.bukkit.event.Event$Type
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 12 more
+2013-02-27 20:15:44 [SEVERE] Could not load 'plugins\laserpointer.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: org/bukkit/event/player/PlayerListener
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:182)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.<init>(CraftServer.java:217)
+	at net.minecraft.server.v1_4_R1.PlayerList.<init>(PlayerList.java:55)
+	at net.minecraft.server.v1_4_R1.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.init(DedicatedServer.java:104)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:399)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.NoClassDefFoundError: org/bukkit/event/player/PlayerListener
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.security.SecureClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.access$100(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:80)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sl.nuclearw.laserpointer.laserpointer.<init>(laserpointer.java:30)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:178)
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: org.bukkit.event.player.PlayerListener
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 28 more
+2013-02-27 20:15:44 [SEVERE] Could not load 'plugins\VoxelSniper.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: org/bukkit/event/player/PlayerListener
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:182)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.<init>(CraftServer.java:217)
+	at net.minecraft.server.v1_4_R1.PlayerList.<init>(PlayerList.java:55)
+	at net.minecraft.server.v1_4_R1.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.init(DedicatedServer.java:104)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:399)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.NoClassDefFoundError: org/bukkit/event/player/PlayerListener
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.security.SecureClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.access$100(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:80)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.thevoxelbox.VoxelSniper.<init>(VoxelSniper.java:25)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:178)
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: org.bukkit.event.player.PlayerListener
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 28 more
+2013-02-27 20:15:44 [SEVERE] Could not load 'plugins\PermissionsBukkit-1.2.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: org/bukkit/util/config/ConfigurationNode
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:184)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.<init>(CraftServer.java:217)
+	at net.minecraft.server.v1_4_R1.PlayerList.<init>(PlayerList.java:55)
+	at net.minecraft.server.v1_4_R1.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.init(DedicatedServer.java:104)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:399)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.NoClassDefFoundError: org/bukkit/util/config/ConfigurationNode
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:173)
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: org.bukkit.util.config.ConfigurationNode
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 12 more
+2013-02-27 20:15:44 [INFO] [VoxelUpdate] Loading VoxelUpdate v1.2.5-jnks12
+2013-02-27 20:15:44 [INFO] [Essentials] Loading Essentials v2.10.1
+2013-02-27 20:15:44 [INFO] [Deadbolt] Loading Deadbolt v2.0
+2013-02-27 20:15:44 [INFO] [EssentialsChat] Loading EssentialsChat v2.10.1
+2013-02-27 20:15:44 [INFO] [EssentialsProtect] Loading EssentialsProtect v2.10.1
+2013-02-27 20:15:44 [INFO] MLog clients using java 1.4+ standard logging.
+2013-02-27 20:15:44 [INFO] [EssentialsSpawn] Loading EssentialsSpawn v2.10.1
+2013-02-27 20:15:44 [INFO] [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.10.1
+2013-02-27 20:15:44 [INFO] Preparing level "world"
+2013-02-27 20:15:44 [INFO] Preparing start region for level 0 (Seed: -7229488601465251765)
+2013-02-27 20:15:45 [INFO] Preparing spawn area: 97%
+2013-02-27 20:15:45 [INFO] Preparing start region for level 1 (Seed: -7229488601465251765)
+2013-02-27 20:15:46 [INFO] Preparing start region for level 2 (Seed: -7229488601465251765)
+2013-02-27 20:15:46 [INFO] [VoxelUpdate] Enabling VoxelUpdate v1.2.5-jnks12
+2013-02-27 20:15:46 [INFO] [Essentials] Enabling Essentials v2.10.1
+2013-02-27 20:15:47 [INFO] Essentials: Using config file enhanced permissions.
+2013-02-27 20:15:47 [INFO] Permissions listed in as player-commands will be given to all users.
+2013-02-27 20:15:47 [INFO] [Deadbolt] Enabling Deadbolt v2.0
+2013-02-27 20:15:47 [SEVERE] [Deadbolt] Plugin Deadbolt v2.0 has failed to register events for class com.daemitus.deadbolt.events.EntityListener because org/bukkit/event/entity/EndermanPickupEvent does not exist.
+2013-02-27 20:15:47 [INFO] [Deadbolt] 2.0 enabled
+2013-02-27 20:15:47 [INFO] [EssentialsChat] Enabling EssentialsChat v2.10.1
+2013-02-27 20:15:47 [INFO] [EssentialsProtect] Enabling EssentialsProtect v2.10.1
+2013-02-27 20:15:47 [INFO] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2013-02-27 20:15:48 [INFO] [EssentialsSpawn] Enabling EssentialsSpawn v2.10.1
+2013-02-27 20:15:48 [INFO] [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.10.1
+2013-02-27 20:15:48 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2013-02-27 20:15:48 [INFO] Done (3.519s)! For help, type "help" or "?"
+2013-02-27 20:16:44 [INFO] theundecided[/24.11.160.164:56759] logged in with entity id 338 at ([world] 162.05337542237766, 68.0, 221.31646679707924)
+2013-02-27 20:16:50 [INFO] theundecided issued server command: /gamemode
+2013-02-27 20:16:56 [INFO] theundecided issued server command: /gamemode 1
+2013-02-27 20:18:50 [INFO] TheRealElmo[/98.243.213.161:60725] logged in with entity id 1892 at ([world] 94.5, 67.62000000476837, 252.5)
+2013-02-27 20:18:50 [INFO] Creating empty config: C:\Users\mjrider\bukkit\ccvminecraft\plugins\Essentials\userdata\therealelmo.yml
+2013-02-27 20:19:31 [INFO] theundecided issued server command: /stop
+2013-02-27 20:19:31 [INFO] theundecided: Stopping the server..[m
+2013-02-27 20:19:31 [INFO] Stopping server
+2013-02-27 20:19:31 [INFO] [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.10.1
+2013-02-27 20:19:31 [INFO] [EssentialsSpawn] Disabling EssentialsSpawn v2.10.1
+2013-02-27 20:19:31 [INFO] [EssentialsProtect] Disabling EssentialsProtect v2.10.1
+2013-02-27 20:19:32 [INFO] [EssentialsChat] Disabling EssentialsChat v2.10.1
+2013-02-27 20:19:32 [INFO] [Deadbolt] Disabling Deadbolt v2.0
+2013-02-27 20:19:32 [INFO] [Deadbolt] 2.0 disabled
+2013-02-27 20:19:32 [INFO] [Essentials] Disabling Essentials v2.10.1
+2013-02-27 20:19:32 [INFO] [VoxelUpdate] Disabling VoxelUpdate v1.2.5-jnks12
+2013-02-27 20:19:32 [INFO] Saving players
+2013-02-27 20:19:32 [WARNING] DSCT: socket closed
+2013-02-27 20:19:32 [INFO] Closing listening thread
+2013-02-27 20:19:32 [INFO] Saving worlds
+2013-02-27 20:19:32 [INFO] Saving chunks for level 'world'/Overworld
+2013-02-27 20:19:33 [INFO] Saving chunks for level 'world_nether'/Nether
+2013-02-27 20:19:33 [INFO] Saving chunks for level 'world_the_end'/The End

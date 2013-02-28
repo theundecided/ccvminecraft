@@ -1,7 +1,7 @@
 npc: false
 socialspy: false
 timestamps:
-  login: 1362004940681
+  login: 1362014204330
   logout: 1362004971356
   lastteleport: 1328751383059
 powertoolsenabled: true
@@ -12,7 +12,7 @@ godmode: false
 teleportenabled: true
 newplayer: true
 afk: false
-ipAddress: 192.203.222.59
+ipAddress: 24.11.160.164
 jailed: false
 lastlocation:
   yaw: 0.0
