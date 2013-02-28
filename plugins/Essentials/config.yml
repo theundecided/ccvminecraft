@@ -177,9 +177,9 @@ enabledSigns:
   #- buy  
   #- sell
   #- trade
-  #- free
-  #- disposal
-  #- warp
+  - free
+  - disposal
+  - warp
   #- kit
   #- mail
   #- enchant
@@ -212,7 +212,7 @@ debug: false
 #locale: de_DE
 
 # Turn off god mode when people exit
-remove-god-on-disconnect: false
+remove-god-on-disconnect: true
 
 # Use the permission system of bukkit
 # This only works if no other permission plugins are installed
@@ -415,8 +415,8 @@ protect:
     lava-flow: false
     water-flow: false
     water-bucket-flow: false
-    fire-spread: true
-    lava-fire-spread: true
+    fire-spread: false
+    lava-fire-spread: false
     flint-fire: false
     lightning-fire-spread: true
     portal-creation: false
