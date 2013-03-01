@@ -28,20 +28,26 @@
 # signify color codes.
 
 users:
-    ConspiracyWizard:
+    theundecided:
         permissions:
-            permissions.example: true
+            permissions.*: true
         groups:
         - admin
+    arctos:
+        permissions:
+        worldedit.*: true
+    groups:
+        -admin
+		
 groups:
     default:
         permissions:
-            permissions.build: false
+            permissions.build: true
     admin:
         permissions:
-            permissions.*: true
+            
         inheritance:
-        - user
+        - arctos
     user:
         permissions:
             permissions.build: true
