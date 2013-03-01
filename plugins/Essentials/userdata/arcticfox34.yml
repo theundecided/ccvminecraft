@@ -1,6 +1,6 @@
 timestamps:
-  login: 1362103746174
-  logout: 1362103956624
+  login: 1362176736853
+  logout: 1362178120196
   lastteleport: 1362101563644
   mute: 0
 ipAddress: 67.184.144.97
@@ -13,10 +13,9 @@ lastlocation:
   pitch: 13.599659
 logoutlocation:
   world: world
-  x: 80.09332845640277
-  y: 70.0
-  z: 186.69999998807907
-  yaw: 338.08655
-  pitch: 10.350241
-nickname: MATT_SUCKS_BIG_DICK
-muted: true
+  x: 96.68923317112687
+  y: 61.0
+  z: 86.37536511053435
+  yaw: -288.4608
+  pitch: 24.899775
+muted: false

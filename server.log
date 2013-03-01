@@ -4369,3 +4369,358 @@ Caused by: java.lang.ClassNotFoundException: org.bukkit.util.config.Configuratio
 2013-03-01 15:12:29 [INFO] Saving chunks for level 'world_the_end'/The End
 2013-03-01 15:12:29 [INFO] Stopping server
 2013-03-01 15:12:29 [INFO] Saving players
+2013-03-01 15:18:42 [INFO] Starting minecraft server version 1.4.7
+2013-03-01 15:18:42 [INFO] Loading properties
+2013-03-01 15:18:42 [INFO] Default game type: SURVIVAL
+2013-03-01 15:18:42 [INFO] Generating keypair
+2013-03-01 15:18:42 [INFO] Starting Minecraft server on *:25565
+2013-03-01 15:18:43 [INFO] This server is running CraftBukkit version git-Bukkit-1.4.7-R1.0-b2624jnks (MC: 1.4.7) (Implementing API version 1.4.7-R1.0)
+2013-03-01 15:18:43 [SEVERE] Could not load 'plugins\VoxelSniper.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/minecraft/server/Entity
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:182)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.<init>(CraftServer.java:217)
+	at net.minecraft.server.v1_4_R1.PlayerList.<init>(PlayerList.java:55)
+	at net.minecraft.server.v1_4_R1.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.init(DedicatedServer.java:104)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:399)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/server/Entity
+	at com.thevoxelbox.voxelsniper.VoxelSniper.<init>(VoxelSniper.java:49)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:178)
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: net.minecraft.server.Entity
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 15 more
+2013-03-01 15:18:43 [SEVERE] Could not load 'plugins\PermissionsBukkit-1.2.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: org/bukkit/util/config/ConfigurationNode
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:184)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.<init>(CraftServer.java:217)
+	at net.minecraft.server.v1_4_R1.PlayerList.<init>(PlayerList.java:55)
+	at net.minecraft.server.v1_4_R1.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.init(DedicatedServer.java:104)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:399)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.NoClassDefFoundError: org/bukkit/util/config/ConfigurationNode
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:173)
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: org.bukkit.util.config.ConfigurationNode
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 12 more
+2013-03-01 15:18:43 [INFO] [VoxelUpdate] Loading VoxelUpdate v1.2.5-jnks12
+2013-03-01 15:18:43 [INFO] [WorldEdit] Loading WorldEdit v5.5.1
+2013-03-01 15:18:43 [INFO] [LaserPointer] Loading LaserPointer v0.3
+2013-03-01 15:18:43 [INFO] [VoxelMore] Loading VoxelMore v1.4
+2013-03-01 15:18:43 [INFO] [VoxelMail] Loading VoxelMail v1.01
+2013-03-01 15:18:43 [INFO] [Deadbolt] Loading Deadbolt v2.2
+2013-03-01 15:18:43 [INFO] [Essentials] Loading Essentials v2.10.1
+2013-03-01 15:18:43 [INFO] [EssentialsProtect] Loading EssentialsProtect v2.10.1
+2013-03-01 15:18:43 [INFO] MLog clients using java 1.4+ standard logging.
+2013-03-01 15:18:43 [INFO] [EssentialsSpawn] Loading EssentialsSpawn v2.10.1
+2013-03-01 15:18:43 [INFO] [EssentialsChat] Loading EssentialsChat v2.10.1
+2013-03-01 15:18:43 [INFO] [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.10.1
+2013-03-01 15:18:43 [INFO] Preparing level "world"
+2013-03-01 15:18:43 [INFO] Preparing start region for level 0 (Seed: -7229488601465251765)
+2013-03-01 15:18:44 [INFO] Preparing start region for level 1 (Seed: -7229488601465251765)
+2013-03-01 15:18:44 [INFO] Preparing spawn area: 8%
+2013-03-01 15:18:45 [INFO] Preparing start region for level 2 (Seed: -7229488601465251765)
+2013-03-01 15:18:45 [INFO] [VoxelUpdate] Enabling VoxelUpdate v1.2.5-jnks12
+2013-03-01 15:18:45 [INFO] [WorldEdit] Enabling WorldEdit v5.5.1
+2013-03-01 15:18:45 [INFO] WEPIF: Using the Bukkit Permissions API.
+2013-03-01 15:18:45 [INFO] [LaserPointer] Enabling LaserPointer v0.3
+2013-03-01 15:18:45 [INFO] [LaserPointer] Version 0.3 enabled.
+2013-03-01 15:18:45 [INFO] [VoxelMore] Enabling VoxelMore v1.4
+2013-03-01 15:18:45 [INFO] VoxelMore version 1.4 is enabled!
+2013-03-01 15:18:45 [INFO] [VoxelMail] Enabling VoxelMail v1.01
+2013-03-01 15:18:45 [INFO] VoxelMail version 1.01 is enabled!
+2013-03-01 15:18:45 [INFO] VoxelMail Mailbag.txt loaded successfully.
+2013-03-01 15:18:45 [INFO] [Deadbolt] Enabling Deadbolt v2.2
+2013-03-01 15:18:45 [INFO] [Essentials] Enabling Essentials v2.10.1
+2013-03-01 15:18:46 [INFO] Essentials: Using config file enhanced permissions.
+2013-03-01 15:18:46 [INFO] Permissions listed in as player-commands will be given to all users.
+2013-03-01 15:18:46 [INFO] [EssentialsProtect] Enabling EssentialsProtect v2.10.1
+2013-03-01 15:18:46 [INFO] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2013-03-01 15:18:46 [INFO] [EssentialsSpawn] Enabling EssentialsSpawn v2.10.1
+2013-03-01 15:18:46 [INFO] [EssentialsChat] Enabling EssentialsChat v2.10.1
+2013-03-01 15:18:46 [INFO] [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.10.1
+2013-03-01 15:18:46 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2013-03-01 15:18:46 [INFO] Done (3.214s)! For help, type "help" or "?"
+2013-03-01 15:18:50 [INFO] Ryanb1009[/143.236.160.158:50478] logged in with entity id 288 at ([world] 169.72462542128906, 65.24918707874468, 178.2037276931077)
+2013-03-01 15:18:50 [INFO] Jimbond13[/76.20.148.7:63197] logged in with entity id 299 at ([world] 115.34186896099705, 69.5, 147.40203883223225)
+2013-03-01 15:18:52 [INFO] theundecided[/192.203.222.59:28922] logged in with entity id 461 at ([world] 157.6648079669497, 64.0, 174.5365058583625)
+2013-03-01 15:18:58 [INFO] SammeyChar[/66.215.222.125:62650] logged in with entity id 520 at ([world] 137.76853632903425, 65.0, 192.02966107646293)
+2013-03-01 15:18:58 [INFO] [WorldEdit] Using inbuilt NmsBlock for this version.
+2013-03-01 15:19:52 [INFO] arctos[/97.90.183.92:55574] logged in with entity id 1006 at ([world] 105.07902206560405, 61.0, 173.78319003258184)
+2013-03-01 15:22:00 [INFO] theundecided issued server command: //replace woll stonebrick
+2013-03-01 15:22:07 [INFO] theundecided issued server command: //replace wool stonebrick
+2013-03-01 15:22:19 [INFO] theundecided issued server command: //replace wool mossstonebrick
+2013-03-01 15:22:25 [INFO] theundecided issued server command: //replace wool mosstonebrick
+2013-03-01 15:22:51 [INFO] arctos issued server command: /info
+2013-03-01 15:23:05 [INFO] arctos issued server command: //
+2013-03-01 15:23:13 [INFO] theundecided issued server command: /gamemode Ryanb1009 creative
+2013-03-01 15:24:19 [INFO] theundecided issued server command: /gamemode creative Ryanb1009
+2013-03-01 15:29:27 [INFO] theundecided issued server command: /gamemode
+2013-03-01 15:29:33 [INFO] theundecided issued server command: /defaultgamemode
+2013-03-01 15:30:58 [INFO] Connection reset
+2013-03-01 15:30:58 [INFO] theundecided lost connection: disconnect.genericReason
+2013-03-01 15:39:39 [INFO] sircool13[/76.20.148.7:59405] logged in with entity id 18106 at ([world] 103.5, 75.62000000476837, 265.5)
+2013-03-01 15:39:39 [INFO] Creating empty config: C:\Users\mjrider\bukkit\ccvminecraft\plugins\Essentials\userdata\sircool13.yml
+2013-03-01 15:39:51 [INFO] [0;39m<SammeyChar[0;39m> welcome[m
+2013-03-01 15:40:20 [INFO] [0;39m<~jim[0;39m> on mumble move yourself up to theundecideds hangout[m
+2013-03-01 15:42:12 [INFO] Connection reset
+2013-03-01 15:42:12 [INFO] arctos lost connection: disconnect.genericReason
+2013-03-01 15:42:47 [INFO] arctos[/97.90.183.92:55620] logged in with entity id 21562 at ([world_nether] 19.43697665860268, 73.0, 33.46013923413997)
+2013-03-01 15:44:06 [INFO] arctos hit the ground too hard
+2013-03-01 15:44:14 [INFO] arctos issued server command: /back
+2013-03-01 15:49:32 [INFO] arctos issued server command: /home
+2013-03-01 15:49:58 [INFO] Connection reset
+2013-03-01 15:49:58 [INFO] SammeyChar lost connection: disconnect.quitting
+2013-03-01 15:50:02 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2013-03-01 15:50:13 [INFO] SammeyChar[/66.215.222.125:62748] logged in with entity id 28326 at ([world] 135.7423974966463, 65.0, 196.2548012692764)
+2013-03-01 15:53:37 [INFO] sircool13 was slain by Spider
+2013-03-01 15:55:56 [INFO] sircool13 was slain by Zombie
+2013-03-01 15:56:53 [INFO] sircool13 was shot by Skeleton
+2013-03-01 15:59:14 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2013-03-01 15:59:45 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2013-03-01 15:59:59 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2013-03-01 16:00:19 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2013-03-01 16:20:05 [INFO] [Metrics] Server returned HTTP response code: 502 for URL: http://mcstats.org/report/VoxelUpdate
+2013-03-01 16:25:10 [WARNING] Jimbond13 moved wrongly!
+2013-03-01 16:28:46 [INFO] SammeyChar blew up
+2013-03-01 16:29:47 [INFO] Jimbond13 issued server command: /afk
+2013-03-01 16:32:24 [INFO] arctos lost connection: disconnect.quitting
+2013-03-01 16:32:24 [INFO] Connection reset
+2013-03-01 16:33:21 [INFO] sircool13 starved to death
+2013-03-01 16:34:20 [INFO] sircool13 issued server command: /back
+2013-03-01 16:43:56 [INFO] Read timed out
+2013-03-01 16:43:56 [INFO] sircool13 lost connection: disconnect.endOfStream
+2013-03-01 16:43:58 [INFO] azub999[/71.178.16.184:51012] logged in with entity id 74897 at ([world] 179.42248992539504, 68.0, 226.10741560529632)
+2013-03-01 16:45:20 [INFO] Arcticfox34[/67.184.144.97:50630] logged in with entity id 77181 at ([world] 80.09332845640277, 70.0, 186.69999998807907)
+2013-03-01 16:45:21 [INFO] sircool13[/76.20.148.7:59858] logged in with entity id 77300 at ([world] 192.70650332283108, 64.0, 177.7522155436832)
+2013-03-01 16:46:53 [INFO] theundecided[/24.11.160.164:62050] logged in with entity id 79314 at ([world] 159.47169987434043, 64.0, 173.90112792545855)
+2013-03-01 16:50:24 [INFO] theundecided issued server command: /gamemode 0
+2013-03-01 16:52:01 [INFO] theundecided issued server command: /gamemode 1
+2013-03-01 16:52:40 [INFO] theundecided issued server command: /gamemode 0
+2013-03-01 16:52:58 [INFO] theundecided issued server command: /gamemode 1
+2013-03-01 16:55:44 [INFO] theundecided issued server command: /gamemode 0
+2013-03-01 16:55:53 [INFO] theundecided issued server command: /gamemode 1
+2013-03-01 16:56:42 [INFO] theundecided issued server command: /gamemode 0
+2013-03-01 16:57:38 [INFO] theundecided issued server command: /gamemode Ryanb1009 0
+2013-03-01 16:57:46 [INFO] theundecided issued server command: /gamemode 0 Ryanb1009
+2013-03-01 16:59:00 [INFO] theundecided issued server command: /fly
+2013-03-01 17:02:20 [WARNING] SammeyChar moved wrongly!
+2013-03-01 17:06:22 [INFO] Ryanb1009 issued server command: /home
+2013-03-01 17:06:57 [INFO] SammeyChar issued server command: /home
+2013-03-01 17:07:55 [INFO] Ryanb1009 issued server command: /sethome
+2013-03-01 17:11:30 [INFO] Jimbond13 issued server command: /home
+2013-03-01 17:13:11 [INFO] Jimbond13 issued server command: /deadbolt
+2013-03-01 17:13:30 [INFO] theundecided issued server command: //set 0
+2013-03-01 17:13:34 [INFO] Jimbond13 issued server command: /deadbolt 1966
+2013-03-01 17:13:46 [INFO] theundecided issued server command: //set 0
+2013-03-01 17:13:54 [INFO] Jimbond13 issued server command: /deadbolt <1,9,6,6,>
+2013-03-01 17:14:42 [INFO] Jimbond13 issued server command: /home
+2013-03-01 17:16:38 [INFO] azub999 issued server command: /spawn
+2013-03-01 17:18:05 [INFO] theundecided issued server command: /icanhazbukkit
+2013-03-01 17:18:09 [INFO] theundecided issued server command: /version
+2013-03-01 17:18:26 [INFO] theundecided issued server command: /spawn 154
+2013-03-01 17:18:27 [INFO] Arcticfox34 tried to speak, but is muted.
+2013-03-01 17:18:38 [INFO] Arcticfox34 issued server command: /nick Lol
+2013-03-01 17:18:38 [WARNING] §cArcticfox34 §4was denied access to command.
+2013-03-01 17:18:49 [INFO] theundecided issued server command: /mute Arcticfox34
+2013-03-01 17:18:51 [INFO] [0;39m<~MATT_SUCKS_BIG_DICK[0;39m> lol[m
+2013-03-01 17:18:55 [INFO] Arcticfox34 issued server command: /nick lol
+2013-03-01 17:18:55 [WARNING] §cArcticfox34 §4was denied access to command.
+2013-03-01 17:19:03 [INFO] theundecided issued server command: /nick Arcticfox34 off
+2013-03-01 17:19:04 [INFO] Arcticfox34 issued server command: /nick Arctic
+2013-03-01 17:19:04 [WARNING] §cArcticfox34 §4was denied access to command.
+2013-03-01 17:19:09 [INFO] azub999 issued server command: /help
+2013-03-01 17:19:18 [INFO] theundecided issued server command: /give 154
+2013-03-01 17:19:19 [INFO] azub999 issued server command: /help 2
+2013-03-01 17:19:29 [INFO] azub999 issued server command: /help 3
+2013-03-01 17:19:32 [INFO] theundecided issued server command: /give theundecided 154
+2013-03-01 17:19:46 [INFO] azub999 issued server command: /ping
+2013-03-01 17:19:49 [INFO] azub999 issued server command: /ping
+2013-03-01 17:19:52 [INFO] [0;39m<azub999[0;39m> .help 4[m
+2013-03-01 17:19:56 [INFO] azub999 issued server command: /help 4
+2013-03-01 17:20:00 [INFO] [0;39m<Arcticfox34[0;39m> Data valuedec: 154 hex: 9A[m
+2013-03-01 17:20:05 [INFO] theundecided issued server command: /mute theundecided
+2013-03-01 17:20:09 [INFO] azub999 issued server command: /help 5
+2013-03-01 17:20:35 [INFO] theundecided issued server command: /invsee SammeyChar
+2013-03-01 17:20:46 [INFO] Connection reset
+2013-03-01 17:20:46 [INFO] theundecided lost connection: disconnect.quitting
+2013-03-01 17:24:54 [INFO] Arcticfox34 lost connection: disconnect.quitting
+2013-03-01 17:24:54 [INFO] Connection reset
+2013-03-01 17:25:01 [INFO] Jimbond13 issued server command: /home
+2013-03-01 17:25:36 [INFO] Arcticfox34[/67.184.144.97:50811] logged in with entity id 130399 at ([world] 116.6910186011547, 65.0, 135.95333794234304)
+2013-03-01 17:25:53 [INFO] SammeyChar was slain by Zombie
+2013-03-01 17:25:56 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2013-03-01 17:26:13 [INFO] SammeyChar issued server command: /back
+2013-03-01 17:26:19 [INFO] SammeyChar was slain by Zombie
+2013-03-01 17:28:48 [INFO] Jimbond13 issued server command: /home
+2013-03-01 17:30:39 [INFO] SammeyChar was slain by Skeleton
+2013-03-01 17:30:59 [INFO] SammeyChar issued server command: /back
+2013-03-01 17:31:25 [INFO] theundecided[/24.11.160.164:63349] logged in with entity id 137250 at ([world] 137.78501501438032, 65.0, 188.8463999836093)
+2013-03-01 17:31:38 [INFO] theundecided issued server command: /tp Arcticfox34
+2013-03-01 17:31:47 [INFO] theundecided issued server command: /fly
+2013-03-01 17:32:03 [INFO] Jimbond13 issued server command: /home
+2013-03-01 17:32:58 [INFO] SammeyChar issued server command: /home
+2013-03-01 17:33:09 [INFO] Ryanb1009 was slain by Enderman
+2013-03-01 17:35:49 [INFO] theundecided issued server command: /sethome
+2013-03-01 17:35:55 [INFO] Jimbond13 issued server command: /home
+2013-03-01 17:38:29 [INFO] Connection reset
+2013-03-01 17:38:29 [INFO] Jimbond13 lost connection: disconnect.quitting
+2013-03-01 17:39:26 [INFO] azub999 issued server command: /spawn
+2013-03-01 17:39:44 [INFO] theundecided issued server command: /tp azub999 theundecided
+2013-03-01 17:40:37 [INFO] arctos[/97.90.183.92:49554] logged in with entity id 148038 at ([world] 66.30000001192093, 78.0, 190.92500001192093)
+2013-03-01 17:40:54 [INFO] theundecided issued server command: //set glass
+2013-03-01 17:41:06 [INFO] theundecided issued server command: //set glass
+2013-03-01 17:41:26 [INFO] theundecided issued server command: //set glass
+2013-03-01 17:41:48 [INFO] theundecided issued server command: //set glass
+2013-03-01 17:42:10 [INFO] theundecided issued server command: //set glass
+2013-03-01 17:43:25 [INFO] theundecided issued server command: //set 0
+2013-03-01 17:43:28 [INFO] theundecided issued server command: //set 0
+2013-03-01 17:44:22 [INFO] theundecided issued server command: /toggle weather
+2013-03-01 17:44:31 [INFO] theundecided issued server command: /weather storm
+2013-03-01 17:45:11 [INFO] [0;39m<Arcticfox34[0;39m> nether brick[m
+2013-03-01 17:45:16 [INFO] [0;39m<Arcticfox34[0;39m> cook nether rack[m
+2013-03-01 17:45:20 [INFO] [0;39m<Arcticfox34[0;39m> nvm[m
+2013-03-01 17:45:25 [INFO] [0;39m<Arcticfox34[0;39m> its 13w01a[m
+2013-03-01 17:46:55 [INFO] theundecided issued server command: /feed
+2013-03-01 17:48:31 [INFO] [0;39m<Arcticfox34[0;39m> SO CUTE[m
+2013-03-01 17:48:40 [INFO] Connection reset
+2013-03-01 17:48:40 [INFO] Arcticfox34 lost connection: disconnect.quitting
+2013-03-01 17:49:32 [INFO] theundecided issued server command: /vanish
+2013-03-01 17:50:27 [INFO] theundecided issued server command: /vanish
+2013-03-01 17:50:44 [INFO] theundecided issued server command: /vanish
+2013-03-01 17:51:00 [INFO] theundecided issued server command: /weather sun
+2013-03-01 17:51:22 [INFO] theundecided issued server command: /vanish
+2013-03-01 17:53:13 [INFO] theundecided issued server command: /gamemode 1
+2013-03-01 17:53:58 [INFO] SammeyChar was slain by Zombie
+2013-03-01 17:55:01 [INFO] theundecided issued server command: /ex
+2013-03-01 17:56:19 [INFO] theundecided issued server command: /invsee azub999
+2013-03-01 17:58:25 [INFO] theundecided issued server command: //set 0
+2013-03-01 17:58:40 [INFO] theundecided issued server command: //set dirt
+2013-03-01 17:59:12 [INFO] theundecided issued server command: //set library
+2013-03-01 17:59:20 [INFO] theundecided issued server command: //set bookshelf
+2013-03-01 17:59:48 [INFO] theundecided issued server command: //set oak plank
+2013-03-01 17:59:54 [INFO] theundecided issued server command: //set oakplank
+2013-03-01 18:00:04 [INFO] theundecided issued server command: //set spruce plank
+2013-03-01 18:00:09 [INFO] theundecided issued server command: //set spruceplank
+2013-03-01 18:00:19 [INFO] theundecided issued server command: //set sprucewood
+2013-03-01 18:00:24 [INFO] theundecided issued server command: //set sprucewoodplank
+2013-03-01 18:00:44 [INFO] theundecided issued server command: //set spruceplank
+2013-03-01 18:00:58 [INFO] theundecided issued server command: //set spruce plank
+2013-03-01 18:01:09 [INFO] theundecided issued server command: //set spruceplank
+2013-03-01 18:01:25 [INFO] theundecided issued server command: //set sprucewoodplank
+2013-03-01 18:01:33 [INFO] theundecided issued server command: //set wood
+2013-03-01 18:01:38 [INFO] theundecided issued server command: //set spruce
+2013-03-01 18:02:09 [INFO] theundecided issued server command: //set bookshelf
+2013-03-01 18:02:14 [INFO] Connection reset
+2013-03-01 18:02:14 [INFO] sircool13 lost connection: disconnect.genericReason
+2013-03-01 18:02:49 [INFO] sircool13[/76.20.148.7:60157] logged in with entity id 172021 at ([world] 191.33303224878856, 63.5, 173.63584509325315)
+2013-03-01 18:03:36 [INFO] theundecided issued server command: /xp azub 8000000
+2013-03-01 18:04:33 [INFO] azub999 lost connection: disconnect.quitting
+2013-03-01 18:04:33 [INFO] Connection reset
+2013-03-01 18:10:53 [INFO] theundecided issued server command: /gamemode 0
+2013-03-01 18:10:59 [INFO] theundecided issued server command: /fly
+2013-03-01 18:11:59 [INFO] sircool13 lost connection: disconnect.endOfStream
+2013-03-01 18:12:03 [INFO] Connection reset
+2013-03-01 18:12:03 [INFO] Ryanb1009 lost connection: disconnect.quitting
+2013-03-01 18:12:54 [INFO] Connection reset
+2013-03-01 18:12:54 [INFO] /76.20.148.7:60227 lost connection
+2013-03-01 18:13:00 [INFO] Connection reset
+2013-03-01 18:13:00 [INFO] theundecided lost connection: disconnect.quitting
+2013-03-01 18:13:04 [INFO] Connection reset
+2013-03-01 18:13:04 [INFO] /76.20.148.7:60251 lost connection
+2013-03-01 18:20:58 [INFO] Ryanb1009[/143.236.160.158:52372] logged in with entity id 187111 at ([world] 159.28222272768673, 72.0, 214.30000001192093)
+2013-03-01 18:31:08 [INFO] theundecided[/24.11.160.164:64267] logged in with entity id 196383 at ([world] 148.10589593821416, 67.989522789652, 184.26284212660178)
+2013-03-01 18:32:11 [INFO] theundecided issued server command: /give theundecided torch
+2013-03-01 18:32:33 [INFO] [31;1mDeadbolt: (Admin) theundecided opened a container owned by Jimbond13[m
+2013-03-01 18:32:39 [INFO] arctos issued server command: /home
+2013-03-01 18:33:09 [INFO] arctos issued server command: /back
+2013-03-01 18:33:13 [INFO] arctos issued server command: /back
+2013-03-01 18:33:15 [INFO] arctos issued server command: /back
+2013-03-01 18:33:19 [INFO] arctos issued server command: /warp
+2013-03-01 18:33:22 [INFO] arctos issued server command: /warp list
+2013-03-01 18:33:25 [INFO] arctos issued server command: /warp help
+2013-03-01 18:33:28 [INFO] arctos issued server command: /help warp
+2013-03-01 18:33:38 [INFO] arctos issued server command: /help
+2013-03-01 18:33:51 [INFO] arctos issued server command: /help 2
+2013-03-01 18:34:21 [INFO] arctos issued server command: /help 3
+2013-03-01 18:34:27 [INFO] arctos issued server command: /powertool
+2013-03-01 18:34:33 [INFO] arctos issued server command: /ping
+2013-03-01 18:34:37 [INFO] arctos issued server command: /balance
+2013-03-01 18:34:48 [INFO] arctos issued server command: /worth
+2013-03-01 18:35:52 [INFO] theundecided issued server command: /give theundecided 1 chest
+2013-03-01 18:35:59 [INFO] theundecided issued server command: /give theundecided chest 1
+2013-03-01 18:37:08 [INFO] arctos issued server command: /sell
+2013-03-01 18:37:15 [INFO] arctos issued server command: /sell hand 1
+2013-03-01 18:37:15 [INFO] §aarctos§r §asold gold_ingot for §a$50 §a(1 items at $50 each).
+2013-03-01 18:37:19 [INFO] arctos issued server command: /buy
+2013-03-01 18:37:28 [INFO] arctos issued server command: /help 4
+2013-03-01 18:37:44 [INFO] arctos issued server command: /help 5
+2013-03-01 18:37:55 [INFO] theundecided issued server command: //set 0
+2013-03-01 18:38:09 [INFO] theundecided issued server command: //set dirt
+2013-03-01 18:38:15 [INFO] theundecided issued server command: //set dirt
+2013-03-01 18:38:26 [INFO] theundecided issued server command: //set dirt
+2013-03-01 18:38:29 [INFO] theundecided issued server command: //
+2013-03-01 18:38:33 [INFO] theundecided issued server command: //set 0
+2013-03-01 18:38:50 [INFO] theundecided issued server command: //
+2013-03-01 18:39:29 [INFO] theundecided issued server command: //walls fence
+2013-03-01 18:39:49 [INFO] theundecided issued server command: //set watter
+2013-03-01 18:39:54 [INFO] theundecided issued server command: //set water
+2013-03-01 18:40:04 [INFO] theundecided issued server command: //set farm
+2013-03-01 18:40:08 [INFO] theundecided issued server command: //set farmland
+2013-03-01 18:40:17 [INFO] theundecided issued server command: //set farmland
+2013-03-01 18:40:30 [INFO] theundecided issued server command: //set dirt
+2013-03-01 18:40:37 [INFO] theundecided issued server command: //set grass
+2013-03-01 18:40:43 [INFO] theundecided issued server command: //set grass
+2013-03-01 18:40:48 [INFO] theundecided issued server command: //set grass
+2013-03-01 18:40:56 [INFO] theundecided issued server command: //set grass
+2013-03-01 18:41:13 [INFO] theundecided issued server command: //set farm
+2013-03-01 18:41:20 [INFO] theundecided issued server command: //set farmland
+2013-03-01 18:46:45 [INFO] theundecided issued server command: /gamemode 1
+2013-03-01 18:48:12 [INFO] theundecided issued server command: /gamemode 0
+2013-03-01 18:50:01 [INFO] theundecided issued server command: //
+2013-03-01 18:50:57 [INFO] theundecided issued server command: /fly
+2013-03-01 18:53:14 [INFO] theundecided issued server command: /stop
+2013-03-01 18:53:14 [INFO] theundecided: Stopping the server..[m
+2013-03-01 18:53:14 [INFO] Stopping server
+2013-03-01 18:53:14 [INFO] [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.10.1
+2013-03-01 18:53:14 [INFO] [EssentialsChat] Disabling EssentialsChat v2.10.1
+2013-03-01 18:53:14 [INFO] [EssentialsSpawn] Disabling EssentialsSpawn v2.10.1
+2013-03-01 18:53:14 [INFO] [EssentialsProtect] Disabling EssentialsProtect v2.10.1
+2013-03-01 18:53:15 [INFO] [Essentials] Disabling Essentials v2.10.1
+2013-03-01 18:53:15 [INFO] [Deadbolt] Disabling Deadbolt v2.2
+2013-03-01 18:53:15 [INFO] [VoxelMail] Disabling VoxelMail v1.01
+2013-03-01 18:53:15 [INFO] [VoxelMore] Disabling VoxelMore v1.4
+2013-03-01 18:53:15 [INFO] VoxelMore version 1.4 is disabled!
+2013-03-01 18:53:15 [INFO] [LaserPointer] Disabling LaserPointer v0.3
+2013-03-01 18:53:15 [INFO] [LaserPointer] Version 0.3 disabled.
+2013-03-01 18:53:15 [INFO] [WorldEdit] Disabling WorldEdit v5.5.1
+2013-03-01 18:53:15 [INFO] [VoxelUpdate] Disabling VoxelUpdate v1.2.5-jnks12
+2013-03-01 18:53:15 [INFO] Saving players
+2013-03-01 18:53:15 [WARNING] DSCT: socket closed
+2013-03-01 18:53:15 [INFO] Closing listening thread
+2013-03-01 18:53:15 [INFO] Saving worlds
+2013-03-01 18:53:15 [INFO] Saving chunks for level 'world'/Overworld
+2013-03-01 18:53:16 [INFO] Saving chunks for level 'world_nether'/Nether
+2013-03-01 18:53:16 [INFO] Saving chunks for level 'world_the_end'/The End
+2013-03-01 18:53:16 [INFO] Stopping server

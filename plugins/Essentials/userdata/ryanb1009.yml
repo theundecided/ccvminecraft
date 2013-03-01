@@ -1,9 +1,9 @@
 npc: false
 socialspy: false
 timestamps:
-  login: 1362162275897
-  logout: 1328751228051
-  lastteleport: 1326253703399
+  login: 1362180058046
+  logout: 1362179520196
+  lastteleport: 1362175582563
 powertoolsenabled: true
 muted: false
 inventory:
@@ -15,19 +15,26 @@ afk: false
 ipAddress: 143.236.160.158
 jailed: false
 lastlocation:
-  yaw: 140.27966
-  pitch: 4.198587
-  z: 162.1507735866278
-  y: 64.0
+  yaw: 231.63678
+  pitch: 28.950352
+  z: 148.03501947815562
+  y: 65.0
   world: world
-  x: 103.12941443995564
+  x: 97.21940956762053
 homes:
   home:
-    yaw: -92.96301
-    pitch: 27.749287
-    z: 364.1288484301656
-    y: 80.0
+    yaw: -273.11353
+    pitch: 24.29938
+    z: 131.41444490691467
+    y: 67.0
     world: world
-    x: 24.180024733980837
+    x: 90.16971109882671
 money: 0.0
 nickname: the_architect
+logoutlocation:
+  world: world
+  x: 159.28222272768673
+  y: 72.0
+  z: 214.30000001192093
+  yaw: 82.15969
+  pitch: 34.94993
