@@ -1,8 +1,8 @@
 npc: false
 socialspy: false
 timestamps:
-  login: 1362104516447
-  logout: 1362104948947
+  login: 1362168582547
+  logout: 1362163901097
   lastteleport: 1362104521814
 powertoolsenabled: true
 muted: false
@@ -12,7 +12,7 @@ godmode: false
 teleportenabled: true
 newplayer: true
 afk: false
-ipAddress: 24.11.160.164
+ipAddress: 192.203.222.59
 jailed: false
 lastlocation:
   yaw: -272.0015
@@ -46,11 +46,11 @@ homes:
 money: 0.0
 logoutlocation:
   world: world
-  x: 121.99429457535956
-  y: 68.54376696689187
-  z: 209.52682149719865
-  yaw: -53.292423
-  pitch: 21.150003
+  x: 109.27703150108303
+  y: 83.73671386365037
+  z: 224.0208610095067
+  yaw: -146.91895
+  pitch: 26.400066
 nickname: Matt
 powertools: {}
 unlimited:
