@@ -2221,3 +2221,1305 @@ Caused by: java.lang.ClassNotFoundException: org.bukkit.util.config.Configuratio
 2013-02-28 10:46:43 [INFO] Saving chunks for level 'world'/Overworld
 2013-02-28 10:46:44 [INFO] Saving chunks for level 'world_nether'/Nether
 2013-02-28 10:46:44 [INFO] Saving chunks for level 'world_the_end'/The End
+2013-02-28 18:40:35 [INFO] Starting minecraft server version 1.4.7
+2013-02-28 18:40:35 [INFO] Loading properties
+2013-02-28 18:40:35 [INFO] Default game type: SURVIVAL
+2013-02-28 18:40:35 [INFO] Generating keypair
+2013-02-28 18:40:35 [INFO] Starting Minecraft server on *:25565
+2013-02-28 18:40:36 [INFO] This server is running CraftBukkit version git-Bukkit-1.4.7-R1.0-b2624jnks (MC: 1.4.7) (Implementing API version 1.4.7-R1.0)
+2013-02-28 18:40:36 [SEVERE] Could not load 'plugins\WorldEdit.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: org/bukkit/event/Event$Type
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:184)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.<init>(CraftServer.java:217)
+	at net.minecraft.server.v1_4_R1.PlayerList.<init>(PlayerList.java:55)
+	at net.minecraft.server.v1_4_R1.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.init(DedicatedServer.java:104)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:399)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.NoClassDefFoundError: org/bukkit/event/Event$Type
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:173)
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: org.bukkit.event.Event$Type
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 12 more
+2013-02-28 18:40:36 [SEVERE] Could not load 'plugins\laserpointer.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: org/bukkit/event/player/PlayerListener
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:182)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.<init>(CraftServer.java:217)
+	at net.minecraft.server.v1_4_R1.PlayerList.<init>(PlayerList.java:55)
+	at net.minecraft.server.v1_4_R1.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.init(DedicatedServer.java:104)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:399)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.NoClassDefFoundError: org/bukkit/event/player/PlayerListener
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.security.SecureClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.access$100(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:80)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sl.nuclearw.laserpointer.laserpointer.<init>(laserpointer.java:30)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:178)
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: org.bukkit.event.player.PlayerListener
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 28 more
+2013-02-28 18:40:36 [SEVERE] Could not load 'plugins\VoxelSniper.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/minecraft/server/Entity
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:182)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.<init>(CraftServer.java:217)
+	at net.minecraft.server.v1_4_R1.PlayerList.<init>(PlayerList.java:55)
+	at net.minecraft.server.v1_4_R1.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.init(DedicatedServer.java:104)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:399)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/server/Entity
+	at com.thevoxelbox.voxelsniper.VoxelSniper.<init>(VoxelSniper.java:49)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:178)
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: net.minecraft.server.Entity
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 15 more
+2013-02-28 18:40:36 [SEVERE] Could not load 'plugins\PermissionsBukkit-1.2.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: org/bukkit/util/config/ConfigurationNode
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:184)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.<init>(CraftServer.java:217)
+	at net.minecraft.server.v1_4_R1.PlayerList.<init>(PlayerList.java:55)
+	at net.minecraft.server.v1_4_R1.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.init(DedicatedServer.java:104)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:399)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.NoClassDefFoundError: org/bukkit/util/config/ConfigurationNode
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:173)
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: org.bukkit.util.config.ConfigurationNode
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 12 more
+2013-02-28 18:40:36 [INFO] [VoxelUpdate] Loading VoxelUpdate v1.2.5-jnks12
+2013-02-28 18:40:36 [INFO] [VoxelMore] Loading VoxelMore v1.4
+2013-02-28 18:40:36 [INFO] [VoxelMail] Loading VoxelMail v1.01
+2013-02-28 18:40:36 [INFO] [Deadbolt] Loading Deadbolt v2.0
+2013-02-28 18:40:36 [INFO] [Essentials] Loading Essentials v2.10.1
+2013-02-28 18:40:36 [INFO] [EssentialsProtect] Loading EssentialsProtect v2.10.1
+2013-02-28 18:40:36 [INFO] MLog clients using java 1.4+ standard logging.
+2013-02-28 18:40:36 [INFO] [EssentialsSpawn] Loading EssentialsSpawn v2.10.1
+2013-02-28 18:40:36 [INFO] [EssentialsChat] Loading EssentialsChat v2.10.1
+2013-02-28 18:40:36 [INFO] [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.10.1
+2013-02-28 18:40:36 [INFO] Preparing level "world"
+2013-02-28 18:40:36 [INFO] Preparing start region for level 0 (Seed: -7229488601465251765)
+2013-02-28 18:40:37 [INFO] Preparing start region for level 1 (Seed: -7229488601465251765)
+2013-02-28 18:40:37 [INFO] Preparing spawn area: 4%
+2013-02-28 18:40:38 [INFO] Preparing start region for level 2 (Seed: -7229488601465251765)
+2013-02-28 18:40:38 [INFO] [VoxelUpdate] Enabling VoxelUpdate v1.2.5-jnks12
+2013-02-28 18:40:38 [INFO] [VoxelMore] Enabling VoxelMore v1.4
+2013-02-28 18:40:38 [INFO] VoxelMore version 1.4 is enabled!
+2013-02-28 18:40:38 [INFO] [VoxelMail] Enabling VoxelMail v1.01
+2013-02-28 18:40:38 [INFO] VoxelMail version 1.01 is enabled!
+2013-02-28 18:40:38 [INFO] VoxelMail Mailbag.txt loaded successfully.
+2013-02-28 18:40:38 [INFO] [Deadbolt] Enabling Deadbolt v2.0
+2013-02-28 18:40:38 [SEVERE] [Deadbolt] Plugin Deadbolt v2.0 has failed to register events for class com.daemitus.deadbolt.events.EntityListener because org/bukkit/event/entity/EndermanPickupEvent does not exist.
+2013-02-28 18:40:38 [INFO] [Deadbolt] 2.0 enabled
+2013-02-28 18:40:38 [INFO] [Essentials] Enabling Essentials v2.10.1
+2013-02-28 18:40:39 [INFO] Essentials: Using config file enhanced permissions.
+2013-02-28 18:40:39 [INFO] Permissions listed in as player-commands will be given to all users.
+2013-02-28 18:40:39 [INFO] [EssentialsProtect] Enabling EssentialsProtect v2.10.1
+2013-02-28 18:40:39 [INFO] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2013-02-28 18:40:39 [INFO] [EssentialsSpawn] Enabling EssentialsSpawn v2.10.1
+2013-02-28 18:40:39 [INFO] [EssentialsChat] Enabling EssentialsChat v2.10.1
+2013-02-28 18:40:39 [INFO] [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.10.1
+2013-02-28 18:40:39 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2013-02-28 18:40:39 [INFO] Done (3.020s)! For help, type "help" or "?"
+2013-02-28 18:41:08 [INFO] TheRealElmo[/98.243.213.161:56113] logged in with entity id 257 at ([world] 135.5376965499365, 73.0, 195.88358806241718)
+2013-02-28 18:42:19 [INFO] Connection reset
+2013-02-28 18:42:19 [INFO] TheRealElmo lost connection: disconnect.quitting
+2013-02-28 18:48:41 [INFO] TheRealElmo[/98.243.213.161:49270] logged in with entity id 957 at ([world] 146.07499998807907, 64.0, 168.0153735623303)
+2013-02-28 18:54:52 [INFO] [35;1m[Server] going to restart real quick[m
+2013-02-28 18:54:55 [INFO] [0;39m<TheRealElmo[0;39m> kk[m
+2013-02-28 18:54:57 [INFO] CONSOLE: Stopping the server..[m
+2013-02-28 18:54:57 [INFO] Stopping server
+2013-02-28 18:54:57 [INFO] [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.10.1
+2013-02-28 18:54:57 [INFO] [EssentialsChat] Disabling EssentialsChat v2.10.1
+2013-02-28 18:54:57 [INFO] [EssentialsSpawn] Disabling EssentialsSpawn v2.10.1
+2013-02-28 18:54:57 [INFO] [EssentialsProtect] Disabling EssentialsProtect v2.10.1
+2013-02-28 18:54:58 [INFO] [Essentials] Disabling Essentials v2.10.1
+2013-02-28 18:54:58 [INFO] [Deadbolt] Disabling Deadbolt v2.0
+2013-02-28 18:54:58 [SEVERE] Error occurred while disabling Deadbolt v2.0 (Is it up to date?)
+java.lang.NoClassDefFoundError: com/daemitus/deadbolt/tasks/ToggleDoorTask
+	at com.daemitus.deadbolt.Deadbolt.onDisable(Deadbolt.java:55)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:219)
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:481)
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:400)
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:393)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.disablePlugins(CraftServer.java:277)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.stop(MinecraftServer.java:351)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:458)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.ClassNotFoundException: com.daemitus.deadbolt.tasks.ToggleDoorTask
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:80)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 9 more
+2013-02-28 18:54:58 [INFO] [VoxelMail] Disabling VoxelMail v1.01
+2013-02-28 18:54:58 [INFO] [VoxelMore] Disabling VoxelMore v1.4
+2013-02-28 18:54:58 [INFO] VoxelMore version 1.4 is disabled!
+2013-02-28 18:54:58 [INFO] [VoxelUpdate] Disabling VoxelUpdate v1.2.5-jnks12
+2013-02-28 18:54:58 [INFO] Saving players
+2013-02-28 18:54:58 [WARNING] DSCT: socket closed
+2013-02-28 18:54:58 [INFO] Closing listening thread
+2013-02-28 18:54:58 [INFO] Saving worlds
+2013-02-28 18:54:58 [INFO] Saving chunks for level 'world'/Overworld
+2013-02-28 18:54:59 [INFO] Saving chunks for level 'world_nether'/Nether
+2013-02-28 18:54:59 [INFO] Saving chunks for level 'world_the_end'/The End
+2013-02-28 18:54:59 [INFO] Stopping server
+2013-02-28 18:55:08 [INFO] Starting minecraft server version 1.4.7
+2013-02-28 18:55:08 [INFO] Loading properties
+2013-02-28 18:55:08 [INFO] Default game type: SURVIVAL
+2013-02-28 18:55:08 [INFO] Generating keypair
+2013-02-28 18:55:09 [INFO] Starting Minecraft server on *:25565
+2013-02-28 18:55:09 [INFO] This server is running CraftBukkit version git-Bukkit-1.4.7-R1.0-b2624jnks (MC: 1.4.7) (Implementing API version 1.4.7-R1.0)
+2013-02-28 18:55:09 [SEVERE] Could not load 'plugins\WorldEdit.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: org/bukkit/event/Event$Type
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:184)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.<init>(CraftServer.java:217)
+	at net.minecraft.server.v1_4_R1.PlayerList.<init>(PlayerList.java:55)
+	at net.minecraft.server.v1_4_R1.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.init(DedicatedServer.java:104)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:399)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.NoClassDefFoundError: org/bukkit/event/Event$Type
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:173)
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: org.bukkit.event.Event$Type
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 12 more
+2013-02-28 18:55:09 [SEVERE] Could not load 'plugins\VoxelSniper.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/minecraft/server/Entity
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:182)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.<init>(CraftServer.java:217)
+	at net.minecraft.server.v1_4_R1.PlayerList.<init>(PlayerList.java:55)
+	at net.minecraft.server.v1_4_R1.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.init(DedicatedServer.java:104)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:399)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/server/Entity
+	at com.thevoxelbox.voxelsniper.VoxelSniper.<init>(VoxelSniper.java:49)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:178)
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: net.minecraft.server.Entity
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 15 more
+2013-02-28 18:55:09 [SEVERE] Could not load 'plugins\PermissionsBukkit-1.2.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: org/bukkit/util/config/ConfigurationNode
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:184)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.<init>(CraftServer.java:217)
+	at net.minecraft.server.v1_4_R1.PlayerList.<init>(PlayerList.java:55)
+	at net.minecraft.server.v1_4_R1.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.init(DedicatedServer.java:104)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:399)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.NoClassDefFoundError: org/bukkit/util/config/ConfigurationNode
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:173)
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: org.bukkit.util.config.ConfigurationNode
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 12 more
+2013-02-28 18:55:09 [INFO] [VoxelUpdate] Loading VoxelUpdate v1.2.5-jnks12
+2013-02-28 18:55:09 [INFO] [LaserPointer] Loading LaserPointer v0.3
+2013-02-28 18:55:09 [INFO] [VoxelMore] Loading VoxelMore v1.4
+2013-02-28 18:55:09 [INFO] [VoxelMail] Loading VoxelMail v1.01
+2013-02-28 18:55:09 [INFO] [Deadbolt] Loading Deadbolt v2.2
+2013-02-28 18:55:09 [INFO] [Essentials] Loading Essentials v2.10.1
+2013-02-28 18:55:09 [INFO] [EssentialsProtect] Loading EssentialsProtect v2.10.1
+2013-02-28 18:55:09 [INFO] MLog clients using java 1.4+ standard logging.
+2013-02-28 18:55:09 [INFO] [EssentialsSpawn] Loading EssentialsSpawn v2.10.1
+2013-02-28 18:55:09 [INFO] [EssentialsChat] Loading EssentialsChat v2.10.1
+2013-02-28 18:55:09 [INFO] [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.10.1
+2013-02-28 18:55:10 [INFO] Preparing level "world"
+2013-02-28 18:55:10 [INFO] Preparing start region for level 0 (Seed: -7229488601465251765)
+2013-02-28 18:55:11 [INFO] Preparing start region for level 1 (Seed: -7229488601465251765)
+2013-02-28 18:55:11 [INFO] Preparing spawn area: 0%
+2013-02-28 18:55:11 [INFO] Preparing start region for level 2 (Seed: -7229488601465251765)
+2013-02-28 18:55:12 [INFO] [VoxelUpdate] Enabling VoxelUpdate v1.2.5-jnks12
+2013-02-28 18:55:12 [INFO] [LaserPointer] Enabling LaserPointer v0.3
+2013-02-28 18:55:12 [INFO] [LaserPointer] Version 0.3 enabled.
+2013-02-28 18:55:12 [INFO] [VoxelMore] Enabling VoxelMore v1.4
+2013-02-28 18:55:12 [INFO] VoxelMore version 1.4 is enabled!
+2013-02-28 18:55:12 [INFO] [VoxelMail] Enabling VoxelMail v1.01
+2013-02-28 18:55:12 [INFO] VoxelMail version 1.01 is enabled!
+2013-02-28 18:55:12 [INFO] VoxelMail Mailbag.txt loaded successfully.
+2013-02-28 18:55:12 [INFO] [Deadbolt] Enabling Deadbolt v2.2
+2013-02-28 18:55:12 [SEVERE] Can't construct a java object for tag:yaml.org,2002:com.daemitus.deadbolt.Config; exception=Cannot create property=deny_redstone_specific_ids for JavaBean=Config(language=english.yml, auto_expire_days=0, vertical_trapdoors=true, group_furnaces=true, group_dispensers=true, group_cauldrons=true, group_enchantment_tables=true, group_brewing_stands=true, deny_quick_signs=false, clear_sign_selection=false, deny_entity_interact=true, deny_explosions=true, deny_endermen=true, deny_pistons=true, deny_redstone=true, redstone_protected_blockids=[64, 71, 96], deny_timed_doors=false, forced_timed_doors=false, forced_timed_doors_delay=3, timed_door_sounds=true, silent_door_sounds=true, default_colors_private_line_1=0, default_colors_private_line_2=0, default_colors_private_line_3=0, default_colors_private_line_4=0, default_colors_moreusers_line_1=0, default_colors_moreusers_line_2=0, default_colors_moreusers_line_3=0, default_colors_moreusers_line_4=0, TAG=Deadbolt: , reminder=[], selectedSign={}, CARDINAL_FACES=[NORTH, EAST, SOUTH, WEST], VERTICAL_FACES=[UP, DOWN]); Unable to find property 'deny_redstone_specific_ids' on class: com.daemitus.deadbolt.Config
+ in "<reader>", line 2, column 1:
+    language: english.yml               
+    ^
+
+2013-02-28 18:55:12 [SEVERE] 	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:333)
+2013-02-28 18:55:12 [SEVERE] 	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:183)
+2013-02-28 18:55:12 [SEVERE] 	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:142)
+2013-02-28 18:55:12 [SEVERE] 	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:128)
+2013-02-28 18:55:12 [SEVERE] 	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:480)
+2013-02-28 18:55:12 [SEVERE] 	at org.yaml.snakeyaml.Yaml.loadAs(Yaml.java:440)
+2013-02-28 18:55:12 [SEVERE] 	at com.md_5.config.YamlStorageReader.load(YamlStorageReader.java:18)
+2013-02-28 18:55:12 [SEVERE] 	at com.md_5.config.FileYamlStorage.load(FileYamlStorage.java:24)
+2013-02-28 18:55:12 [SEVERE] 	at com.daemitus.deadbolt.DeadboltPlugin.bootStrap(DeadboltPlugin.java:62)
+2013-02-28 18:55:12 [SEVERE] 	at com.daemitus.deadbolt.DeadboltPlugin.onEnable(DeadboltPlugin.java:22)
+2013-02-28 18:55:12 [SEVERE] 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:217)
+2013-02-28 18:55:12 [SEVERE] 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:457)
+2013-02-28 18:55:12 [SEVERE] 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:381)
+2013-02-28 18:55:12 [SEVERE] 	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugin(CraftServer.java:282)
+2013-02-28 18:55:12 [SEVERE] 	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.enablePlugins(CraftServer.java:264)
+2013-02-28 18:55:12 [SEVERE] 	at net.minecraft.server.v1_4_R1.MinecraftServer.j(MinecraftServer.java:321)
+2013-02-28 18:55:12 [SEVERE] 	at net.minecraft.server.v1_4_R1.MinecraftServer.e(MinecraftServer.java:300)
+2013-02-28 18:55:12 [SEVERE] 	at net.minecraft.server.v1_4_R1.MinecraftServer.a(MinecraftServer.java:259)
+2013-02-28 18:55:12 [SEVERE] 	at net.minecraft.server.v1_4_R1.DedicatedServer.init(DedicatedServer.java:149)
+2013-02-28 18:55:12 [SEVERE] 	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:399)
+2013-02-28 18:55:12 [SEVERE] 	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+2013-02-28 18:55:12 [SEVERE] Caused by: org.yaml.snakeyaml.error.YAMLException: Cannot create property=deny_redstone_specific_ids for JavaBean=Config(language=english.yml, auto_expire_days=0, vertical_trapdoors=true, group_furnaces=true, group_dispensers=true, group_cauldrons=true, group_enchantment_tables=true, group_brewing_stands=true, deny_quick_signs=false, clear_sign_selection=false, deny_entity_interact=true, deny_explosions=true, deny_endermen=true, deny_pistons=true, deny_redstone=true, redstone_protected_blockids=[64, 71, 96], deny_timed_doors=false, forced_timed_doors=false, forced_timed_doors_delay=3, timed_door_sounds=true, silent_door_sounds=true, default_colors_private_line_1=0, default_colors_private_line_2=0, default_colors_private_line_3=0, default_colors_private_line_4=0, default_colors_moreusers_line_1=0, default_colors_moreusers_line_2=0, default_colors_moreusers_line_3=0, default_colors_moreusers_line_4=0, TAG=Deadbolt: , reminder=[], selectedSign={}, CARDINAL_FACES=[NORTH, EAST, SOUTH, WEST], VERTICAL_FACES=[UP, DOWN]); Unable to find property 'deny_redstone_specific_ids' on class: com.daemitus.deadbolt.Config
+2013-02-28 18:55:12 [SEVERE] 	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.constructJavaBean2ndStep(Constructor.java:299)
+2013-02-28 18:55:12 [SEVERE] 	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.construct(Constructor.java:190)
+2013-02-28 18:55:12 [SEVERE] 	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:331)
+2013-02-28 18:55:12 [SEVERE] 	... 20 more
+2013-02-28 18:55:12 [SEVERE] Caused by: org.yaml.snakeyaml.error.YAMLException: Unable to find property 'deny_redstone_specific_ids' on class: com.daemitus.deadbolt.Config
+2013-02-28 18:55:12 [SEVERE] 	at org.yaml.snakeyaml.introspector.PropertyUtils.getProperty(PropertyUtils.java:129)
+2013-02-28 18:55:12 [SEVERE] 	at org.yaml.snakeyaml.introspector.PropertyUtils.getProperty(PropertyUtils.java:121)
+2013-02-28 18:55:12 [SEVERE] 	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.getProperty(Constructor.java:308)
+2013-02-28 18:55:12 [SEVERE] 	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.constructJavaBean2ndStep(Constructor.java:241)
+2013-02-28 18:55:12 [SEVERE] 	... 22 more
+2013-02-28 18:55:12 [SEVERE] java.lang.NullPointerException
+2013-02-28 18:55:12 [SEVERE] 	at com.md_5.config.YamlStorageWriter.save(YamlStorageWriter.java:25)
+2013-02-28 18:55:12 [SEVERE] 	at com.md_5.config.FileYamlStorage.save(FileYamlStorage.java:40)
+2013-02-28 18:55:12 [SEVERE] 	at com.daemitus.deadbolt.DeadboltPlugin.bootStrap(DeadboltPlugin.java:63)
+2013-02-28 18:55:12 [SEVERE] 	at com.daemitus.deadbolt.DeadboltPlugin.onEnable(DeadboltPlugin.java:22)
+2013-02-28 18:55:12 [SEVERE] 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:217)
+2013-02-28 18:55:12 [SEVERE] 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:457)
+2013-02-28 18:55:12 [SEVERE] 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:381)
+2013-02-28 18:55:12 [SEVERE] 	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugin(CraftServer.java:282)
+2013-02-28 18:55:12 [SEVERE] 	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.enablePlugins(CraftServer.java:264)
+2013-02-28 18:55:12 [SEVERE] 	at net.minecraft.server.v1_4_R1.MinecraftServer.j(MinecraftServer.java:321)
+2013-02-28 18:55:12 [SEVERE] 	at net.minecraft.server.v1_4_R1.MinecraftServer.e(MinecraftServer.java:300)
+2013-02-28 18:55:12 [SEVERE] 	at net.minecraft.server.v1_4_R1.MinecraftServer.a(MinecraftServer.java:259)
+2013-02-28 18:55:12 [SEVERE] 	at net.minecraft.server.v1_4_R1.DedicatedServer.init(DedicatedServer.java:149)
+2013-02-28 18:55:12 [SEVERE] 	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:399)
+2013-02-28 18:55:12 [SEVERE] 	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+2013-02-28 18:55:12 [SEVERE] Error occurred while enabling Deadbolt v2.2 (Is it up to date?)
+java.lang.NullPointerException
+	at com.daemitus.deadbolt.DeadboltPlugin.bootStrap(DeadboltPlugin.java:65)
+	at com.daemitus.deadbolt.DeadboltPlugin.onEnable(DeadboltPlugin.java:22)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:217)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:457)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:381)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugin(CraftServer.java:282)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.enablePlugins(CraftServer.java:264)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.j(MinecraftServer.java:321)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.e(MinecraftServer.java:300)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.a(MinecraftServer.java:259)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.init(DedicatedServer.java:149)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:399)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+2013-02-28 18:55:12 [INFO] [Essentials] Enabling Essentials v2.10.1
+2013-02-28 18:55:12 [INFO] Essentials: Using config file enhanced permissions.
+2013-02-28 18:55:12 [INFO] Permissions listed in as player-commands will be given to all users.
+2013-02-28 18:55:12 [INFO] [EssentialsProtect] Enabling EssentialsProtect v2.10.1
+2013-02-28 18:55:12 [INFO] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2013-02-28 18:55:12 [INFO] [EssentialsSpawn] Enabling EssentialsSpawn v2.10.1
+2013-02-28 18:55:12 [INFO] [EssentialsChat] Enabling EssentialsChat v2.10.1
+2013-02-28 18:55:12 [INFO] [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.10.1
+2013-02-28 18:55:13 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2013-02-28 18:55:13 [INFO] Done (3.108s)! For help, type "help" or "?"
+2013-02-28 18:55:32 [INFO] SammeyChar[/66.215.222.125:58511] logged in with entity id 282 at ([world] 160.6819947298366, 72.0, 213.34179064226493)
+2013-02-28 18:55:36 [INFO] TheRealElmo[/98.243.213.161:49418] logged in with entity id 445 at ([world] 141.33719791007178, 62.0, 207.2009047031672)
+2013-02-28 18:55:48 [INFO] [0;39m<TheRealElmo[0;39m> hey ^_^[m
+2013-02-28 18:55:53 [INFO] [0;39m<[31;1mSammeyChar[0;39m> hey :)[m
+2013-02-28 18:56:17 [INFO] [0;39m<TheRealElmo[0;39m> should I get on a voicechat or something?[m
+2013-02-28 18:56:56 [INFO] [0;39m<[31;1mSammeyChar[0;39m> yea, one michael gets off the phone ill have him set it up for me since i have no clue what was goin[m
+2013-02-28 18:56:58 [INFO] [0;39m<[31;1mSammeyChar[0;39m> on[m
+2013-02-28 18:56:58 [INFO] theundecided[/10.1.10.1:64189] logged in with entity id 1436 at ([world] 132.59281612490685, 64.0, 200.69783947261058)
+2013-02-28 18:57:04 [INFO] [0;39m<TheRealElmo[0;39m> alrighty[m
+2013-02-28 18:57:15 [INFO] [0;39m<TheRealElmo[0;39m> matt, is your mumble group up and running?[m
+2013-02-28 18:57:40 [INFO] theundecided lost connection: disconnect.endOfStream
+2013-02-28 18:58:26 [INFO] [0;39m<[31;1mSammeyChar[0;39m> so what are you upto?[m
+2013-02-28 18:58:32 [INFO] theundecided[/10.1.10.1:64225] logged in with entity id 2324 at ([world] 134.4696214243711, 65.0, 189.830981775155)
+2013-02-28 18:58:40 [INFO] [0;39m<TheRealElmo[0;39m> i was gonna make a pumpkin farm ^_^[m
+2013-02-28 18:58:48 [INFO] [0;39m<[31;1mSammeyChar[0;39m> ahh, cool cool[m
+2013-02-28 18:58:58 [INFO] theundecided issued server command: /ops
+2013-02-28 18:59:04 [INFO] theundecided issued server command: /listop
+2013-02-28 18:59:07 [INFO] theundecided issued server command: /op
+2013-02-28 18:59:23 [INFO] theundecided issued server command: /unop sammeyChar
+2013-02-28 19:00:29 [INFO] [0;39m<[31;1mSammeyChar[0;39m> ok brb, going to get michael to set up the voicechat thing[m
+2013-02-28 19:02:23 [INFO] Unknown command. Type "help" for help.[m
+2013-02-28 19:02:26 [INFO] Unknown command. Type "help" for help.[m
+2013-02-28 19:02:31 [INFO] [33;1m--------- [37;1mHelp: Index [33;1m---------------------------[m
+2013-02-28 19:02:31 [INFO] [37;22mUse /help [n] to get page n of help.[m
+2013-02-28 19:02:31 [INFO] [33;22mAliases: [37;1mLists command aliases[m
+2013-02-28 19:02:31 [INFO] [33;22mBukkit: [37;1mAll commands for Bukkit[m
+2013-02-28 19:02:31 [INFO] [33;22mDeadbolt: [37;1mAll commands for Deadbolt[m
+2013-02-28 19:02:31 [INFO] [33;22mEssentials: [37;1mAll commands for Essentials[m
+2013-02-28 19:02:31 [INFO] [33;22mEssentialsSpawn: [37;1mAll commands for EssentialsSpawn[m
+2013-02-28 19:02:31 [INFO] [33;22mLaserPointer: [37;1mAll commands for LaserPointer[m
+2013-02-28 19:02:31 [INFO] [33;22mVoxelMail: [37;1mAll commands for VoxelMail[m
+2013-02-28 19:02:31 [INFO] [33;22mVoxelMore: [37;1mAll commands for VoxelMore[m
+2013-02-28 19:02:31 [INFO] [33;22mVoxelUpdate: [37;1mAll commands for VoxelUpdate[m
+2013-02-28 19:02:31 [INFO] [33;22m/afk: [37;1mMarks you as away-from-keyboard.[m
+2013-02-28 19:02:31 [INFO] [33;22m/antioch: [37;1mA little surprise for operators.[m
+2013-02-28 19:02:31 [INFO] [33;22m/back: [37;1mTeleports you to your location prior to tp/spawn/warp.[m
+2013-02-28 19:02:31 [INFO] [33;22m/backup: [37;1mRuns the backup if configured.[m
+2013-02-28 19:02:31 [INFO] [33;22m/balance: [37;1mStates the current balance of a player.[m
+2013-02-28 19:02:31 [INFO] [33;22m/balancetop: [37;1mGets the top balance values.[m
+2013-02-28 19:02:31 [INFO] [33;22m/ban: [37;1mBans a player.[m
+2013-02-28 19:02:31 [INFO] [33;22m/ban-ip: [37;1mPrevents the specified IP address from using this server[m
+2013-02-28 19:02:31 [INFO] [33;22m/banip: [37;1mBans an IP address.[m
+2013-02-28 19:02:31 [INFO] [33;22m/banlist: [37;1mView all players banned from this server[m
+2013-02-28 19:02:31 [INFO] [33;22m/bigtree: [37;1mSpawn a big tree where you are looking.[m
+2013-02-28 19:02:31 [INFO] [33;22m/book: [37;1mAllows reopening and editing of sealed books.[m
+2013-02-28 19:02:31 [INFO] [33;22m/break: [37;1mBreaks the block you are looking at.[m
+2013-02-28 19:02:31 [INFO] [33;22m/broadcast: [37;1mBroadcasts a message to the entire server.[m
+2013-02-28 19:02:31 [INFO] [33;22m/burn: [37;1mSet a player on fire.[m
+2013-02-28 19:02:31 [INFO] [33;22m/clearinventory: [37;1mClear all items in your inventory.[m
+2013-02-28 19:02:31 [INFO] [33;22m/compass: [37;1mDescribes your current bearing.[m
+2013-02-28 19:02:31 [INFO] [33;22m/deadbolt: [37;1mAccess to the Deadbolt plugin via commands.[m
+2013-02-28 19:02:31 [INFO] [33;22m/defaultgamemode: [37;1mSet the default gamemode[m
+2013-02-28 19:02:31 [INFO] [33;22m/delhome: [37;1mRemoves a home[m
+2013-02-28 19:02:31 [INFO] [33;22m/deljail: [37;1mRemoves a jail[m
+2013-02-28 19:02:31 [INFO] [33;22m/delwarp: [37;1mDeletes the specified warp.[m
+2013-02-28 19:02:31 [INFO] [33;22m/deop: [37;1mTakes the specified player's operator status[m
+2013-02-28 19:02:31 [INFO] [33;22m/depth: [37;1mStates current depth, relative to sea level.[m
+2013-02-28 19:02:31 [INFO] [33;22m/difficulty: [37;1mSets the game difficulty[m
+2013-02-28 19:02:31 [INFO] [33;22m/eco: [37;1mManages the server economy.[m
+2013-02-28 19:02:31 [INFO] [33;22m/enchant: [37;1mEnchants the item the user is holding.[m
+2013-02-28 19:02:31 [INFO] [33;22m/enderchest: [37;1mLets you see inside an enderchest.[m
+2013-02-28 19:02:31 [INFO] [33;22m/essentials: [37;1mReloads essentials.[m
+2013-02-28 19:02:31 [INFO] [33;22m/essentials:more: [37;1mFills the item stack in hand to maximum size.[m
+2013-02-28 19:02:31 [INFO] [33;22m/exp: [37;1mGive, set or look at a players exp.[m
+2013-02-28 19:02:31 [INFO] [33;22m/ext: [37;1mExtinguish players.[m
+2013-02-28 19:02:31 [INFO] [33;22m/feed: [37;1mSatisfy the hunger.[m
+2013-02-28 19:02:31 [INFO] [33;22m/fireball: [37;1mThrow a fireball.[m
+2013-02-28 19:02:31 [INFO] [33;22m/firework: [37;1mAllows you to modify a stack of fireworks[m
+2013-02-28 19:02:31 [INFO] [33;22m/fly: [37;1mTake off, and soar![m
+2013-02-28 19:02:31 [INFO] [33;22m/gamemode: [37;1mChange player gamemode.[m
+2013-02-28 19:02:31 [INFO] [33;22m/gamerule: [37;1mSets a server's game rules[m
+2013-02-28 19:02:31 [INFO] [33;22m/gc: [37;1mReports memory, uptime and tick info.[m
+2013-02-28 19:02:31 [INFO] [33;22m/getpos: [37;1mGet your current coordinates or those of a player.[m
+2013-02-28 19:02:31 [INFO] [33;22m/give: [37;1mGive a player an item.[m
+2013-02-28 19:02:31 [INFO] [33;22m/god: [37;1mEnables your godly powers.[m
+2013-02-28 19:02:31 [INFO] [33;22m/hat: [37;1mGet some cool new headgear[m
+2013-02-28 19:02:31 [INFO] [33;22m/heal: [37;1mHeals you or the given player.[m
+2013-02-28 19:02:31 [INFO] [33;22m/help: [37;1mViews a list of available commands.[m
+2013-02-28 19:02:31 [INFO] [33;22m/helpop: [37;1mMessage online admins.[m
+2013-02-28 19:02:31 [INFO] [33;22m/home: [37;1mTeleport to your home.[m
+2013-02-28 19:02:31 [INFO] [33;22m/icanhasbukkit: [37;1m/version[m
+2013-02-28 19:02:31 [INFO] [33;22m/ignore: [37;1mIgnore other players.[m
+2013-02-28 19:02:31 [INFO] [33;22m/info: [37;1mShows information set by the server owner[m
+2013-02-28 19:02:31 [INFO] [33;22m/invsee: [37;1mSee the inventory of other players.[m
+2013-02-28 19:02:31 [INFO] [33;22m/item: [37;1mSpawn an item.[m
+2013-02-28 19:02:31 [INFO] [33;22m/itemdb: [37;1mSearches for an item.[m
+2013-02-28 19:02:31 [INFO] [33;22m/jails: [37;1mList all jails.[m
+2013-02-28 19:02:31 [INFO] [33;22m/jump: [37;1mJumps to the nearest block in the line of sight.[m
+2013-02-28 19:02:31 [INFO] [33;22m/kick: [37;1mKicks a specified player with a reason.[m
+2013-02-28 19:02:31 [INFO] [33;22m/kickall: [37;1mKicks all players off the server except the issuer.[m
+2013-02-28 19:02:31 [INFO] [33;22m/kill: [37;1mKills specified player.[m
+2013-02-28 19:02:31 [INFO] [33;22m/killall: [37;1mKill all mobs in a world.[m
+2013-02-28 19:02:31 [INFO] [33;22m/kit: [37;1mObtains the specified kit or views all available kits.[m
+2013-02-28 19:02:31 [INFO] [33;22m/kittycannon: [37;1mThrow an exploding kitten at your opponent[m
+2013-02-28 19:02:31 [INFO] [33;22m/lightning: [37;1mThe power of Thor. Strike at cursor or player.[m
+2013-02-28 19:02:31 [INFO] [33;22m/list: [37;1mList all online players.[m
+2013-02-28 19:02:31 [INFO] [33;22m/mail: [37;1mManages inter-player, intra-server mail.[m
+2013-02-28 19:02:31 [INFO] [33;22m/me: [37;1mDescribes an action in the context of the player.[m
+2013-02-28 19:02:31 [INFO] [33;22m/more: [37;1mDuplicates the item in your hand.[m
+2013-02-28 19:02:31 [INFO] [33;22m/motd: [37;1mViews the Message Of The Day.[m
+2013-02-28 19:02:31 [INFO] [33;22m/msg: [37;1mSends a private message to the specified player.[m
+2013-02-28 19:02:31 [INFO] [33;22m/mute: [37;1mMutes or unmutes a player.[m
+2013-02-28 19:02:31 [INFO] [33;22m/near: [37;1mLists the players near by or around a player[m
+2013-02-28 19:02:31 [INFO] [33;22m/nick: [37;1mChange your nickname or that of another player.[m
+2013-02-28 19:02:31 [INFO] [33;22m/nuke: [37;1mMay death rain upon them.[m
+2013-02-28 19:02:31 [INFO] [33;22m/op: [37;1mGives the specified player operator status[m
+2013-02-28 19:02:31 [INFO] [33;22m/pardon-ip: [37;1mAllows the specified IP address to use this server[m
+2013-02-28 19:02:31 [INFO] [33;22m/pay: [37;1mPays another player from your balance[m
+2013-02-28 19:02:31 [INFO] [33;22m/pick: [37;1mSets the data of the block in your hand (to change the colour of wool, the type of log etc).[m
+2013-02-28 19:02:31 [INFO] [33;22m/ping: [37;1mPong![m
+2013-02-28 19:02:31 [INFO] [33;22m/plugins: [37;1mGets a list of plugins running on the server[m
+2013-02-28 19:02:31 [INFO] [33;22m/point: [37;1mToggle on/off your laser pointer.[m
+2013-02-28 19:02:31 [INFO] [33;22m/powertool: [37;1mAssigns a command to the item in hand.[m
+2013-02-28 19:02:31 [INFO] [33;22m/powertooltoggle: [37;1mEnables or disables all current powertools[m
+2013-02-28 19:02:31 [INFO] [33;22m/ptime: [37;1mAdjust player's client time. Add @ prefix to fix.[m
+2013-02-28 19:02:31 [INFO] [33;22m/r: [37;1mQuickly reply to the last player to message you.[m
+2013-02-28 19:02:31 [INFO] [33;22m/realname: [37;1mDisplays the username of a user based on nick.[m
+2013-02-28 19:02:31 [INFO] [33;22m/recipe: [37;1mDisplays how to craft items.[m
+2013-02-28 19:02:31 [INFO] [33;22m/reload: [37;1mReloads the server configuration and plugins[m
+2013-02-28 19:02:31 [INFO] [33;22m/remove: [37;1mRemoves entities in your world[m
+2013-02-28 19:02:31 [INFO] [33;22m/repair: [37;1mRepairs the durability of all or one item.[m
+2013-02-28 19:02:31 [INFO] [33;22m/rules: [37;1mViews the server rules.[m
+2013-02-28 19:02:31 [INFO] [33;22m/save-all: [37;1mSaves the server to disk[m
+2013-02-28 19:02:31 [INFO] [33;22m/save-off: [37;1mDisables server autosaving[m
+2013-02-28 19:02:31 [INFO] [33;22m/save-on: [37;1mEnables server autosaving[m
+2013-02-28 19:02:31 [INFO] [33;22m/say: [37;1mBroadcasts the given message as the console[m
+2013-02-28 19:02:31 [INFO] [33;22m/seed: [37;1mShows the world seed[m
+2013-02-28 19:02:31 [INFO] [33;22m/seen: [37;1mShows the last logout time of a player[m
+2013-02-28 19:02:31 [INFO] [33;22m/sell: [37;1mSells the item currently in your hand.[m
+2013-02-28 19:02:31 [INFO] [33;22m/sethome: [37;1mSet your home to your current location.[m
+2013-02-28 19:02:31 [INFO] [33;22m/setjail: [37;1mCreates a jail where you specified named [jailname][m
+2013-02-28 19:02:31 [INFO] [33;22m/setspawn: [37;1mSet the spawnpoint to your current position.[m
+2013-02-28 19:02:31 [INFO] [33;22m/setwarp: [37;1mCreates a new warp.[m
+2013-02-28 19:02:31 [INFO] [33;22m/setworth: [37;1mSet the sell value of an item.[m
+2013-02-28 19:02:31 [INFO] [33;22m/socialspy: [37;1mToggles if you can see msg/mail commands in chat.[m
+2013-02-28 19:02:31 [INFO] [33;22m/spawn: [37;1mTeleport to the spawnpoint.[m
+2013-02-28 19:02:31 [INFO] [33;22m/spawner: [37;1mChange the mob type of a spawner[m
+2013-02-28 19:02:31 [INFO] [33;22m/spawnmob: [37;1mSpawns a mob.[m
+2013-02-28 19:02:31 [INFO] [33;22m/spawnpoint: [37;1mSets a player's spawn point[m
+2013-02-28 19:02:31 [INFO] [33;22m/speed: [37;1mChange your speed limits[m
+2013-02-28 19:02:31 [INFO] [33;22m/stop: [37;1mStops the server with optional reason[m
+2013-02-28 19:02:31 [INFO] [33;22m/sudo: [37;1mMake another user perform a command.[m
+2013-02-28 19:02:31 [INFO] [33;22m/suicide: [37;1mCauses you to perish.[m
+2013-02-28 19:02:31 [INFO] [33;22m/tempban: [37;1mTemporary ban a user.[m
+2013-02-28 19:02:31 [INFO] [33;22m/thunder: [37;1mEnable/disable thunder.[m
+2013-02-28 19:02:31 [INFO] [33;22m/time: [37;1mDisplay/Change the world time. Defaults to current world.[m
+2013-02-28 19:02:31 [INFO] [33;22m/timings: [37;1mRecords timings for all plugin events[m
+2013-02-28 19:02:31 [INFO] [33;22m/toggledownfall: [37;1mToggles rain on/off on a given world[m
+2013-02-28 19:02:31 [INFO] [33;22m/togglejail: [37;1mJails/Unjails a player, TPs them to the jail specified.[m
+2013-02-28 19:02:31 [INFO] [33;22m/top: [37;1mTeleport to the highest block at your current position.[m
+2013-02-28 19:02:31 [INFO] [33;22m/tp: [37;1mTeleport to a player.[m
+2013-02-28 19:02:31 [INFO] [33;22m/tpa: [37;1mRequest to teleport to the specified player.[m
+2013-02-28 19:02:31 [INFO] [33;22m/tpaall: [37;1mRequests all players online to teleport to you.[m
+2013-02-28 19:02:31 [INFO] [33;22m/tpaccept: [37;1mAccepts a teleport request.[m
+2013-02-28 19:02:31 [INFO] [33;22m/tpahere: [37;1mRequest that the specified player teleport to you.[m
+2013-02-28 19:02:31 [INFO] [33;22m/tpall: [37;1mTeleport all online players to another player.[m
+2013-02-28 19:02:31 [INFO] [33;22m/tpdeny: [37;1mReject a teleport request.[m
+2013-02-28 19:02:31 [INFO] [33;22m/tphere: [37;1mTeleport a player to you.[m
+2013-02-28 19:02:31 [INFO] [33;22m/tpo: [37;1mTeleport override for tptoggle.[m
+2013-02-28 19:02:31 [INFO] [33;22m/tpohere: [37;1mTeleport here override for tptoggle.[m
+2013-02-28 19:02:31 [INFO] [33;22m/tppos: [37;1mTeleport to coordinates.[m
+2013-02-28 19:02:31 [INFO] [33;22m/tptoggle: [37;1mBlocks all forms of teleportation.[m
+2013-02-28 19:02:31 [INFO] [33;22m/tree: [37;1mSpawn a tree where you are looking.[m
+2013-02-28 19:02:31 [INFO] [33;22m/unban: [37;1mUnbans the specified player.[m
+2013-02-28 19:02:31 [INFO] [33;22m/unbanip: [37;1mUnbans the specified IP address.[m
+2013-02-28 19:02:31 [INFO] [33;22m/unlimited: [37;1mAllows the unlimited placing of items.[m
+2013-02-28 19:02:31 [INFO] [33;22m/vanish: [37;1mHide yourself from other players.[m
+2013-02-28 19:02:31 [INFO] [33;22m/version: [37;1mGets the version of this server including any plugins in use[m
+2013-02-28 19:02:31 [INFO] [33;22m/vmail: [37;1mAll mail commands (function depends on the next word following it)[m
+2013-02-28 19:02:31 [INFO] [33;22m/voxelinstall: [37;1mInstalls a specific plugin, that is not yet running on the server.[m
+2013-02-28 19:02:31 [INFO] [33;22m/voxelplugins: [37;1mLists the status and availability of all the plugins.[m
+2013-02-28 19:02:31 [INFO] [33;22m/voxelupdate: [37;1mUpdates a specific plugin, that is already running on the server.[m
+2013-02-28 19:02:31 [INFO] [33;22m/warp: [37;1mList all warps or warp to the specified location.[m
+2013-02-28 19:02:31 [INFO] [33;22m/weather: [37;1mSets the weather.[m
+2013-02-28 19:02:31 [INFO] [33;22m/whitelist: [37;1mManages the list of players allowed to use this server[m
+2013-02-28 19:02:31 [INFO] [33;22m/whois: [37;1mDetermine the username behind a nickname.[m
+2013-02-28 19:02:31 [INFO] [33;22m/workbench: [37;1mOpens up a workbench[m
+2013-02-28 19:02:31 [INFO] [33;22m/world: [37;1mSwitch between worlds.[m
+2013-02-28 19:02:31 [INFO] [33;22m/worth: [37;1mCalculates the worth of items in hand or as specified.[m
+2013-02-28 19:02:45 [INFO] [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.10.1
+2013-02-28 19:02:45 [INFO] [EssentialsChat] Disabling EssentialsChat v2.10.1
+2013-02-28 19:02:45 [INFO] [EssentialsSpawn] Disabling EssentialsSpawn v2.10.1
+2013-02-28 19:02:45 [INFO] [EssentialsProtect] Disabling EssentialsProtect v2.10.1
+2013-02-28 19:02:46 [INFO] [Essentials] Disabling Essentials v2.10.1
+2013-02-28 19:02:46 [INFO] [Deadbolt] Disabling Deadbolt v2.2
+2013-02-28 19:02:46 [INFO] [VoxelMail] Disabling VoxelMail v1.01
+2013-02-28 19:02:46 [INFO] [VoxelMore] Disabling VoxelMore v1.4
+2013-02-28 19:02:46 [INFO] VoxelMore version 1.4 is disabled!
+2013-02-28 19:02:46 [INFO] [LaserPointer] Disabling LaserPointer v0.3
+2013-02-28 19:02:46 [INFO] [LaserPointer] Version 0.3 disabled.
+2013-02-28 19:02:46 [INFO] [VoxelUpdate] Disabling VoxelUpdate v1.2.5-jnks12
+2013-02-28 19:02:46 [INFO] 210 recipes
+2013-02-28 19:02:46 [SEVERE] Could not load 'plugins\WorldEdit.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: org/bukkit/event/Event$Type
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:184)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.reload(CraftServer.java:594)
+	at org.bukkit.Bukkit.reload(Bukkit.java:184)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:23)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:186)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.dispatchCommand(CraftServer.java:514)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.dispatchServerCommand(CraftServer.java:506)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.al(DedicatedServer.java:260)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:225)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.NoClassDefFoundError: org/bukkit/event/Event$Type
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:173)
+	... 14 more
+Caused by: java.lang.ClassNotFoundException: org.bukkit.event.Event$Type
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 17 more
+2013-02-28 19:02:46 [SEVERE] Could not load 'plugins\VoxelSniper.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/minecraft/server/Entity
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:182)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.reload(CraftServer.java:594)
+	at org.bukkit.Bukkit.reload(Bukkit.java:184)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:23)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:186)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.dispatchCommand(CraftServer.java:514)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.dispatchServerCommand(CraftServer.java:506)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.al(DedicatedServer.java:260)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:225)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/server/Entity
+	at com.thevoxelbox.voxelsniper.VoxelSniper.<init>(VoxelSniper.java:49)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:178)
+	... 14 more
+Caused by: java.lang.ClassNotFoundException: net.minecraft.server.Entity
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+2013-02-28 19:02:46 [SEVERE] Could not load 'plugins\PermissionsBukkit-1.2.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: org/bukkit/util/config/ConfigurationNode
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:184)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.reload(CraftServer.java:594)
+	at org.bukkit.Bukkit.reload(Bukkit.java:184)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:23)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:186)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.dispatchCommand(CraftServer.java:514)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.dispatchServerCommand(CraftServer.java:506)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.al(DedicatedServer.java:260)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:225)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.NoClassDefFoundError: org/bukkit/util/config/ConfigurationNode
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:173)
+	... 14 more
+Caused by: java.lang.ClassNotFoundException: org.bukkit.util.config.ConfigurationNode
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 17 more
+2013-02-28 19:02:47 [INFO] [VoxelUpdate] Loading VoxelUpdate v1.2.5-jnks12
+2013-02-28 19:02:47 [INFO] [LaserPointer] Loading LaserPointer v0.3
+2013-02-28 19:02:47 [INFO] [VoxelMore] Loading VoxelMore v1.4
+2013-02-28 19:02:47 [INFO] [VoxelMail] Loading VoxelMail v1.01
+2013-02-28 19:02:47 [INFO] [Deadbolt] Loading Deadbolt v2.2
+2013-02-28 19:02:47 [INFO] [Essentials] Loading Essentials v2.10.1
+2013-02-28 19:02:47 [INFO] [EssentialsProtect] Loading EssentialsProtect v2.10.1
+2013-02-28 19:02:47 [INFO] MLog clients using java 1.4+ standard logging.
+2013-02-28 19:02:47 [INFO] [EssentialsSpawn] Loading EssentialsSpawn v2.10.1
+2013-02-28 19:02:47 [INFO] [EssentialsChat] Loading EssentialsChat v2.10.1
+2013-02-28 19:02:47 [INFO] [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.10.1
+2013-02-28 19:02:47 [INFO] [VoxelUpdate] Enabling VoxelUpdate v1.2.5-jnks12
+2013-02-28 19:02:47 [INFO] [LaserPointer] Enabling LaserPointer v0.3
+2013-02-28 19:02:47 [INFO] [LaserPointer] Version 0.3 enabled.
+2013-02-28 19:02:47 [INFO] [VoxelMore] Enabling VoxelMore v1.4
+2013-02-28 19:02:47 [INFO] VoxelMore version 1.4 is enabled!
+2013-02-28 19:02:47 [INFO] [VoxelMail] Enabling VoxelMail v1.01
+2013-02-28 19:02:47 [INFO] VoxelMail version 1.01 is enabled!
+2013-02-28 19:02:47 [INFO] VoxelMail Mailbag.txt loaded successfully.
+2013-02-28 19:02:47 [INFO] [Deadbolt] Enabling Deadbolt v2.2
+2013-02-28 19:02:47 [INFO] [Essentials] Enabling Essentials v2.10.1
+2013-02-28 19:02:47 [INFO] Essentials: Using config file enhanced permissions.
+2013-02-28 19:02:47 [INFO] Permissions listed in as player-commands will be given to all users.
+2013-02-28 19:02:47 [INFO] [EssentialsProtect] Enabling EssentialsProtect v2.10.1
+2013-02-28 19:02:47 [INFO] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2013-02-28 19:02:47 [INFO] [EssentialsSpawn] Enabling EssentialsSpawn v2.10.1
+2013-02-28 19:02:47 [INFO] [EssentialsChat] Enabling EssentialsChat v2.10.1
+2013-02-28 19:02:47 [INFO] [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.10.1
+2013-02-28 19:02:47 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2013-02-28 19:02:47 [INFO] CONSOLE: [32;1mReload complete.[m
+2013-02-28 19:03:06 [INFO] [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.10.1
+2013-02-28 19:03:06 [INFO] [EssentialsChat] Disabling EssentialsChat v2.10.1
+2013-02-28 19:03:06 [INFO] [EssentialsSpawn] Disabling EssentialsSpawn v2.10.1
+2013-02-28 19:03:06 [INFO] [EssentialsProtect] Disabling EssentialsProtect v2.10.1
+2013-02-28 19:03:07 [INFO] [Essentials] Disabling Essentials v2.10.1
+2013-02-28 19:03:07 [INFO] [Deadbolt] Disabling Deadbolt v2.2
+2013-02-28 19:03:07 [INFO] [VoxelMail] Disabling VoxelMail v1.01
+2013-02-28 19:03:07 [INFO] [VoxelMore] Disabling VoxelMore v1.4
+2013-02-28 19:03:07 [INFO] VoxelMore version 1.4 is disabled!
+2013-02-28 19:03:07 [INFO] [LaserPointer] Disabling LaserPointer v0.3
+2013-02-28 19:03:07 [INFO] [LaserPointer] Version 0.3 disabled.
+2013-02-28 19:03:07 [INFO] [VoxelUpdate] Disabling VoxelUpdate v1.2.5-jnks12
+2013-02-28 19:03:07 [INFO] 210 recipes
+2013-02-28 19:03:07 [SEVERE] Could not load 'plugins\WorldEdit.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: org/bukkit/event/Event$Type
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:184)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.reload(CraftServer.java:594)
+	at org.bukkit.Bukkit.reload(Bukkit.java:184)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:23)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:186)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.dispatchCommand(CraftServer.java:514)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.dispatchServerCommand(CraftServer.java:506)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.al(DedicatedServer.java:260)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:225)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.NoClassDefFoundError: org/bukkit/event/Event$Type
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:173)
+	... 14 more
+Caused by: java.lang.ClassNotFoundException: org.bukkit.event.Event$Type
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 17 more
+2013-02-28 19:03:07 [SEVERE] Could not load 'plugins\VoxelSniper.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/minecraft/server/Entity
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:182)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.reload(CraftServer.java:594)
+	at org.bukkit.Bukkit.reload(Bukkit.java:184)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:23)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:186)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.dispatchCommand(CraftServer.java:514)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.dispatchServerCommand(CraftServer.java:506)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.al(DedicatedServer.java:260)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:225)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/server/Entity
+	at com.thevoxelbox.voxelsniper.VoxelSniper.<init>(VoxelSniper.java:49)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:178)
+	... 14 more
+Caused by: java.lang.ClassNotFoundException: net.minecraft.server.Entity
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+2013-02-28 19:03:07 [SEVERE] Could not load 'plugins\PermissionsBukkit-1.2.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: org/bukkit/util/config/ConfigurationNode
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:184)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.reload(CraftServer.java:594)
+	at org.bukkit.Bukkit.reload(Bukkit.java:184)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:23)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:186)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.dispatchCommand(CraftServer.java:514)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.dispatchServerCommand(CraftServer.java:506)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.al(DedicatedServer.java:260)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:225)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.NoClassDefFoundError: org/bukkit/util/config/ConfigurationNode
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:173)
+	... 14 more
+Caused by: java.lang.ClassNotFoundException: org.bukkit.util.config.ConfigurationNode
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 17 more
+2013-02-28 19:03:07 [INFO] [VoxelUpdate] Loading VoxelUpdate v1.2.5-jnks12
+2013-02-28 19:03:07 [INFO] [LaserPointer] Loading LaserPointer v0.3
+2013-02-28 19:03:07 [INFO] [VoxelMore] Loading VoxelMore v1.4
+2013-02-28 19:03:07 [INFO] [VoxelMail] Loading VoxelMail v1.01
+2013-02-28 19:03:07 [INFO] [Deadbolt] Loading Deadbolt v2.2
+2013-02-28 19:03:07 [INFO] [Essentials] Loading Essentials v2.10.1
+2013-02-28 19:03:07 [INFO] [EssentialsProtect] Loading EssentialsProtect v2.10.1
+2013-02-28 19:03:07 [INFO] MLog clients using java 1.4+ standard logging.
+2013-02-28 19:03:07 [INFO] [EssentialsSpawn] Loading EssentialsSpawn v2.10.1
+2013-02-28 19:03:07 [INFO] [EssentialsChat] Loading EssentialsChat v2.10.1
+2013-02-28 19:03:07 [INFO] [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.10.1
+2013-02-28 19:03:07 [INFO] [VoxelUpdate] Enabling VoxelUpdate v1.2.5-jnks12
+2013-02-28 19:03:07 [INFO] [LaserPointer] Enabling LaserPointer v0.3
+2013-02-28 19:03:07 [INFO] [LaserPointer] Version 0.3 enabled.
+2013-02-28 19:03:07 [INFO] [VoxelMore] Enabling VoxelMore v1.4
+2013-02-28 19:03:07 [INFO] VoxelMore version 1.4 is enabled!
+2013-02-28 19:03:07 [INFO] [VoxelMail] Enabling VoxelMail v1.01
+2013-02-28 19:03:07 [INFO] VoxelMail version 1.01 is enabled!
+2013-02-28 19:03:07 [INFO] VoxelMail Mailbag.txt loaded successfully.
+2013-02-28 19:03:07 [INFO] [Deadbolt] Enabling Deadbolt v2.2
+2013-02-28 19:03:07 [INFO] [Essentials] Enabling Essentials v2.10.1
+2013-02-28 19:03:07 [INFO] Essentials: Using config file enhanced permissions.
+2013-02-28 19:03:07 [INFO] Permissions listed in as player-commands will be given to all users.
+2013-02-28 19:03:07 [INFO] [EssentialsProtect] Enabling EssentialsProtect v2.10.1
+2013-02-28 19:03:07 [INFO] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2013-02-28 19:03:07 [INFO] [EssentialsSpawn] Enabling EssentialsSpawn v2.10.1
+2013-02-28 19:03:07 [INFO] [EssentialsChat] Enabling EssentialsChat v2.10.1
+2013-02-28 19:03:07 [INFO] [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.10.1
+2013-02-28 19:03:07 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2013-02-28 19:03:07 [INFO] CONSOLE: [32;1mReload complete.[m
+2013-02-28 19:04:44 [INFO] theundecided issued server command: /fly
+2013-02-28 19:05:44 [INFO] theundecided issued server command: /feed
+2013-02-28 19:06:38 [INFO] theundecided issued server command: /fly
+2013-02-28 19:08:02 [INFO] theundecided issued server command: /superpick
+2013-02-28 19:08:05 [INFO] theundecided issued server command: /super
+2013-02-28 19:08:27 [INFO] theundecided issued server command: /unop
+2013-02-28 19:08:30 [INFO] theundecided issued server command: /op
+2013-02-28 19:08:33 [INFO] theundecided issued server command: /deop
+2013-02-28 19:08:41 [INFO] theundecided issued server command: /deop SammeyChar
+2013-02-28 19:08:41 [INFO] theundecided: De-opped SammeyChar[m
+2013-02-28 19:08:54 [INFO] EpicOfPotatos[/98.243.213.161:54443] logged in with entity id 10348 at ([world] 87.1187078807708, 68.0, 179.92487350626132)
+2013-02-28 19:09:16 [INFO] [0;39m<~EmmEt[0;39m> hello[m
+2013-02-28 19:12:10 [INFO] theundecided issued server command: /warp home
+2013-02-28 19:13:17 [INFO] apathetic3cstasy[/24.1.220.249:51754] logged in with entity id 13170 at ([world] 91.5, 69.62000000476837, 258.5)
+2013-02-28 19:15:26 [INFO] theundecided issued server command: /tp apathetic3cstasy
+2013-02-28 19:15:32 [INFO] theundecided issued server command: /fly
+2013-02-28 19:15:58 [INFO] theundecided issued server command: /warp mine
+2013-02-28 19:17:46 [INFO] theundecided issued server command: /warp base
+2013-02-28 19:18:09 [INFO] Connection reset
+2013-02-28 19:18:09 [INFO] SammeyChar lost connection: disconnect.endOfStream
+2013-02-28 19:18:55 [INFO] SammeyChar[/66.215.222.125:58628] logged in with entity id 18985 at ([world] 66.78849553966202, 72.0, 194.09812469835305)
+2013-02-28 19:19:55 [INFO] [0;39m<SammeyChar[0;39m> Can you guys hear me?[m
+2013-02-28 19:20:00 [INFO] [0;39m<~EmmEt[0;39m> no[m
+2013-02-28 19:20:13 [INFO] EpicOfPotatos issued server command: /spawn
+2013-02-28 19:20:22 [INFO] [0;39m<[31;1mapathetic3cstasy[0;39m> you're not in here.[m
+2013-02-28 19:20:34 [INFO] [0;39m<~EmmEt[0;39m> stupid rain[m
+2013-02-28 19:20:47 [INFO] theundecided issued server command: /weather sun
+2013-02-28 19:21:29 [INFO] [0;39m<~EmmEt[0;39m> I could use a little cobble[m
+2013-02-28 19:21:48 [INFO] [0;39m<~EmmEt[0;39m> Thanks[m
+2013-02-28 19:29:34 [INFO] EpicOfPotatos issued server command: /homeset
+2013-02-28 19:29:37 [INFO] EpicOfPotatos issued server command: /help
+2013-02-28 19:30:03 [INFO] Connection reset
+2013-02-28 19:30:03 [INFO] EpicOfPotatos lost connection: disconnect.quitting
+2013-02-28 19:37:03 [INFO] Jimbond13[/76.20.148.7:57496] logged in with entity id 33541 at ([world] 131.51814237161034, 58.5, 181.8153141669464)
+2013-02-28 19:37:12 [INFO] [0;39m<TheRealElmo[0;39m> HEY JIM[m
+2013-02-28 19:37:27 [INFO] [0;39m<~jim[0;39m> hey, so the server is finaly back inline[m
+2013-02-28 19:38:20 [INFO] [0;39m<~jim[0;39m> dude i just went like 50% on these eggs[m
+2013-02-28 19:38:39 [INFO] [0;39m<~jim[0;39m> holy carrots![m
+2013-02-28 19:38:44 [INFO] [0;39m<TheRealElmo[0;39m> YUP[m
+2013-02-28 19:38:48 [INFO] [0;39m<TheRealElmo[0;39m> hop on mumble[m
+2013-02-28 19:41:42 [INFO] theundecided issued server command: /warp base
+2013-02-28 19:45:39 [INFO] theundecided issued server command: /give hoe
+2013-02-28 19:45:46 [INFO] theundecided issued server command: /give theundecided hoe
+2013-02-28 19:45:56 [INFO] theundecided issued server command: /invsee
+2013-02-28 19:45:59 [INFO] theundecided issued server command: /invsee TheRealElmo
+2013-02-28 19:47:00 [INFO] EpicOfPotatos[/98.243.213.161:54504] logged in with entity id 42270 at ([world] 111.801364069702, 64.0, 159.17762694644708)
+2013-02-28 19:47:52 [INFO] [0;39m<~EmmEt[0;39m> Im lagging up a storm[m
+2013-02-28 19:48:08 [INFO] EpicOfPotatos lost connection: disconnect.quitting
+2013-02-28 19:48:08 [INFO] Connection reset
+2013-02-28 19:48:55 [INFO] EpicOfPotatos[/98.243.213.161:54530] logged in with entity id 43902 at ([world] 77.29634486142004, 63.0, 163.59465601295187)
+2013-02-28 19:49:01 [INFO] [0;39m<~EmmEt[0;39m> thats better[m
+2013-02-28 19:49:52 [INFO] SammeyChar issued server command: /fly
+2013-02-28 19:49:52 [WARNING] §cSammeyChar §4was denied access to command.
+2013-02-28 19:50:01 [INFO] [0;39m<~EmmEt[0;39m> elmo I'm taking half of your glass[m
+2013-02-28 19:50:04 [INFO] theundecided issued server command: /afk
+2013-02-28 19:51:53 [INFO] theundecided issued server command: /repair all
+2013-02-28 19:52:25 [INFO] EpicOfPotatos lost connection: disconnect.quitting
+2013-02-28 19:52:25 [INFO] Connection reset
+2013-02-28 19:59:07 [INFO] theundecided issued server command: /give theundecided sign
+2013-02-28 19:59:34 [INFO] EpicOfPotatos[/98.243.213.161:54640] logged in with entity id 55506 at ([world] 79.23345793819672, 63.0, 163.51149881371379)
+2013-02-28 19:59:59 [INFO] Arcticfox34[/67.184.144.97:50178] logged in with entity id 56107 at ([world] 96.5, 68.62000000476837, 255.5)
+2013-02-28 19:59:59 [INFO] Creating empty config: C:\Users\mjrider\bukkit\ccvminecraft\plugins\Essentials\userdata\arcticfox34.yml
+2013-02-28 20:01:19 [INFO] [0;39m<~EmmEt[0;39m> in the pond[m
+2013-02-28 20:01:30 [INFO] [0;39m<~EmmEt[0;39m> oh right here[m
+2013-02-28 20:01:34 [INFO] theundecided issued server command: /nick EpicOfPotatos emmet
+2013-02-28 20:01:54 [INFO] [0;39m<~emmet[0;39m> YEAH my names correct! :D[m
+2013-02-28 20:02:04 [INFO] [0;39m<Arcticfox34[0;39m> pot[m
+2013-02-28 20:04:51 [INFO] [0;39m<~emmet[0;39m> depends[m
+2013-02-28 20:05:02 [INFO] [0;39m<~emmet[0;39m> they arnt the best[m
+2013-02-28 20:06:32 [INFO] [0;39m<~emmet[0;39m> wiki never lies[m
+2013-02-28 20:08:23 [INFO] theundecided issued server command: /lightning
+2013-02-28 20:10:33 [INFO] azub999[/71.178.16.184:51902] logged in with entity id 67583 at ([world] 103.5, 74.62000000476837, 262.5)
+2013-02-28 20:11:52 [INFO] theundecided issued server command: /afk
+2013-02-28 20:13:26 [INFO] Arcticfox34 lost connection: disconnect.quitting
+2013-02-28 20:13:26 [INFO] Connection reset
+2013-02-28 20:14:02 [INFO] theundecided issued server command: /super
+2013-02-28 20:14:04 [INFO] theundecided issued server command: /pick
+2013-02-28 20:14:10 [INFO] theundecided issued server command: /help
+2013-02-28 20:14:21 [INFO] theundecided issued server command: /help 2
+2013-02-28 20:14:23 [INFO] Arcticfox34[/67.184.144.97:50233] logged in with entity id 71368 at ([world] 77.68418676991932, 63.0, 163.60846937694802)
+2013-02-28 20:14:27 [INFO] theundecided issued server command: /help 3
+2013-02-28 20:14:34 [INFO] theundecided issued server command: /help 4
+2013-02-28 20:14:38 [INFO] Connection reset
+2013-02-28 20:14:38 [INFO] apathetic3cstasy lost connection: disconnect.quitting
+2013-02-28 20:14:45 [INFO] theundecided issued server command: /help 5
+2013-02-28 20:14:57 [INFO] theundecided issued server command: /help 6
+2013-02-28 20:15:05 [INFO] theundecided issued server command: /help 7
+2013-02-28 20:15:13 [INFO] theundecided issued server command: /help 8
+2013-02-28 20:15:25 [INFO] theundecided issued server command: /help 9
+2013-02-28 20:15:37 [INFO] theundecided issued server command: /help 10
+2013-02-28 20:15:48 [INFO] theundecided issued server command: /powertooltoggle
+2013-02-28 20:15:54 [INFO] theundecided issued server command: /help 11
+2013-02-28 20:16:04 [INFO] theundecided issued server command: /help 12
+2013-02-28 20:16:15 [INFO] theundecided issued server command: /help 13
+2013-02-28 20:16:22 [INFO] theundecided issued server command: /help 14
+2013-02-28 20:16:31 [INFO] theundecided issued server command: /help 15
+2013-02-28 20:16:43 [INFO] theundecided issued server command: /afk
+2013-02-28 20:17:25 [INFO] TheRealElmo issued server command: /spawn
+2013-02-28 20:17:30 [INFO] EpicOfPotatos issued server command: /spawn
+2013-02-28 20:17:37 [INFO] Connection reset
+2013-02-28 20:17:37 [INFO] EpicOfPotatos lost connection: disconnect.quitting
+2013-02-28 20:17:48 [INFO] EpicOfPotatos[/98.243.213.161:54687] logged in with entity id 75195 at ([world] 166.4692650265549, 66.0, 216.67372955545653)
+2013-02-28 20:18:50 [INFO] theundecided issued server command: /warp base
+2013-02-28 20:19:22 [INFO] theundecided issued server command: /give theundecided stick
+2013-02-28 20:20:06 [INFO] Connection reset
+2013-02-28 20:20:06 [INFO] Arcticfox34 lost connection: disconnect.quitting
+2013-02-28 20:21:22 [INFO] EpicOfPotatos lost connection: disconnect.quitting
+2013-02-28 20:21:22 [INFO] Connection reset
+2013-02-28 20:21:24 [INFO] EpicOfPotatos[/98.243.213.161:54699] logged in with entity id 79274 at ([world] 102.78111799958401, 49.0, 249.36669796596465)
+2013-02-28 20:21:48 [INFO] EpicOfPotatos issued server command: /spawn
+2013-02-28 20:21:51 [INFO] theundecided issued server command: /gamemode survival EpicOfPotatos
+2013-02-28 20:22:41 [INFO] theundecided issued server command: /invsee EpicOfPotatos
+2013-02-28 20:23:15 [INFO] theundecided issued server command: /unlimeted
+2013-02-28 20:23:24 [INFO] theundecided issued server command: /help 12
+2013-02-28 20:23:29 [INFO] Arcticfox34[/67.184.144.97:50391] logged in with entity id 81283 at ([world] 33.672624305819106, 48.0, 190.75999640797005)
+2013-02-28 20:23:32 [INFO] theundecided issued server command: /help 14
+2013-02-28 20:23:44 [INFO] theundecided issued server command: /unlimited
+2013-02-28 20:24:00 [INFO] theundecided issued server command: /unlimited water theundecided
+2013-02-28 20:24:16 [INFO] theundecided issued server command: /give theundecided water
+2013-02-28 20:24:24 [INFO] theundecided issued server command: /give theundecided water
+2013-02-28 20:25:18 [INFO] Connection reset
+2013-02-28 20:25:18 [INFO] EpicOfPotatos lost connection: disconnect.endOfStream
+2013-02-28 20:25:20 [INFO] Jimbond13 issued server command: /afk
+2013-02-28 20:25:29 [INFO] EpicOfPotatos[/98.243.213.161:54710] logged in with entity id 83094 at ([world] 83.46177763273147, 72.0155550727022, 194.86399587407527)
+2013-02-28 20:26:27 [INFO] Arcticfox34 lost connection: disconnect.quitting
+2013-02-28 20:26:27 [INFO] Connection reset
+2013-02-28 20:26:47 [INFO] Arcticfox34[/67.184.144.97:50420] logged in with entity id 84169 at ([world] 66.3229889460761, 57.0, 202.02213283633324)
+2013-02-28 20:27:37 [INFO] theundecided issued server command: /tp Jimbond13
+2013-02-28 20:28:39 [INFO] Arcticfox34 was slain by Spider
+2013-02-28 20:29:42 [INFO] EpicOfPotatos issued server command: /spawn
+2013-02-28 20:29:44 [INFO] theundecided issued server command: /weather rain
+2013-02-28 20:29:49 [INFO] theundecided issued server command: /weather storm
+2013-02-28 20:30:39 [INFO] theundecided issued server command: /worldedit
+2013-02-28 20:31:50 [INFO] theundecided issued server command: /butcher
+2013-02-28 20:32:34 [INFO] Arcticfox34 was shot by Skeleton
+2013-02-28 20:32:43 [INFO] Arcticfox34 issued server command: /back
+2013-02-28 20:33:15 [INFO] theundecided issued server command: /gamemode  creative theundecided
+2013-02-28 20:33:24 [INFO] theundecided issued server command: /gamemode  creative theundecided
+2013-02-28 20:33:39 [INFO] theundecided issued server command: /gamemode theundecided creative
+2013-02-28 20:33:56 [INFO] theundecided issued server command: /gamemode creative theundecided
+2013-02-28 20:34:52 [INFO] theundecided issued server command: /weather sun
+2013-02-28 20:36:14 [INFO] theundecided issued server command: /tp TheRealElmo
+2013-02-28 20:37:41 [INFO] theundecided lost connection: disconnect.quitting
+2013-02-28 20:37:41 [INFO] Connection reset
+2013-02-28 20:38:46 [INFO] /99.123.128.150:51830 lost connection
+2013-02-28 20:39:46 [INFO] EpicOfPotatos issued server command: /spawn
+2013-02-28 20:46:16 [INFO] Jimbond13 issued server command: /afk
+2013-02-28 20:50:03 [INFO] /99.118.206.177:52297 lost connection
+2013-02-28 20:53:14 [INFO] EpicOfPotatos issued server command: /spawn
+2013-02-28 20:54:33 [INFO] [35;1m[Server] I will be back in a few minutes[m
+2013-02-28 20:58:03 [INFO] azub999 issued server command: /spawn
+2013-02-28 21:03:12 [INFO] Connection reset
+2013-02-28 21:03:12 [INFO] SammeyChar lost connection: disconnect.endOfStream
+2013-02-28 21:03:26 [INFO] EpicOfPotatos issued server command: /spawn
+2013-02-28 21:03:26 [INFO] Jimbond13 issued server command: /spawn
+2013-02-28 21:03:31 [INFO] Arcticfox34 issued server command: /help
+2013-02-28 21:03:32 [INFO] Jimbond13 issued server command: /home
+2013-02-28 21:03:39 [INFO] Arcticfox34 issued server command: /balance
+2013-02-28 21:03:55 [INFO] Arcticfox34 issued server command: /help essentials
+2013-02-28 21:04:07 [INFO] Arcticfox34 issued server command: /help essentials 2
+2013-02-28 21:04:16 [INFO] Arcticfox34 issued server command: /kit
+2013-02-28 21:04:20 [INFO] Arcticfox34 issued server command: /help essentials 3
+2013-02-28 21:04:48 [INFO] Arcticfox34 issued server command: /sell
+2013-02-28 21:05:05 [INFO] Arcticfox34 issued server command: /sell feather  -57
+2013-02-28 21:05:07 [INFO] SammeyChar[/66.215.222.125:58741] logged in with entity id 152876 at ([world] 58.64639025065356, 78.0, 202.34959183054642)
+2013-02-28 21:05:34 [INFO] chronos70[/75.128.153.147:49213] logged in with entity id 153429 at ([world] 141.5, 59.0, 181.5)
+2013-02-28 21:05:52 [INFO] Jimbond13 issued server command: /home
+2013-02-28 21:07:42 [INFO] azub999 blew up
+2013-02-28 21:08:27 [INFO] Starting minecraft server version 1.4.7
+2013-02-28 21:08:27 [INFO] Loading properties
+2013-02-28 21:08:27 [INFO] Default game type: SURVIVAL
+2013-02-28 21:08:27 [INFO] Generating keypair
+2013-02-28 21:08:27 [INFO] Starting Minecraft server on *:25565
+2013-02-28 21:08:27 [INFO] This server is running CraftBukkit version git-Bukkit-1.4.7-R1.0-b2624jnks (MC: 1.4.7) (Implementing API version 1.4.7-R1.0)
+2013-02-28 21:08:28 [SEVERE] Could not load 'plugins\WorldEdit.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: org/bukkit/event/Event$Type
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:184)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.<init>(CraftServer.java:217)
+	at net.minecraft.server.v1_4_R1.PlayerList.<init>(PlayerList.java:55)
+	at net.minecraft.server.v1_4_R1.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.init(DedicatedServer.java:104)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:399)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.NoClassDefFoundError: org/bukkit/event/Event$Type
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:173)
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: org.bukkit.event.Event$Type
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 12 more
+2013-02-28 21:08:28 [SEVERE] Could not load 'plugins\VoxelSniper.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/minecraft/server/Entity
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:182)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.<init>(CraftServer.java:217)
+	at net.minecraft.server.v1_4_R1.PlayerList.<init>(PlayerList.java:55)
+	at net.minecraft.server.v1_4_R1.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.init(DedicatedServer.java:104)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:399)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/server/Entity
+	at com.thevoxelbox.voxelsniper.VoxelSniper.<init>(VoxelSniper.java:49)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:178)
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: net.minecraft.server.Entity
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 15 more
+2013-02-28 21:08:28 [SEVERE] Could not load 'plugins\PermissionsBukkit-1.2.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: org/bukkit/util/config/ConfigurationNode
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:184)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.<init>(CraftServer.java:217)
+	at net.minecraft.server.v1_4_R1.PlayerList.<init>(PlayerList.java:55)
+	at net.minecraft.server.v1_4_R1.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.init(DedicatedServer.java:104)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:399)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.NoClassDefFoundError: org/bukkit/util/config/ConfigurationNode
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:173)
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: org.bukkit.util.config.ConfigurationNode
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 12 more
+2013-02-28 21:08:28 [INFO] [VoxelUpdate] Loading VoxelUpdate v1.2.5-jnks12
+2013-02-28 21:08:28 [INFO] [LaserPointer] Loading LaserPointer v0.3
+2013-02-28 21:08:28 [INFO] [VoxelMore] Loading VoxelMore v1.4
+2013-02-28 21:08:28 [INFO] [VoxelMail] Loading VoxelMail v1.01
+2013-02-28 21:08:28 [INFO] [Deadbolt] Loading Deadbolt v2.2
+2013-02-28 21:08:28 [INFO] [Essentials] Loading Essentials v2.10.1
+2013-02-28 21:08:28 [INFO] [EssentialsProtect] Loading EssentialsProtect v2.10.1
+2013-02-28 21:08:28 [INFO] MLog clients using java 1.4+ standard logging.
+2013-02-28 21:08:28 [INFO] [EssentialsSpawn] Loading EssentialsSpawn v2.10.1
+2013-02-28 21:08:28 [INFO] [EssentialsChat] Loading EssentialsChat v2.10.1
+2013-02-28 21:08:28 [INFO] [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.10.1
+2013-02-28 21:08:28 [INFO] Preparing level "world"
+2013-02-28 21:08:28 [INFO] Preparing start region for level 0 (Seed: -7229488601465251765)
+2013-02-28 21:08:29 [INFO] Preparing start region for level 1 (Seed: -7229488601465251765)
+2013-02-28 21:08:29 [INFO] Preparing spawn area: 4%
+2013-02-28 21:08:30 [INFO] Preparing start region for level 2 (Seed: -7229488601465251765)
+2013-02-28 21:08:30 [INFO] [VoxelUpdate] Enabling VoxelUpdate v1.2.5-jnks12
+2013-02-28 21:08:30 [INFO] [LaserPointer] Enabling LaserPointer v0.3
+2013-02-28 21:08:30 [INFO] [LaserPointer] Version 0.3 enabled.
+2013-02-28 21:08:30 [INFO] [VoxelMore] Enabling VoxelMore v1.4
+2013-02-28 21:08:30 [INFO] VoxelMore version 1.4 is enabled!
+2013-02-28 21:08:30 [INFO] [VoxelMail] Enabling VoxelMail v1.01
+2013-02-28 21:08:30 [INFO] VoxelMail version 1.01 is enabled!
+2013-02-28 21:08:30 [INFO] VoxelMail Mailbag.txt loaded successfully.
+2013-02-28 21:08:30 [INFO] [Deadbolt] Enabling Deadbolt v2.2
+2013-02-28 21:08:30 [INFO] [Essentials] Enabling Essentials v2.10.1
+2013-02-28 21:08:31 [INFO] Essentials: Using config file enhanced permissions.
+2013-02-28 21:08:31 [INFO] Permissions listed in as player-commands will be given to all users.
+2013-02-28 21:08:31 [INFO] [EssentialsProtect] Enabling EssentialsProtect v2.10.1
+2013-02-28 21:08:31 [INFO] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2013-02-28 21:08:31 [INFO] [EssentialsSpawn] Enabling EssentialsSpawn v2.10.1
+2013-02-28 21:08:31 [INFO] [EssentialsChat] Enabling EssentialsChat v2.10.1
+2013-02-28 21:08:31 [INFO] [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.10.1
+2013-02-28 21:08:31 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2013-02-28 21:08:31 [INFO] Done (3.145s)! For help, type "help" or "?"
+2013-02-28 21:08:33 [INFO] azub999[/71.178.16.184:52099] logged in with entity id 278 at ([world] 92.5, 69.62000000476837, 257.5)
+2013-02-28 21:08:37 [INFO] Jimbond13[/76.20.148.7:58238] logged in with entity id 539 at ([world] 131.51814237161034, 58.5, 181.8153141669464)
+2013-02-28 21:08:37 [INFO] chronos70[/75.128.153.147:49536] logged in with entity id 638 at ([world] 141.5, 59.0, 181.5)
+2013-02-28 21:08:44 [INFO] TheRealElmo[/98.243.213.161:49752] logged in with entity id 656 at ([world] 141.33719791007178, 62.0, 207.2009047031672)
+2013-02-28 21:08:51 [INFO] SammeyChar[/66.215.222.125:58757] logged in with entity id 720 at ([world] 58.64639025065356, 78.0, 202.34959183054642)
+2013-02-28 21:09:06 [INFO] Arcticfox34[/67.184.144.97:50483] logged in with entity id 928 at ([world] 66.3229889460761, 57.0, 202.02213283633324)
+2013-02-28 21:09:21 [INFO] EpicOfPotatos[/98.243.213.161:55062] logged in with entity id 1076 at ([world] 83.46177763273147, 72.0155550727022, 194.86399587407527)
+2013-02-28 21:09:21 [INFO] [35;1m[Server] ...oops[m
+2013-02-28 21:09:24 [INFO] [0;39m<TheRealElmo[0;39m> matt[m
+2013-02-28 21:09:28 [INFO] [0;39m<TheRealElmo[0;39m> MATTT[m
+2013-02-28 21:09:37 [INFO] [35;1m[Server] that was the wrong terminal window[m
+2013-02-28 21:09:42 [INFO] [0;39m<TheRealElmo[0;39m> ya think?[m
+2013-02-28 21:09:46 [INFO] [0;39m<TheRealElmo[0;39m> so like[m
+2013-02-28 21:09:52 [INFO] [0;39m<TheRealElmo[0;39m> we reset to a previous save[m
+2013-02-28 21:09:54 [INFO] [0;39m<~emmet[0;39m> are we screwed[m
+2013-02-28 21:09:57 [INFO] [0;39m<TheRealElmo[0;39m> >:([m
+2013-02-28 21:10:00 [INFO] Arcticfox34 issued server command: /nick FUCK
+2013-02-28 21:10:03 [INFO] [0;39m<~FUCK[0;39m> u[m
+2013-02-28 21:10:12 [INFO] [0;39m<~FUCK[0;39m> YOU MATT[m
+2013-02-28 21:10:17 [INFO] [0;39m<~emmet[0;39m> can we load a new save or did not save?[m
+2013-02-28 21:10:21 [INFO] Arcticfox34 issued server command: /save
+2013-02-28 21:10:22 [INFO] [0;39m<~emmet[0;39m> (it[m
+2013-02-28 21:10:51 [INFO] Arcticfox34 issued server command: /nick LEEEEEEEEEEEEEROOOOOOYYYY JENKEEEENNNNZZZZ
+2013-02-28 21:10:56 [INFO] azub999 lost connection: disconnect.quitting
+2013-02-28 21:10:56 [INFO] Connection reset
+2013-02-28 21:11:03 [INFO] Arcticfox34 issued server command: /NICK LEEEEROY_JENKEEEENNNSS
+2013-02-28 21:11:05 [INFO] [0;39m<~LEEEEROY_JENKEEEENNNSS[0;39m> lol[m
+2013-02-28 21:11:30 [INFO] Arcticfox34 issued server command: /NICK MATT_SUCKS_BIG_DICK
+2013-02-28 21:11:34 [INFO] [0;39m<~MATT_SUCKS_BIG_DICK[0;39m> i do[m
+2013-02-28 21:11:41 [INFO] Mutes or unmutes a player.[m
+2013-02-28 21:11:41 [INFO] /mute <player> [datediff][m
+2013-02-28 21:11:54 [INFO] [31;1mError:[31;22m [31;22mPlayer not found.[m
+2013-02-28 21:11:58 [INFO] [31;1mError:[31;22m [31;22mPlayer not found.[m
+2013-02-28 21:12:06 [INFO] [33;22mPlayer ~MATT_SUCKS_BIG_DICK[0;39m [33;22mmuted.[m
+2013-02-28 21:12:19 [INFO] Arcticfox34 tried to speak, but is muted.
+2013-02-28 21:12:28 [INFO] Unknown command. Type "help" for help.[m
+2013-02-28 21:12:31 [INFO] Unknown command. Type "help" for help.[m
+2013-02-28 21:12:33 [INFO] Change your nickname or that of another player.[m
+2013-02-28 21:12:33 [INFO] /nick [player] <nickname|off>[m
+2013-02-28 21:12:41 [INFO] Connection reset
+2013-02-28 21:12:41 [INFO] Arcticfox34 lost connection: disconnect.quitting
+2013-02-28 21:12:47 [INFO] [31;1mError:[31;22m [31;22mPlayer not found.[m
+2013-02-28 21:12:49 [INFO] EpicOfPotatos was slain by TheRealElmo
+2013-02-28 21:12:59 [INFO] Change your nickname or that of another player.[m
+2013-02-28 21:12:59 [INFO] /nick [player] <nickname|off>[m
+2013-02-28 21:12:59 [INFO] Connection reset
+2013-02-28 21:12:59 [INFO] TheRealElmo lost connection: disconnect.quitting
+2013-02-28 21:13:02 [INFO] [31;1mError:[31;22m [31;22mPlayer not found.[m
+2013-02-28 21:13:11 [INFO] Jimbond13 lost connection: disconnect.quitting
+2013-02-28 21:13:11 [INFO] Connection reset
+2013-02-28 21:13:19 [INFO] [35;1m[Server] hang on[m
+2013-02-28 21:13:21 [INFO] CONSOLE: Stopping the server..[m
+2013-02-28 21:13:21 [INFO] Stopping server
+2013-02-28 21:13:21 [INFO] [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.10.1
+2013-02-28 21:13:21 [INFO] [EssentialsChat] Disabling EssentialsChat v2.10.1
+2013-02-28 21:13:21 [INFO] [EssentialsSpawn] Disabling EssentialsSpawn v2.10.1
+2013-02-28 21:13:21 [INFO] [EssentialsProtect] Disabling EssentialsProtect v2.10.1
+2013-02-28 21:13:22 [INFO] [Essentials] Disabling Essentials v2.10.1
+2013-02-28 21:13:22 [INFO] [Deadbolt] Disabling Deadbolt v2.2
+2013-02-28 21:13:22 [INFO] [VoxelMail] Disabling VoxelMail v1.01
+2013-02-28 21:13:22 [INFO] [VoxelMore] Disabling VoxelMore v1.4
+2013-02-28 21:13:22 [INFO] VoxelMore version 1.4 is disabled!
+2013-02-28 21:13:22 [INFO] [LaserPointer] Disabling LaserPointer v0.3
+2013-02-28 21:13:22 [INFO] [LaserPointer] Version 0.3 disabled.
+2013-02-28 21:13:22 [INFO] [VoxelUpdate] Disabling VoxelUpdate v1.2.5-jnks12
+2013-02-28 21:13:22 [INFO] Saving players
+2013-02-28 21:13:22 [WARNING] DSCT: socket closed
+2013-02-28 21:13:22 [INFO] Closing listening thread
+2013-02-28 21:13:22 [INFO] Saving worlds
+2013-02-28 21:13:22 [INFO] Saving chunks for level 'world'/Overworld
+2013-02-28 21:13:23 [INFO] Saving chunks for level 'world_nether'/Nether
+2013-02-28 21:13:23 [INFO] Saving chunks for level 'world_the_end'/The End
+2013-02-28 21:13:23 [INFO] Stopping server
+2013-02-28 21:13:23 [INFO] Saving players
+2013-02-28 21:13:49 [INFO] Starting minecraft server version 1.4.7
+2013-02-28 21:13:49 [INFO] Loading properties
+2013-02-28 21:13:49 [INFO] Default game type: SURVIVAL
+2013-02-28 21:13:49 [INFO] Generating keypair
+2013-02-28 21:13:50 [INFO] Starting Minecraft server on *:25565
+2013-02-28 21:13:50 [INFO] This server is running CraftBukkit version git-Bukkit-1.4.7-R1.0-b2624jnks (MC: 1.4.7) (Implementing API version 1.4.7-R1.0)
+2013-02-28 21:13:50 [SEVERE] Could not load 'plugins\VoxelSniper.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/minecraft/server/Entity
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:182)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.<init>(CraftServer.java:217)
+	at net.minecraft.server.v1_4_R1.PlayerList.<init>(PlayerList.java:55)
+	at net.minecraft.server.v1_4_R1.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.init(DedicatedServer.java:104)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:399)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/server/Entity
+	at com.thevoxelbox.voxelsniper.VoxelSniper.<init>(VoxelSniper.java:49)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:178)
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: net.minecraft.server.Entity
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 15 more
+2013-02-28 21:13:50 [SEVERE] Could not load 'plugins\PermissionsBukkit-1.2.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: org/bukkit/util/config/ConfigurationNode
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:184)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.<init>(CraftServer.java:217)
+	at net.minecraft.server.v1_4_R1.PlayerList.<init>(PlayerList.java:55)
+	at net.minecraft.server.v1_4_R1.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.init(DedicatedServer.java:104)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:399)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.NoClassDefFoundError: org/bukkit/util/config/ConfigurationNode
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:173)
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: org.bukkit.util.config.ConfigurationNode
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 12 more
+2013-02-28 21:13:51 [INFO] [VoxelUpdate] Loading VoxelUpdate v1.2.5-jnks12
+2013-02-28 21:13:51 [INFO] [WorldEdit] Loading WorldEdit v5.5.1
+2013-02-28 21:13:51 [INFO] [LaserPointer] Loading LaserPointer v0.3
+2013-02-28 21:13:51 [INFO] [VoxelMore] Loading VoxelMore v1.4
+2013-02-28 21:13:51 [INFO] [VoxelMail] Loading VoxelMail v1.01
+2013-02-28 21:13:51 [INFO] [Deadbolt] Loading Deadbolt v2.2
+2013-02-28 21:13:51 [INFO] [Essentials] Loading Essentials v2.10.1
+2013-02-28 21:13:51 [INFO] [EssentialsProtect] Loading EssentialsProtect v2.10.1
+2013-02-28 21:13:51 [INFO] MLog clients using java 1.4+ standard logging.
+2013-02-28 21:13:51 [INFO] [EssentialsSpawn] Loading EssentialsSpawn v2.10.1
+2013-02-28 21:13:51 [INFO] [EssentialsChat] Loading EssentialsChat v2.10.1
+2013-02-28 21:13:51 [INFO] [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.10.1
+2013-02-28 21:13:51 [INFO] Preparing level "world"
+2013-02-28 21:13:51 [INFO] Preparing start region for level 0 (Seed: -7229488601465251765)
+2013-02-28 21:13:52 [INFO] Preparing start region for level 1 (Seed: -7229488601465251765)
+2013-02-28 21:13:52 [INFO] Preparing spawn area: 8%
+2013-02-28 21:13:52 [INFO] Preparing start region for level 2 (Seed: -7229488601465251765)
+2013-02-28 21:13:53 [INFO] [VoxelUpdate] Enabling VoxelUpdate v1.2.5-jnks12
+2013-02-28 21:13:53 [INFO] [WorldEdit] Enabling WorldEdit v5.5.1
+2013-02-28 21:13:53 [INFO] WEPIF: Updated config file
+2013-02-28 21:13:53 [INFO] WEPIF: Using the Bukkit Permissions API.
+2013-02-28 21:13:53 [INFO] [LaserPointer] Enabling LaserPointer v0.3
+2013-02-28 21:13:53 [INFO] [LaserPointer] Version 0.3 enabled.
+2013-02-28 21:13:53 [INFO] [VoxelMore] Enabling VoxelMore v1.4
+2013-02-28 21:13:53 [INFO] VoxelMore version 1.4 is enabled!
+2013-02-28 21:13:53 [INFO] [VoxelMail] Enabling VoxelMail v1.01
+2013-02-28 21:13:53 [INFO] VoxelMail version 1.01 is enabled!
+2013-02-28 21:13:53 [INFO] VoxelMail Mailbag.txt loaded successfully.
+2013-02-28 21:13:53 [INFO] [Deadbolt] Enabling Deadbolt v2.2
+2013-02-28 21:13:53 [INFO] [Essentials] Enabling Essentials v2.10.1
+2013-02-28 21:13:53 [INFO] Essentials: Using config file enhanced permissions.
+2013-02-28 21:13:53 [INFO] Permissions listed in as player-commands will be given to all users.
+2013-02-28 21:13:53 [INFO] [EssentialsProtect] Enabling EssentialsProtect v2.10.1
+2013-02-28 21:13:54 [INFO] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2013-02-28 21:13:54 [INFO] [EssentialsSpawn] Enabling EssentialsSpawn v2.10.1
+2013-02-28 21:13:54 [INFO] [EssentialsChat] Enabling EssentialsChat v2.10.1
+2013-02-28 21:13:54 [INFO] [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.10.1
+2013-02-28 21:13:54 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2013-02-28 21:13:54 [INFO] Done (3.424s)! For help, type "help" or "?"
+2013-02-28 21:13:58 [INFO] EpicOfPotatos[/98.243.213.161:55081] logged in with entity id 292 at ([world] 71.28754870659743, 71.0, 185.69999998807907)
+2013-02-28 21:14:07 [INFO] Jimbond13[/76.20.148.7:58289] logged in with entity id 301 at ([world] 78.69385786212412, 72.0, 202.163189724333)
+2013-02-28 21:14:11 [INFO] Jimbond13 lost connection: disconnect.quitting
+2013-02-28 21:14:11 [INFO] Connection reset
+2013-02-28 21:14:53 [INFO] [WorldEdit] Using inbuilt NmsBlock for this version.
+2013-02-28 21:15:25 [INFO] TheRealElmo[/98.243.213.161:49797] logged in with entity id 1473 at ([world] 59.95687535711559, 60.0, 163.59359016433663)
+2013-02-28 21:15:39 [INFO] Connection reset
+2013-02-28 21:15:39 [INFO] TheRealElmo lost connection: disconnect.quitting
+2013-02-28 21:17:06 [INFO] Connection reset
+2013-02-28 21:17:06 [INFO] EpicOfPotatos lost connection: disconnect.quitting
+2013-02-28 21:17:35 [INFO] EpicOfPotatos[/98.243.213.161:55089] logged in with entity id 2611 at ([world] 131.81026953614997, 69.0, 191.30000001192093)
+2013-02-28 21:18:29 [INFO] theundecided[/24.11.160.164:49918] logged in with entity id 3240 at ([world] 136.75637557463153, 56.0, 177.49266091657503)
+2013-02-28 21:19:11 [INFO] theundecided issued server command: /stop
+2013-02-28 21:19:11 [INFO] theundecided: Stopping the server..[m
+2013-02-28 21:19:11 [INFO] Stopping server
+2013-02-28 21:19:11 [INFO] [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.10.1
+2013-02-28 21:19:11 [INFO] [EssentialsChat] Disabling EssentialsChat v2.10.1
+2013-02-28 21:19:11 [INFO] [EssentialsSpawn] Disabling EssentialsSpawn v2.10.1
+2013-02-28 21:19:11 [INFO] [EssentialsProtect] Disabling EssentialsProtect v2.10.1
+2013-02-28 21:19:12 [INFO] [Essentials] Disabling Essentials v2.10.1
+2013-02-28 21:19:12 [INFO] [Deadbolt] Disabling Deadbolt v2.2
+2013-02-28 21:19:12 [INFO] [VoxelMail] Disabling VoxelMail v1.01
+2013-02-28 21:19:12 [INFO] [VoxelMore] Disabling VoxelMore v1.4
+2013-02-28 21:19:12 [INFO] VoxelMore version 1.4 is disabled!
+2013-02-28 21:19:12 [INFO] [LaserPointer] Disabling LaserPointer v0.3
+2013-02-28 21:19:12 [INFO] [LaserPointer] Version 0.3 disabled.
+2013-02-28 21:19:12 [INFO] [WorldEdit] Disabling WorldEdit v5.5.1
+2013-02-28 21:19:12 [INFO] [VoxelUpdate] Disabling VoxelUpdate v1.2.5-jnks12
+2013-02-28 21:19:12 [INFO] Saving players
+2013-02-28 21:19:12 [WARNING] DSCT: socket closed
+2013-02-28 21:19:12 [INFO] Closing listening thread
+2013-02-28 21:19:12 [INFO] Saving worlds
+2013-02-28 21:19:12 [INFO] Saving chunks for level 'world'/Overworld
+2013-02-28 21:19:13 [INFO] Saving chunks for level 'world_nether'/Nether
+2013-02-28 21:19:13 [INFO] Saving chunks for level 'world_the_end'/The End

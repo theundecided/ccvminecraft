@@ -427,9 +427,9 @@ protect:
     fireball-playerdamage: false
     creeper-explosion: false
     creeper-playerdamage: false
-    creeper-blockdamage: false
+    creeper-blockdamage: true
     enderdragon-blockdamage: true
-    enderman-pickup: false
+    enderman-pickup: true
     villager-death: false
     # Monsters won't follow players
     # permission essentials.protect.entitytarget.bypass disables this
@@ -488,7 +488,7 @@ protect:
   # Disable various default physics and behaviors
   disable:
     # Should fall damage be disabled?
-    fall: false
+    fall: true
 
     # Users with the essentials.protect.pvp permission will still be able to attack each other if this is set to true.
     # They will be unable to attack users without that same permission node.
@@ -555,6 +555,6 @@ newbies:
 respawn-listener-priority: high
 
 # When users die, should they respawn at their first home or bed, instead of the spawnpoint?
-respawn-at-home: false
+respawn-at-home: true
 
 # End of File <-- No seriously, you're done with configuration.
