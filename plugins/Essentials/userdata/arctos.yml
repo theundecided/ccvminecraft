@@ -1,23 +1,23 @@
 timestamps:
-  login: 1362177637596
-  logout: 1362173539803
+  login: 1362199029544
+  logout: 1362195655094
   jail: 0
-  lastteleport: 1362180795349
+  lastteleport: 1362198445198
 ipAddress: 97.90.183.92
 lastlocation:
   world: world
-  x: 129.5
+  x: 15.306530767132033
   y: 13.0
-  z: 135.5
-  yaw: -275.14227
-  pitch: 16.899574
+  z: 242.17188909231197
+  yaw: -181.24194
+  pitch: 12.54972
 logoutlocation:
   world: world
-  x: 66.30000001192093
-  y: 78.0
-  z: 190.92500001192093
-  yaw: -169.84302
-  pitch: 17.999846
+  x: 214.143810548776
+  y: 63.0
+  z: 342.0589312823936
+  yaw: 333.40417
+  pitch: 1.4999198
 jailed: false
 homes:
   home:
@@ -29,4 +29,4 @@ homes:
     pitch: 23.649658
 godmode: false
 powertools: {}
-money: 50.0
+money: 750.0

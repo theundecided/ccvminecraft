@@ -1,7 +1,7 @@
 npc: false
 socialspy: false
 timestamps:
-  login: 1362096797188
+  login: 1362189822494
   logout: 1362100476187
   lastteleport: 1325305291237
 powertoolsenabled: true
@@ -15,17 +15,17 @@ afk: false
 ipAddress: 24.1.220.249
 jailed: false
 lastlocation:
-  yaw: 0.0
-  pitch: 0.0
-  z: 258.5
-  y: 69.62000000476837
+  yaw: -107.41171
+  pitch: 8.550054
+  z: 200.46753028786023
+  y: 64.0
   world: world
-  x: 91.5
+  x: 134.34071589827198
 money: 0.0
 logoutlocation:
   world: world
-  x: 140.39723883449204
-  y: 64.0
-  z: 154.54034540093744
-  yaw: 206.98828
-  pitch: 30.75002
+  x: 118.42637842536118
+  y: 63.0
+  z: 47.009109493234725
+  yaw: 226.88867
+  pitch: 29.100145

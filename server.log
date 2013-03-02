@@ -4724,3 +4724,1448 @@ Caused by: java.lang.ClassNotFoundException: org.bukkit.util.config.Configuratio
 2013-03-01 18:53:16 [INFO] Saving chunks for level 'world_nether'/Nether
 2013-03-01 18:53:16 [INFO] Saving chunks for level 'world_the_end'/The End
 2013-03-01 18:53:16 [INFO] Stopping server
+2013-03-01 18:56:25 [INFO] Starting minecraft server version 1.4.7
+2013-03-01 18:56:25 [INFO] Loading properties
+2013-03-01 18:56:25 [INFO] Default game type: SURVIVAL
+2013-03-01 18:56:25 [INFO] Generating keypair
+2013-03-01 18:56:25 [INFO] Starting Minecraft server on *:25565
+2013-03-01 18:56:25 [INFO] This server is running CraftBukkit version git-Bukkit-1.4.7-R1.0-b2624jnks (MC: 1.4.7) (Implementing API version 1.4.7-R1.0)
+2013-03-01 18:56:26 [SEVERE] Could not load 'plugins\VoxelSniper.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/minecraft/server/Entity
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:182)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.<init>(CraftServer.java:217)
+	at net.minecraft.server.v1_4_R1.PlayerList.<init>(PlayerList.java:55)
+	at net.minecraft.server.v1_4_R1.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.init(DedicatedServer.java:104)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:399)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/server/Entity
+	at com.thevoxelbox.voxelsniper.VoxelSniper.<init>(VoxelSniper.java:49)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:178)
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: net.minecraft.server.Entity
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 15 more
+2013-03-01 18:56:26 [SEVERE] Could not load 'plugins\PermissionsBukkit-1.2.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: org/bukkit/util/config/ConfigurationNode
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:184)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftServer.<init>(CraftServer.java:217)
+	at net.minecraft.server.v1_4_R1.PlayerList.<init>(PlayerList.java:55)
+	at net.minecraft.server.v1_4_R1.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.init(DedicatedServer.java:104)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:399)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.NoClassDefFoundError: org/bukkit/util/config/ConfigurationNode
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:173)
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: org.bukkit.util.config.ConfigurationNode
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 12 more
+2013-03-01 18:56:26 [INFO] [VoxelUpdate] Loading VoxelUpdate v1.2.5-jnks12
+2013-03-01 18:56:26 [INFO] [WorldEdit] Loading WorldEdit v5.5.1
+2013-03-01 18:56:26 [INFO] [LaserPointer] Loading LaserPointer v0.3
+2013-03-01 18:56:26 [INFO] [VoxelMore] Loading VoxelMore v1.4
+2013-03-01 18:56:26 [INFO] [VoxelMail] Loading VoxelMail v1.01
+2013-03-01 18:56:26 [INFO] [Deadbolt] Loading Deadbolt v2.2
+2013-03-01 18:56:26 [INFO] [Essentials] Loading Essentials v2.10.1
+2013-03-01 18:56:26 [INFO] [EssentialsProtect] Loading EssentialsProtect v2.10.1
+2013-03-01 18:56:26 [INFO] MLog clients using java 1.4+ standard logging.
+2013-03-01 18:56:26 [INFO] [EssentialsSpawn] Loading EssentialsSpawn v2.10.1
+2013-03-01 18:56:26 [INFO] [EssentialsChat] Loading EssentialsChat v2.10.1
+2013-03-01 18:56:26 [INFO] [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.10.1
+2013-03-01 18:56:26 [INFO] Preparing level "world"
+2013-03-01 18:56:26 [INFO] Preparing start region for level 0 (Seed: -7229488601465251765)
+2013-03-01 18:56:27 [INFO] Preparing start region for level 1 (Seed: -7229488601465251765)
+2013-03-01 18:56:27 [INFO] Preparing spawn area: 4%
+2013-03-01 18:56:28 [INFO] Preparing start region for level 2 (Seed: -7229488601465251765)
+2013-03-01 18:56:28 [INFO] [VoxelUpdate] Enabling VoxelUpdate v1.2.5-jnks12
+2013-03-01 18:56:28 [INFO] [WorldEdit] Enabling WorldEdit v5.5.1
+2013-03-01 18:56:28 [INFO] WEPIF: Using the Bukkit Permissions API.
+2013-03-01 18:56:28 [INFO] [LaserPointer] Enabling LaserPointer v0.3
+2013-03-01 18:56:28 [INFO] [LaserPointer] Version 0.3 enabled.
+2013-03-01 18:56:28 [INFO] [VoxelMore] Enabling VoxelMore v1.4
+2013-03-01 18:56:28 [INFO] VoxelMore version 1.4 is enabled!
+2013-03-01 18:56:28 [INFO] [VoxelMail] Enabling VoxelMail v1.01
+2013-03-01 18:56:28 [INFO] VoxelMail version 1.01 is enabled!
+2013-03-01 18:56:28 [INFO] VoxelMail Mailbag.txt loaded successfully.
+2013-03-01 18:56:28 [INFO] [Deadbolt] Enabling Deadbolt v2.2
+2013-03-01 18:56:28 [INFO] [Essentials] Enabling Essentials v2.10.1
+2013-03-01 18:56:28 [INFO] Essentials: Using config file enhanced permissions.
+2013-03-01 18:56:28 [INFO] Permissions listed in as player-commands will be given to all users.
+2013-03-01 18:56:28 [INFO] [EssentialsProtect] Enabling EssentialsProtect v2.10.1
+2013-03-01 18:56:29 [INFO] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2013-03-01 18:56:29 [INFO] [EssentialsSpawn] Enabling EssentialsSpawn v2.10.1
+2013-03-01 18:56:29 [INFO] [EssentialsChat] Enabling EssentialsChat v2.10.1
+2013-03-01 18:56:29 [INFO] [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.10.1
+2013-03-01 18:56:29 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2013-03-01 18:56:29 [INFO] Done (3.193s)! For help, type "help" or "?"
+2013-03-01 18:56:41 [INFO] SammeyChar[/66.215.222.125:63388] logged in with entity id 346 at ([world] 68.46079911710405, 72.0, 209.3859930057629)
+2013-03-01 18:56:48 [INFO] arctos[/97.90.183.92:51997] logged in with entity id 390 at ([world] 136.30031319908448, 59.0, 185.65188561351047)
+2013-03-01 18:56:49 [INFO] [WorldEdit] Using inbuilt NmsBlock for this version.
+2013-03-01 19:04:41 [WARNING] arctos moved wrongly!
+2013-03-01 19:05:19 [INFO] Connection reset
+2013-03-01 19:05:19 [INFO] SammeyChar lost connection: disconnect.endOfStream
+2013-03-01 19:05:47 [INFO] SammeyChar[/66.215.222.125:63414] logged in with entity id 6599 at ([world] 70.56166629684057, 78.0, 197.6004928245771)
+2013-03-01 19:23:01 [INFO] arctos issued server command: /we
+2013-03-01 19:23:06 [INFO] arctos issued server command: /we cui
+2013-03-01 19:23:12 [INFO] arctos issued server command: /we help
+2013-03-01 19:27:12 [INFO] /66.215.222.125:63499 lost connection
+2013-03-01 19:27:12 [INFO] arctos lost connection: disconnect.endOfStream
+2013-03-01 19:27:12 [INFO] SammeyChar lost connection: disconnect.endOfStream
+2013-03-01 19:27:12 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2013-03-01 19:27:25 [INFO] arctos[/97.90.183.92:52230] logged in with entity id 20550 at ([world] 139.616225175018, 59.0, 181.48750001192093)
+2013-03-01 19:27:39 [INFO] Connection reset
+2013-03-01 19:27:39 [INFO] arctos lost connection: disconnect.quitting
+2013-03-01 19:27:47 [INFO] Pong![m
+2013-03-01 19:27:54 [INFO] SammeyChar[/66.215.222.125:63511] logged in with entity id 20667 at ([world] 65.55523378341107, 83.0, 204.02963165217366)
+2013-03-01 19:28:07 [INFO] SammeyChar issued server command: /ping
+2013-03-01 19:28:19 [INFO] Pong![m
+2013-03-01 19:28:20 [INFO] Pong![m
+2013-03-01 19:28:21 [INFO] Pong![m
+2013-03-01 19:28:22 [INFO] Pong![m
+2013-03-01 19:28:24 [INFO] [35;1m[Server] ping[m
+2013-03-01 19:31:26 [INFO] arctos[/97.90.183.92:52461] logged in with entity id 22944 at ([world] 141.6352749680545, 59.0, 181.30000001192093)
+2013-03-01 19:37:10 [INFO] [Metrics] Server returned HTTP response code: 502 for URL: http://mcstats.org/report/VoxelUpdate
+2013-03-01 19:47:10 [INFO] [Metrics] Server returned HTTP response code: 502 for URL: http://mcstats.org/report/VoxelUpdate
+2013-03-01 19:49:58 [INFO] Connection reset
+2013-03-01 19:49:58 [INFO] arctos lost connection: disconnect.quitting
+2013-03-01 19:55:50 [INFO] Connection reset
+2013-03-01 19:55:50 [INFO] SammeyChar lost connection: disconnect.quitting
+2013-03-01 20:57:23 [INFO] SammeyChar[/66.215.222.125:64046] logged in with entity id 40045 at ([world] 72.07499998807901, 78.0, 202.6994831724632)
+2013-03-01 21:03:42 [INFO] apathetic3cstasy[/24.1.220.249:53757] logged in with entity id 44427 at ([world] 140.39723883449204, 64.0, 154.54034540093744)
+2013-03-01 21:05:03 [INFO] [0;39m<SammeyChar[0;39m> hola[m
+2013-03-01 21:05:12 [INFO] [0;39m<apathetic3cstasy[0;39m> hi[m
+2013-03-01 21:05:22 [INFO] apathetic3cstasy blew up
+2013-03-01 21:05:30 [INFO] [0;39m<SammeyChar[0;39m> ooh nooo[m
+2013-03-01 21:05:36 [INFO] [0;39m<apathetic3cstasy[0;39m> ...[m
+2013-03-01 21:08:17 [INFO] theundecided[/24.11.160.164:52387] logged in with entity id 47844 at ([world] 149.02036606083712, 65.0, 189.05949135348783)
+2013-03-01 21:09:20 [INFO] theundecided issued server command: /gamemode apathetic3cstasy creative
+2013-03-01 21:09:59 [INFO] theundecided issued server command: /gamemode creative apathetic3cstasy
+2013-03-01 21:10:11 [INFO] theundecided issued server command: /fly
+2013-03-01 21:10:17 [INFO] theundecided issued server command: /weather sun
+2013-03-01 21:11:06 [INFO] theundecided issued server command: //set 0
+2013-03-01 21:11:47 [INFO] theundecided issued server command: //set 0
+2013-03-01 21:12:47 [INFO] theundecided issued server command: /up
+2013-03-01 21:13:00 [INFO] theundecided issued server command: /tp ap
+2013-03-01 21:16:16 [INFO] theundecided issued server command: /feed
+2013-03-01 21:16:24 [INFO] theundecided issued server command: /fly
+2013-03-01 21:16:27 [INFO] theundecided issued server command: /fly
+2013-03-01 21:17:24 [INFO] theundecided issued server command: /gamemode
+2013-03-01 21:17:27 [INFO] theundecided issued server command: /gamemode 1
+2013-03-01 21:18:39 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 21:19:12 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 21:19:40 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 21:20:01 [INFO] theundecided issued server command: /time night
+2013-03-01 21:20:13 [INFO] [0;39m<SammeyChar[0;39m> .. why is it night again?[m
+2013-03-01 21:20:21 [INFO] [0;39m<[31;1m~Matt[0;39m> expirementing....sorry[m
+2013-03-01 21:20:24 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 21:20:25 [INFO] [0;39m<SammeyChar[0;39m> ahh[m
+2013-03-01 21:22:20 [INFO] [0;39m<SammeyChar[0;39m> please make it day again, i was waiting for day[m
+2013-03-01 21:22:24 [INFO] theundecided issued server command: /time day
+2013-03-01 21:22:28 [INFO] [0;39m<SammeyChar[0;39m> y[m
+2013-03-01 21:22:31 [INFO] [0;39m<SammeyChar[0;39m> ty[m
+2013-03-01 21:23:10 [INFO] [0;39m<SammeyChar[0;39m> so what is this?[m
+2013-03-01 21:23:20 [INFO] [0;39m<[31;1m~Matt[0;39m> what is what[m
+2013-03-01 21:23:27 [INFO] [0;39m<[31;1m~Matt[0;39m> oh this is apathys house[m
+2013-03-01 21:23:29 [INFO] [0;39m<SammeyChar[0;39m> this hole thing you guys got back here[m
+2013-03-01 21:24:42 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 21:24:45 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 21:24:46 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 21:24:48 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 21:26:03 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 21:26:11 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 21:26:24 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 21:26:43 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 21:26:48 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 21:27:00 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 21:27:05 [INFO] arctos[/97.90.183.92:54489] logged in with entity id 68940 at ([world] 132.59421156147246, 65.0, 190.78927885743332)
+2013-03-01 21:28:08 [INFO] Connection reset
+2013-03-01 21:28:08 [INFO] arctos lost connection: disconnect.quitting
+2013-03-01 21:29:14 [INFO] theundecided issued server command: //set spruce
+2013-03-01 21:29:25 [INFO] theundecided issued server command: //set sprucewood
+2013-03-01 21:29:37 [INFO] theundecided issued server command: //set spruceplank
+2013-03-01 21:35:26 [INFO] Connection reset
+2013-03-01 21:35:26 [INFO] SammeyChar lost connection: disconnect.endOfStream
+2013-03-01 21:35:57 [INFO] SammeyChar[/66.215.222.125:64154] logged in with entity id 79856 at ([world] 68.6999999880791, 72.0, 202.77919374609667)
+2013-03-01 21:43:11 [INFO] theundecided issued server command: /butcher
+2013-03-01 21:43:50 [INFO] arctos[/97.90.183.92:54770] logged in with entity id 90345 at ([world] 135.40996365621686, 65.0, 192.6932708183926)
+2013-03-01 21:49:38 [INFO] theundecided issued server command: /vanish
+2013-03-01 21:50:15 [INFO] theundecided issued server command: /quit
+2013-03-01 21:50:19 [INFO] Connection reset
+2013-03-01 21:50:19 [INFO] theundecided lost connection: disconnect.quitting
+2013-03-01 21:59:37 [INFO] arctos issued server command: /home
+2013-03-01 22:00:26 [INFO] arctos issued server command: /back
+2013-03-01 22:10:06 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 22:10:07 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 22:10:07 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 22:10:07 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 22:19:51 [INFO] arctos issued server command: /home
+2013-03-01 22:22:13 [INFO] Connection reset
+2013-03-01 22:22:13 [INFO] arctos lost connection: disconnect.quitting
+2013-03-01 22:23:30 [INFO] Ryanb1009[/143.236.160.158:54563] logged in with entity id 133004 at ([world] 89.61904784748153, 62.0, 133.86101273562244)
+2013-03-01 22:23:41 [INFO] [0;39m<SammeyChar[0;39m> welcome back[m
+2013-03-01 22:34:36 [INFO] [0;39m<apathetic3cstasy[0;39m> asklfjsdlfkj[m
+2013-03-01 22:34:40 [INFO] [0;39m<~the_architect[0;39m> Ryanb1009[m
+2013-03-01 22:34:48 [INFO] [0;39m<SammeyChar[0;39m> .....[m
+2013-03-01 22:34:50 [INFO] Unknown command. Type "help" for help.[m
+2013-03-01 22:34:54 [INFO] Unknown command. Type "help" for help.[m
+2013-03-01 22:34:55 [INFO] [0;39m<~the_architect[0;39m> mumble stuff[m
+2013-03-01 22:35:12 [INFO] [31;1m~the_architect[0;39m [33;22mhas[31;1m 115 [33;22mexp (level[31;1m 6[33;22m) and needs[31;1m 4 [33;22mmore exp to level up.[m
+2013-03-01 22:35:18 [INFO] [31;1m~the_architect[0;39m [33;22mhas[31;1m 115 [33;22mexp (level[31;1m 6[33;22m) and needs[31;1m 4 [33;22mmore exp to level up.[m
+2013-03-01 22:35:24 [INFO] [31;1m~the_architect[0;39m [33;22mhas[31;1m 115 [33;22mexp (level[31;1m 6[33;22m) and needs[31;1m 4 [33;22mmore exp to level up.[m
+2013-03-01 22:35:30 [INFO] Connection reset
+2013-03-01 22:35:30 [INFO] SammeyChar lost connection: disconnect.endOfStream
+2013-03-01 22:35:31 [INFO] [33;1m--------- [37;1mHelp: Index [33;1m---------------------------[m
+2013-03-01 22:35:31 [INFO] [37;22mUse /help [n] to get page n of help.[m
+2013-03-01 22:35:31 [INFO] [33;22mAliases: [37;1mLists command aliases[m
+2013-03-01 22:35:31 [INFO] [33;22mBukkit: [37;1mAll commands for Bukkit[m
+2013-03-01 22:35:31 [INFO] [33;22mDeadbolt: [37;1mAll commands for Deadbolt[m
+2013-03-01 22:35:31 [INFO] [33;22mEssentials: [37;1mAll commands for Essentials[m
+2013-03-01 22:35:31 [INFO] [33;22mEssentialsSpawn: [37;1mAll commands for EssentialsSpawn[m
+2013-03-01 22:35:31 [INFO] [33;22mLaserPointer: [37;1mAll commands for LaserPointer[m
+2013-03-01 22:35:31 [INFO] [33;22mVoxelMail: [37;1mAll commands for VoxelMail[m
+2013-03-01 22:35:31 [INFO] [33;22mVoxelMore: [37;1mAll commands for VoxelMore[m
+2013-03-01 22:35:31 [INFO] [33;22mVoxelUpdate: [37;1mAll commands for VoxelUpdate[m
+2013-03-01 22:35:31 [INFO] [33;22mWorldEdit: [37;1mAll commands for WorldEdit[m
+2013-03-01 22:35:31 [INFO] [33;22m/.s: [37;1m[args...] - Execute last CraftScript[m
+2013-03-01 22:35:31 [INFO] [33;22m//: [37;1m[on|off] - Toggle the super pickaxe pickaxe function[m
+2013-03-01 22:35:31 [INFO] [33;22m//center: [37;1m<block> - Set the center block(s)[m
+2013-03-01 22:35:31 [INFO] [33;22m//chunk: [37;1mSet the selection to your current chunk.[m
+2013-03-01 22:35:31 [INFO] [33;22m//clearhistory: [37;1mClear your history[m
+2013-03-01 22:35:31 [INFO] [33;22m//contract: [37;1m<amount> [reverse-amount] [direction] - Contract the selection area[m
+2013-03-01 22:35:31 [INFO] [33;22m//copy: [37;1mCopy the selection to the clipboard[m
+2013-03-01 22:35:31 [INFO] [33;22m//count: [37;1m<block> - Counts the number of a certain type of block[m
+2013-03-01 22:35:31 [INFO] [33;22m//cut: [37;1m[leave-id] - Cut the selection to the clipboard[m
+2013-03-01 22:35:31 [INFO] [33;22m//cyl: [37;1m<block> <radius>[,<radius>] [height] - Generates a cylinder.[m
+2013-03-01 22:35:31 [INFO] [33;22m//deform: [37;1m<expression> - Deforms a selected region with an expression[m
+2013-03-01 22:35:31 [INFO] [33;22m//desel: [37;1mDeselect the current selection[m
+2013-03-01 22:35:31 [INFO] [33;22m//distr: [37;1mGet the distribution of blocks in the selection[m
+2013-03-01 22:35:31 [INFO] [33;22m//drain: [37;1m<radius> - Drain a pool[m
+2013-03-01 22:35:31 [INFO] [33;22m//ex: [37;1m[radius] - Extinguish nearby fire[m
+2013-03-01 22:35:31 [INFO] [33;22m//expand: [37;1m<amount> [reverse-amount] <direction> - Expand the selection area[m
+2013-03-01 22:35:31 [INFO] [33;22m//faces: [37;1m<block> - Build the walls, ceiling, and floor of a selection[m
+2013-03-01 22:35:31 [INFO] [33;22m//fast: [37;1m[on|off] - Toggle fast mode[m
+2013-03-01 22:35:31 [INFO] [33;22m//fill: [37;1m<block> <radius> [depth] - Fill a hole[m
+2013-03-01 22:35:31 [INFO] [33;22m//fillr: [37;1m<block> <radius> [depth] - Fill a hole recursively[m
+2013-03-01 22:35:31 [INFO] [33;22m//fixlava: [37;1m<radius> - Fix lava to be stationary[m
+2013-03-01 22:35:31 [INFO] [33;22m//fixwater: [37;1m<radius> - Fix water to be stationary[m
+2013-03-01 22:35:31 [INFO] [33;22m//flip: [37;1m[dir] - Flip the contents of the clipboard.[m
+2013-03-01 22:35:31 [INFO] [33;22m//generate: [37;1m<block> <expression> - Generates a shape according to a formula.[m
+2013-03-01 22:35:31 [INFO] [33;22m//gmask: [37;1m[mask] - Set the global mask[m
+2013-03-01 22:35:31 [INFO] [33;22m//green: [37;1m[radius] - Greens the area[m
+2013-03-01 22:35:31 [INFO] [33;22m//hcyl: [37;1m<block> <radius>[,<radius>] [height] - Generates a hollow cylinder.[m
+2013-03-01 22:35:31 [INFO] [33;22m//help: [37;1m[<command>] - Displays help for the given command or lists all commands.[m
+2013-03-01 22:35:31 [INFO] [33;22m//hollow: [37;1m[<thickness>[ <block>]] - Hollows out the object contained in this selection[m
+2013-03-01 22:35:31 [INFO] [33;22m//hpos1: [37;1mSet position 1 to targeted block[m
+2013-03-01 22:35:31 [INFO] [33;22m//hpos2: [37;1mSet position 2 to targeted block[m
+2013-03-01 22:35:31 [INFO] [33;22m//hpyramid: [37;1m<block> <size> - Generate a hollow pyramid[m
+2013-03-01 22:35:31 [INFO] [33;22m//hsphere: [37;1m<block> <radius>[,<radius>,<radius>] [raised?] - Generates a hollow sphere.[m
+2013-03-01 22:35:31 [INFO] [33;22m//inset: [37;1m<amount> - Inset the selection area[m
+2013-03-01 22:35:31 [INFO] [33;22m//limit: [37;1m<limit> - Modify block change limit[m
+2013-03-01 22:35:31 [INFO] [33;22m//load: [37;1m<filename> - Load a schematic into your clipboard[m
+2013-03-01 22:35:31 [INFO] [33;22m//move: [37;1m[count] [direction] [leave-id] - Move the contents of the selection[m
+2013-03-01 22:35:31 [INFO] [33;22m//naturalize: [37;1m3 layers of dirt on top then rock below[m
+2013-03-01 22:35:31 [INFO] [33;22m//outset: [37;1m<amount> - Outset the selection area[m
+2013-03-01 22:35:31 [INFO] [33;22m//overlay: [37;1m<block> - Set a block on top of blocks in the region[m
+2013-03-01 22:35:31 [INFO] [33;22m//paste: [37;1mPaste the clipboard's contents[m
+2013-03-01 22:35:31 [INFO] [33;22m//pos1: [37;1m[coordinates] - Set position 1[m
+2013-03-01 22:35:31 [INFO] [33;22m//pos2: [37;1m[coordinates] - Set position 2[m
+2013-03-01 22:35:31 [INFO] [33;22m//pyramid: [37;1m<block> <size> - Generate a filled pyramid[m
+2013-03-01 22:35:31 [INFO] [33;22m//redo: [37;1m[times] [player] - Redoes the last action (from history)[m
+2013-03-01 22:35:31 [INFO] [33;22m//regen: [37;1mRegenerates the contents of the selection[m
+2013-03-01 22:35:31 [INFO] [33;22m//removeabove: [37;1m[size] [height] - Remove blocks above your head.[m
+2013-03-01 22:35:31 [INFO] [33;22m//removebelow: [37;1m[size] [height] - Remove blocks below you.[m
+2013-03-01 22:35:31 [INFO] [33;22m//removenear: [37;1m<block> [size] - Remove blocks near you.[m
+2013-03-01 22:35:31 [INFO] [33;22m//replace: [37;1m[from-block] <to-block> - Replace all blocks in the selection with another[m
+2013-03-01 22:35:31 [INFO] [33;22m//replacenear: [37;1m<size> <from-id> <to-id> - Replace nearby blocks[m
+2013-03-01 22:35:31 [INFO] [33;22m//rotate: [37;1m<angle-in-degrees> - Rotate the contents of the clipboard[m
+2013-03-01 22:35:31 [INFO] [33;22m//save: [37;1m<filename> - Save a schematic into your clipboard[m
+2013-03-01 22:35:31 [INFO] [33;22m//schematic: [37;1mSchematic-related commands[m
+2013-03-01 22:35:31 [INFO] [33;22m//searchitem: [37;1m<query> - Search for an item[m
+2013-03-01 22:35:31 [INFO] [33;22m//sel: [37;1m[cuboid|extend|poly|ellipsoid|sphere|cyl] - Choose a region selector[m
+2013-03-01 22:35:31 [INFO] [33;22m//set: [37;1m<block> - Set all the blocks inside the selection to a block[m
+2013-03-01 22:35:31 [INFO] [33;22m//setbiome: [37;1m<biome> - Sets the biome of the player's current block or region.[m
+2013-03-01 22:35:31 [INFO] [33;22m//shift: [37;1m<amount> [direction] - Shift the selection area[m
+2013-03-01 22:35:31 [INFO] [33;22m//size: [37;1mGet information about the selection[m
+2013-03-01 22:35:31 [INFO] [33;22m//smooth: [37;1m[iterations] - Smooth the elevation in the selection[m
+2013-03-01 22:35:31 [INFO] [33;22m//snow: [37;1m[radius] - Simulates snow[m
+2013-03-01 22:35:31 [INFO] [33;22m//sphere: [37;1m<block> <radius>[,<radius>,<radius>] [raised?] - Generates a filled sphere.[m
+2013-03-01 22:35:31 [INFO] [33;22m//stack: [37;1m[count] [direction] - Repeat the contents of the selection[m
+2013-03-01 22:35:31 [INFO] [33;22m//thaw: [37;1m[radius] - Thaws the area[m
+2013-03-01 22:35:31 [INFO] [33;22m//toggleplace: [37;1mSwitch between your position and pos1 for placement[m
+2013-03-01 22:35:31 [INFO] [33;22m//undo: [37;1m[times] [player] - Undoes the last action[m
+2013-03-01 22:35:31 [INFO] [33;22m//walls: [37;1m<block> - Build the four sides of the selection[m
+2013-03-01 22:35:31 [INFO] [33;22m//wand: [37;1mGet the wand object[m
+2013-03-01 22:35:31 [INFO] [33;22m/afk: [37;1mMarks you as away-from-keyboard.[m
+2013-03-01 22:35:31 [INFO] [33;22m/antioch: [37;1mA little surprise for operators.[m
+2013-03-01 22:35:31 [INFO] [33;22m/ascend: [37;1m[# of levels] - Go up a floor[m
+2013-03-01 22:35:31 [INFO] [33;22m/back: [37;1mTeleports you to your location prior to tp/spawn/warp.[m
+2013-03-01 22:35:31 [INFO] [33;22m/backup: [37;1mRuns the backup if configured.[m
+2013-03-01 22:35:31 [INFO] [33;22m/balance: [37;1mStates the current balance of a player.[m
+2013-03-01 22:35:31 [INFO] [33;22m/balancetop: [37;1mGets the top balance values.[m
+2013-03-01 22:35:31 [INFO] [33;22m/ban: [37;1mBans a player.[m
+2013-03-01 22:35:31 [INFO] [33;22m/ban-ip: [37;1mPrevents the specified IP address from using this server[m
+2013-03-01 22:35:31 [INFO] [33;22m/banip: [37;1mBans an IP address.[m
+2013-03-01 22:35:31 [INFO] [33;22m/banlist: [37;1mView all players banned from this server[m
+2013-03-01 22:35:31 [INFO] [33;22m/bigtree: [37;1mSpawn a big tree where you are looking.[m
+2013-03-01 22:35:31 [INFO] [33;22m/biomeinfo: [37;1mGet the biome of the targeted block.[m
+2013-03-01 22:35:31 [INFO] [33;22m/biomelist: [37;1m[page] - Gets all biomes available.[m
+2013-03-01 22:35:31 [INFO] [33;22m/book: [37;1mAllows reopening and editing of sealed books.[m
+2013-03-01 22:35:31 [INFO] [33;22m/break: [37;1mBreaks the block you are looking at.[m
+2013-03-01 22:35:31 [INFO] [33;22m/broadcast: [37;1mBroadcasts a message to the entire server.[m
+2013-03-01 22:35:31 [INFO] [33;22m/brush: [37;1mBrush tool[m
+2013-03-01 22:35:31 [INFO] [33;22m/burn: [37;1mSet a player on fire.[m
+2013-03-01 22:35:31 [INFO] [33;22m/butcher: [37;1m[radius] - Kill all or nearby mobs[m
+2013-03-01 22:35:31 [INFO] [33;22m/ceil: [37;1m[clearance] - Go to the celing[m
+2013-03-01 22:35:31 [INFO] [33;22m/chunkinfo: [37;1mGet information about the chunk that you are inside[m
+2013-03-01 22:35:31 [INFO] [33;22m/clearclipboard: [37;1mClear your clipboard[m
+2013-03-01 22:35:31 [INFO] [33;22m/clearinventory: [37;1mClear all items in your inventory.[m
+2013-03-01 22:35:31 [INFO] [33;22m/compass: [37;1mDescribes your current bearing.[m
+2013-03-01 22:35:31 [INFO] [33;22m/cs: [37;1m<filename> [args...] - Execute a CraftScript[m
+2013-03-01 22:35:31 [INFO] [33;22m/cycler: [37;1mBlock data cycler tool[m
+2013-03-01 22:35:31 [INFO] [33;22m/deadbolt: [37;1mAccess to the Deadbolt plugin via commands.[m
+2013-03-01 22:35:31 [INFO] [33;22m/defaultgamemode: [37;1mSet the default gamemode[m
+2013-03-01 22:35:31 [INFO] [33;22m/delchunks: [37;1mDelete chunks that your selection includes[m
+2013-03-01 22:35:31 [INFO] [33;22m/delhome: [37;1mRemoves a home[m
+2013-03-01 22:35:31 [INFO] [33;22m/deljail: [37;1mRemoves a jail[m
+2013-03-01 22:35:31 [INFO] [33;22m/deltree: [37;1mFloating tree remover tool[m
+2013-03-01 22:35:31 [INFO] [33;22m/delwarp: [37;1mDeletes the specified warp.[m
+2013-03-01 22:35:31 [INFO] [33;22m/deop: [37;1mTakes the specified player's operator status[m
+2013-03-01 22:35:31 [INFO] [33;22m/depth: [37;1mStates current depth, relative to sea level.[m
+2013-03-01 22:35:31 [INFO] [33;22m/descend: [37;1m[# of floors] - Go down a floor[m
+2013-03-01 22:35:31 [INFO] [33;22m/difficulty: [37;1mSets the game difficulty[m
+2013-03-01 22:35:31 [INFO] [33;22m/eco: [37;1mManages the server economy.[m
+2013-03-01 22:35:31 [INFO] [33;22m/enchant: [37;1mEnchants the item the user is holding.[m
+2013-03-01 22:35:31 [INFO] [33;22m/enderchest: [37;1mLets you see inside an enderchest.[m
+2013-03-01 22:35:31 [INFO] [33;22m/essentials: [37;1mReloads essentials.[m
+2013-03-01 22:35:31 [INFO] [33;22m/essentials:info: [37;1mShows information set by the server owner[m
+2013-03-01 22:35:31 [INFO] [33;22m/essentials:more: [37;1mFills the item stack in hand to maximum size.[m
+2013-03-01 22:35:31 [INFO] [33;22m/essentials:remove: [37;1mRemoves entities in your world[m
+2013-03-01 22:35:31 [INFO] [33;22m/essentials:tree: [37;1mSpawn a tree where you are looking.[m
+2013-03-01 22:35:31 [INFO] [33;22m/exp: [37;1mGive, set or look at a players exp.[m
+2013-03-01 22:35:31 [INFO] [33;22m/ext: [37;1mExtinguish players.[m
+2013-03-01 22:35:31 [INFO] [33;22m/farwand: [37;1mWand at a distance tool[m
+2013-03-01 22:35:31 [INFO] [33;22m/feed: [37;1mSatisfy the hunger.[m
+2013-03-01 22:35:31 [INFO] [33;22m/fireball: [37;1mThrow a fireball.[m
+2013-03-01 22:35:31 [INFO] [33;22m/firework: [37;1mAllows you to modify a stack of fireworks[m
+2013-03-01 22:35:31 [INFO] [33;22m/floodfill: [37;1m<pattern> <range> - Flood fill tool[m
+2013-03-01 22:35:31 [INFO] [33;22m/fly: [37;1mTake off, and soar![m
+2013-03-01 22:35:31 [INFO] [33;22m/forestgen: [37;1m[size] [type] [density] - Generate a forest[m
+2013-03-01 22:35:31 [INFO] [33;22m/gamemode: [37;1mChange player gamemode.[m
+2013-03-01 22:35:31 [INFO] [33;22m/gamerule: [37;1mSets a server's game rules[m
+2013-03-01 22:35:31 [INFO] [33;22m/gc: [37;1mReports memory, uptime and tick info.[m
+2013-03-01 22:35:31 [INFO] [33;22m/getpos: [37;1mGet your current coordinates or those of a player.[m
+2013-03-01 22:35:31 [INFO] [33;22m/give: [37;1mGive a player an item.[m
+2013-03-01 22:35:31 [INFO] [33;22m/god: [37;1mEnables your godly powers.[m
+2013-03-01 22:35:31 [INFO] [33;22m/hat: [37;1mGet some cool new headgear[m
+2013-03-01 22:35:31 [INFO] [33;22m/heal: [37;1mHeals you or the given player.[m
+2013-03-01 22:35:31 [INFO] [33;22m/help: [37;1mViews a list of available commands.[m
+2013-03-01 22:35:31 [INFO] [33;22m/helpop: [37;1mMessage online admins.[m
+2013-03-01 22:35:31 [INFO] [33;22m/home: [37;1mTeleport to your home.[m
+2013-03-01 22:35:31 [INFO] [33;22m/icanhasbukkit: [37;1m/version[m
+2013-03-01 22:35:31 [INFO] [33;22m/ignore: [37;1mIgnore other players.[m
+2013-03-01 22:35:31 [INFO] [33;22m/info: [37;1mBlock information tool[m
+2013-03-01 22:35:31 [INFO] [33;22m/invsee: [37;1mSee the inventory of other players.[m
+2013-03-01 22:35:31 [INFO] [33;22m/item: [37;1mSpawn an item.[m
+2013-03-01 22:35:31 [INFO] [33;22m/itemdb: [37;1mSearches for an item.[m
+2013-03-01 22:35:31 [INFO] [33;22m/jails: [37;1mList all jails.[m
+2013-03-01 22:35:31 [INFO] [33;22m/jump: [37;1mJumps to the nearest block in the line of sight.[m
+2013-03-01 22:35:31 [INFO] [33;22m/jumpto: [37;1mTeleport to a location[m
+2013-03-01 22:35:31 [INFO] [33;22m/kick: [37;1mKicks a specified player with a reason.[m
+2013-03-01 22:35:31 [INFO] [33;22m/kickall: [37;1mKicks all players off the server except the issuer.[m
+2013-03-01 22:35:31 [INFO] [33;22m/kill: [37;1mKills specified player.[m
+2013-03-01 22:35:31 [INFO] [33;22m/killall: [37;1mKill all mobs in a world.[m
+2013-03-01 22:35:31 [INFO] [33;22m/kit: [37;1mObtains the specified kit or views all available kits.[m
+2013-03-01 22:35:31 [INFO] [33;22m/kittycannon: [37;1mThrow an exploding kitten at your opponent[m
+2013-03-01 22:35:31 [INFO] [33;22m/lightning: [37;1mThe power of Thor. Strike at cursor or player.[m
+2013-03-01 22:35:31 [INFO] [33;22m/list: [37;1mList all online players.[m
+2013-03-01 22:35:31 [INFO] [33;22m/listchunks: [37;1mList chunks that your selection includes[m
+2013-03-01 22:35:31 [INFO] [33;22m/lrbuild: [37;1m<leftclick block> <rightclick block> - Long-range building tool[m
+2013-03-01 22:35:31 [INFO] [33;22m/mail: [37;1mManages inter-player, intra-server mail.[m
+2013-03-01 22:35:31 [INFO] [33;22m/mask: [37;1m[mask] - Set the brush mask[m
+2013-03-01 22:35:31 [INFO] [33;22m/mat: [37;1m[pattern] - Set the brush material[m
+2013-03-01 22:35:31 [INFO] [33;22m/me: [37;1mDescribes an action in the context of the player.[m
+2013-03-01 22:35:31 [INFO] [33;22m/more: [37;1mDuplicates the item in your hand.[m
+2013-03-01 22:35:31 [INFO] [33;22m/motd: [37;1mViews the Message Of The Day.[m
+2013-03-01 22:35:31 [INFO] [33;22m/msg: [37;1mSends a private message to the specified player.[m
+2013-03-01 22:35:31 [INFO] [33;22m/mute: [37;1mMutes or unmutes a player.[m
+2013-03-01 22:35:31 [INFO] [33;22m/near: [37;1mLists the players near by or around a player[m
+2013-03-01 22:35:31 [INFO] [33;22m/nick: [37;1mChange your nickname or that of another player.[m
+2013-03-01 22:35:31 [INFO] [33;22m/none: [37;1mUnbind a bound tool from your current item[m
+2013-03-01 22:35:31 [INFO] [33;22m/nuke: [37;1mMay death rain upon them.[m
+2013-03-01 22:35:31 [INFO] [33;22m/op: [37;1mGives the specified player operator status[m
+2013-03-01 22:35:31 [INFO] [33;22m/pardon-ip: [37;1mAllows the specified IP address to use this server[m
+2013-03-01 22:35:31 [INFO] [33;22m/pay: [37;1mPays another player from your balance[m
+2013-03-01 22:35:31 [INFO] [33;22m/pick: [37;1mSets the data of the block in your hand (to change the colour of wool, the type of log etc).[m
+2013-03-01 22:35:31 [INFO] [33;22m/ping: [37;1mPong![m
+2013-03-01 22:35:31 [INFO] [33;22m/plugins: [37;1mGets a list of plugins running on the server[m
+2013-03-01 22:35:31 [INFO] [33;22m/point: [37;1mToggle on/off your laser pointer.[m
+2013-03-01 22:35:31 [INFO] [33;22m/powertool: [37;1mAssigns a command to the item in hand.[m
+2013-03-01 22:35:31 [INFO] [33;22m/powertooltoggle: [37;1mEnables or disables all current powertools[m
+2013-03-01 22:35:31 [INFO] [33;22m/ptime: [37;1mAdjust player's client time. Add @ prefix to fix.[m
+2013-03-01 22:35:31 [INFO] [33;22m/pumpkins: [37;1m[size] - Generate pumpkin patches[m
+2013-03-01 22:35:31 [INFO] [33;22m/r: [37;1mQuickly reply to the last player to message you.[m
+2013-03-01 22:35:31 [INFO] [33;22m/range: [37;1m[pattern] - Set the brush range[m
+2013-03-01 22:35:31 [INFO] [33;22m/realname: [37;1mDisplays the username of a user based on nick.[m
+2013-03-01 22:35:31 [INFO] [33;22m/recipe: [37;1mDisplays how to craft items.[m
+2013-03-01 22:35:31 [INFO] [33;22m/reload: [37;1mReloads the server configuration and plugins[m
+2013-03-01 22:35:31 [INFO] [33;22m/remove: [37;1m<type> <radius> - Remove all entities of a type[m
+2013-03-01 22:35:31 [INFO] [33;22m/repair: [37;1mRepairs the durability of all or one item.[m
+2013-03-01 22:35:31 [INFO] [33;22m/repl: [37;1m<block> - Block replacer tool[m
+2013-03-01 22:35:31 [INFO] [33;22m/restore: [37;1m[snapshot] - Restore the selection from a snapshot[m
+2013-03-01 22:35:31 [INFO] [33;22m/rules: [37;1mViews the server rules.[m
+2013-03-01 22:35:31 [INFO] [33;22m/save-all: [37;1mSaves the server to disk[m
+2013-03-01 22:35:31 [INFO] [33;22m/save-off: [37;1mDisables server autosaving[m
+2013-03-01 22:35:31 [INFO] [33;22m/save-on: [37;1mEnables server autosaving[m
+2013-03-01 22:35:31 [INFO] [33;22m/say: [37;1mBroadcasts the given message as the console[m
+2013-03-01 22:35:31 [INFO] [33;22m/seed: [37;1mShows the world seed[m
+2013-03-01 22:35:31 [INFO] [33;22m/seen: [37;1mShows the last logout time of a player[m
+2013-03-01 22:35:31 [INFO] [33;22m/sell: [37;1mSells the item currently in your hand.[m
+2013-03-01 22:35:31 [INFO] [33;22m/sethome: [37;1mSet your home to your current location.[m
+2013-03-01 22:35:31 [INFO] [33;22m/setjail: [37;1mCreates a jail where you specified named [jailname][m
+2013-03-01 22:35:31 [INFO] [33;22m/setspawn: [37;1mSet the spawnpoint to your current position.[m
+2013-03-01 22:35:31 [INFO] [33;22m/setwarp: [37;1mCreates a new warp.[m
+2013-03-01 22:35:31 [INFO] [33;22m/setworth: [37;1mSet the sell value of an item.[m
+2013-03-01 22:35:31 [INFO] [33;22m/size: [37;1m[pattern] - Set the brush size[m
+2013-03-01 22:35:31 [INFO] [33;22m/snapshot: [37;1mSnapshot commands[m
+2013-03-01 22:35:31 [INFO] [33;22m/socialspy: [37;1mToggles if you can see msg/mail commands in chat.[m
+2013-03-01 22:35:31 [INFO] [33;22m/spawn: [37;1mTeleport to the spawnpoint.[m
+2013-03-01 22:35:31 [INFO] [33;22m/spawner: [37;1mChange the mob type of a spawner[m
+2013-03-01 22:35:31 [INFO] [33;22m/spawnmob: [37;1mSpawns a mob.[m
+2013-03-01 22:35:31 [INFO] [33;22m/spawnpoint: [37;1mSets a player's spawn point[m
+2013-03-01 22:35:31 [INFO] [33;22m/speed: [37;1mChange your speed limits[m
+2013-03-01 22:35:31 [INFO] [33;22m/stop: [37;1mStops the server with optional reason[m
+2013-03-01 22:35:31 [INFO] [33;22m/sudo: [37;1mMake another user perform a command.[m
+2013-03-01 22:35:31 [INFO] [33;22m/suicide: [37;1mCauses you to perish.[m
+2013-03-01 22:35:31 [INFO] [33;22m/superpickaxe: [37;1mSelect super pickaxe mode[m
+2013-03-01 22:35:31 [INFO] [33;22m/tempban: [37;1mTemporary ban a user.[m
+2013-03-01 22:35:31 [INFO] [33;22m/thru: [37;1mPassthrough walls[m
+2013-03-01 22:35:31 [INFO] [33;22m/thunder: [37;1mEnable/disable thunder.[m
+2013-03-01 22:35:31 [INFO] [33;22m/time: [37;1mDisplay/Change the world time. Defaults to current world.[m
+2013-03-01 22:35:31 [INFO] [33;22m/timings: [37;1mRecords timings for all plugin events[m
+2013-03-01 22:35:31 [INFO] [33;22m/toggledownfall: [37;1mToggles rain on/off on a given world[m
+2013-03-01 22:35:31 [INFO] [33;22m/toggleeditwand: [37;1mToggle functionality of the edit wand[m
+2013-03-01 22:35:31 [INFO] [33;22m/togglejail: [37;1mJails/Unjails a player, TPs them to the jail specified.[m
+2013-03-01 22:35:31 [INFO] [33;22m/tool: [37;1mSelect a tool to bind[m
+2013-03-01 22:35:31 [INFO] [33;22m/top: [37;1mTeleport to the highest block at your current position.[m
+2013-03-01 22:35:31 [INFO] [33;22m/tp: [37;1mTeleport to a player.[m
+2013-03-01 22:35:31 [INFO] [33;22m/tpa: [37;1mRequest to teleport to the specified player.[m
+2013-03-01 22:35:31 [INFO] [33;22m/tpaall: [37;1mRequests all players online to teleport to you.[m
+2013-03-01 22:35:31 [INFO] [33;22m/tpaccept: [37;1mAccepts a teleport request.[m
+2013-03-01 22:35:31 [INFO] [33;22m/tpahere: [37;1mRequest that the specified player teleport to you.[m
+2013-03-01 22:35:31 [INFO] [33;22m/tpall: [37;1mTeleport all online players to another player.[m
+2013-03-01 22:35:31 [INFO] [33;22m/tpdeny: [37;1mReject a teleport request.[m
+2013-03-01 22:35:31 [INFO] [33;22m/tphere: [37;1mTeleport a player to you.[m
+2013-03-01 22:35:31 [INFO] [33;22m/tpo: [37;1mTeleport override for tptoggle.[m
+2013-03-01 22:35:31 [INFO] [33;22m/tpohere: [37;1mTeleport here override for tptoggle.[m
+2013-03-01 22:35:31 [INFO] [33;22m/tppos: [37;1mTeleport to coordinates.[m
+2013-03-01 22:35:31 [INFO] [33;22m/tptoggle: [37;1mBlocks all forms of teleportation.[m
+2013-03-01 22:35:31 [INFO] [33;22m/tree: [37;1m[type] - Tree generator tool[m
+2013-03-01 22:35:31 [INFO] [33;22m/unban: [37;1mUnbans the specified player.[m
+2013-03-01 22:35:31 [INFO] [33;22m/unbanip: [37;1mUnbans the specified IP address.[m
+2013-03-01 22:35:31 [INFO] [33;22m/unlimited: [37;1mAllows the unlimited placing of items.[m
+2013-03-01 22:35:31 [INFO] [33;22m/unstuck: [37;1mEscape from being stuck inside a block[m
+2013-03-01 22:35:31 [INFO] [33;22m/up: [37;1m<block> - Go upwards some distance[m
+2013-03-01 22:35:31 [INFO] [33;22m/vanish: [37;1mHide yourself from other players.[m
+2013-03-01 22:35:31 [INFO] [33;22m/version: [37;1mGets the version of this server including any plugins in use[m
+2013-03-01 22:35:31 [INFO] [33;22m/vmail: [37;1mAll mail commands (function depends on the next word following it)[m
+2013-03-01 22:35:31 [INFO] [33;22m/voxelinstall: [37;1mInstalls a specific plugin, that is not yet running on the server.[m
+2013-03-01 22:35:31 [INFO] [33;22m/voxelplugins: [37;1mLists the status and availability of all the plugins.[m
+2013-03-01 22:35:31 [INFO] [33;22m/voxelupdate: [37;1mUpdates a specific plugin, that is already running on the server.[m
+2013-03-01 22:35:31 [INFO] [33;22m/warp: [37;1mList all warps or warp to the specified location.[m
+2013-03-01 22:35:31 [INFO] [33;22m/we: [37;1mWorldEdit commands[m
+2013-03-01 22:35:31 [INFO] [33;22m/weather: [37;1mSets the weather.[m
+2013-03-01 22:35:31 [INFO] [33;22m/whitelist: [37;1mManages the list of players allowed to use this server[m
+2013-03-01 22:35:31 [INFO] [33;22m/whois: [37;1mDetermine the username behind a nickname.[m
+2013-03-01 22:35:31 [INFO] [33;22m/workbench: [37;1mOpens up a workbench[m
+2013-03-01 22:35:31 [INFO] [33;22m/world: [37;1mSwitch between worlds.[m
+2013-03-01 22:35:31 [INFO] [33;22m/worth: [37;1mCalculates the worth of items in hand or as specified.[m
+2013-03-01 22:35:49 [INFO] SammeyChar[/66.215.222.125:64239] logged in with entity id 152254 at ([world] 59.29410769273043, 84.0, 210.5374971171457)
+2013-03-01 22:36:45 [INFO] theundecided[/24.11.160.164:58028] logged in with entity id 153377 at ([world] 96.8658466996816, 82.98650990898348, 42.129151363475245)
+2013-03-01 22:38:24 [INFO] theundecided issued server command: /invsee Ryanb1009
+2013-03-01 22:38:38 [INFO] theundecided issued server command: /invsee Ryanb1009
+2013-03-01 22:39:34 [INFO] arctos[/97.90.183.92:56008] logged in with entity id 155842 at ([world] 135.98429589913957, 65.0, 192.63134132020943)
+2013-03-01 22:39:40 [INFO] Connection reset
+2013-03-01 22:39:40 [INFO] theundecided lost connection: disconnect.quitting
+2013-03-01 22:39:45 [INFO] arctos lost connection: disconnect.quitting
+2013-03-01 22:39:45 [INFO] Connection reset
+2013-03-01 22:39:54 [INFO] arctos[/97.90.183.92:56016] logged in with entity id 156125 at ([world] 135.98429589913957, 65.0, 192.63134132020943)
+2013-03-01 22:40:58 [INFO] Connection reset
+2013-03-01 22:40:58 [INFO] arctos lost connection: disconnect.quitting
+2013-03-01 22:49:52 [INFO] theundecided[/24.11.160.164:49437] logged in with entity id 172653 at ([world] 119.37558650951885, 88.07670466006766, 156.0802045961666)
+2013-03-01 22:51:44 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 22:51:48 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 22:51:50 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 22:51:54 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 22:51:55 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 22:51:56 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 22:51:56 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 22:52:16 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 22:52:19 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 22:52:22 [SEVERE] Could not pass event BlockPlaceEvent to Deadbolt v2.2
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at org.bukkit.craftbukkit.v1_4_R1.event.CraftEventFactory.callBlockPlaceEvent(CraftEventFactory.java:100)
+	at net.minecraft.server.v1_4_R1.ItemBlock.processBlockPlace(ItemBlock.java:87)
+	at net.minecraft.server.v1_4_R1.ItemBlock.interactWith(ItemBlock.java:72)
+	at net.minecraft.server.v1_4_R1.ItemStack.placeItem(ItemStack.java:72)
+	at net.minecraft.server.v1_4_R1.PlayerInteractManager.interact(PlayerInteractManager.java:392)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.a(PlayerConnection.java:657)
+	at net.minecraft.server.v1_4_R1.Packet15Place.handle(SourceFile:58)
+	at net.minecraft.server.v1_4_R1.NetworkManager.b(NetworkManager.java:290)
+	at net.minecraft.server.v1_4_R1.PlayerConnection.d(PlayerConnection.java:113)
+	at net.minecraft.server.v1_4_R1.ServerConnection.b(SourceFile:39)
+	at net.minecraft.server.v1_4_R1.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.r(MinecraftServer.java:598)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.r(DedicatedServer.java:224)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.q(MinecraftServer.java:494)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+Caused by: java.lang.IllegalArgumentException: Permission name cannot be null
+	at org.bukkit.permissions.PermissibleBase.hasPermission(PermissibleBase.java:66)
+	at org.bukkit.craftbukkit.v1_4_R1.entity.CraftHumanEntity.hasPermission(CraftHumanEntity.java:109)
+	at com.daemitus.deadbolt.events.BlockListener.onBlockPlace(BlockListener.java:67)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 19 more
+2013-03-01 22:56:08 [INFO] TheRealElmo[/68.61.192.128:59900] logged in with entity id 181550 at ([world] 64.20859088021338, 63.0, 170.66362213321494)
+2013-03-01 22:56:23 [INFO] [0;39m<SammeyChar[0;39m> hey Elmo[m
+2013-03-01 22:56:27 [INFO] [0;39m<TheRealElmo[0;39m> hey ^_^[m
+2013-03-01 22:56:39 [INFO] [0;39m<TheRealElmo[0;39m> woah[m
+2013-03-01 22:56:43 [INFO] [0;39m<TheRealElmo[0;39m> stuf happened[m
+2013-03-01 22:56:54 [INFO] [0;39m<SammeyChar[0;39m> lol yup[m
+2013-03-01 22:57:02 [INFO] [0;39m<TheRealElmo[0;39m> so, we got the old data back?[m
+2013-03-01 22:57:16 [INFO] [0;39m<SammeyChar[0;39m> lot of people on throughout the day, and no we didnt[m
+2013-03-01 22:57:21 [INFO] [0;39m<SammeyChar[0;39m> just a lot of hard work[m
+2013-03-01 22:57:26 [INFO] [0;39m<TheRealElmo[0;39m> impressive[m
+2013-03-01 22:57:37 [INFO] [0;39m<TheRealElmo[0;39m> people on mumble?[m
+2013-03-01 22:58:01 [INFO] [0;39m<SammeyChar[0;39m> not now cuz it was all of matts friends and they were taking about a diff game, but ill get on[m
+2013-03-01 22:58:10 [INFO] [0;39m<SammeyChar[0;39m> Michaels been on also[m
+2013-03-01 22:58:17 [INFO] [0;39m<TheRealElmo[0;39m> ah[m
+2013-03-01 22:58:28 [INFO] [0;39m<TheRealElmo[0;39m> I could throw up a google hangout instead if you wanted[m
+2013-03-01 22:58:42 [INFO] [0;39m<SammeyChar[0;39m> sure, just give me a sec[m
+2013-03-01 22:58:45 [INFO] [0;39m<apathetic3cstasy[0;39m> it's kinda quiet in here.[m
+2013-03-01 22:59:22 [INFO] [0;39m<~the_architect[0;39m> i think my work here is done apathy[m
+2013-03-01 22:59:43 [INFO] [0;39m<SammeyChar[0;39m> ok elmo, im on google go ahead and shoot over a call[m
+2013-03-01 23:00:00 [INFO] [0;39m<SammeyChar[0;39m> if you can[m
+2013-03-01 23:00:07 [INFO] [0;39m<~the_architect[0;39m> technicolored sheep attack![m
+2013-03-01 23:00:56 [WARNING] Ryanb1009 moved wrongly!
+2013-03-01 23:02:58 [INFO] arctos[/66.215.222.125:56879] logged in with entity id 189271 at ([world] 135.42522583324626, 65.0, 191.96188698550483)
+2013-03-01 23:04:24 [INFO] SammeyChar issued server command: /home
+2013-03-01 23:05:44 [INFO] Connection reset
+2013-03-01 23:05:44 [INFO] SammeyChar lost connection: disconnect.endOfStream
+2013-03-01 23:06:00 [INFO] SammeyChar[/66.215.222.125:64586] logged in with entity id 193958 at ([world] 69.13749998807907, 84.0, 203.59668027022414)
+2013-03-01 23:06:04 [INFO] arctos issued server command: /back
+2013-03-01 23:06:10 [INFO] arctos issued server command: /back
+2013-03-01 23:06:13 [INFO] arctos issued server command: /back
+2013-03-01 23:06:16 [INFO] arctos issued server command: /home
+2013-03-01 23:15:22 [INFO] arctos issued server command: /home
+2013-03-01 23:16:34 [INFO] arctos issued server command: /back
+2013-03-01 23:20:48 [INFO] Connection reset
+2013-03-01 23:20:48 [INFO] SammeyChar lost connection: disconnect.endOfStream
+2013-03-01 23:21:10 [INFO] SammeyChar[/66.215.222.125:64671] logged in with entity id 212356 at ([world] -3.0376514425992687, 10.0, 181.69999998807907)
+2013-03-01 23:23:45 [INFO] arctos issued server command: /sell
+2013-03-01 23:23:53 [INFO] arctos issued server command: /sell hand 1
+2013-03-01 23:23:53 [INFO] §aarctos§r §asold gold_leggings for §a$400 §a(1 items at $400 each).
+2013-03-01 23:24:02 [INFO] arctos issued server command: /sell hand 1
+2013-03-01 23:24:02 [INFO] §aarctos§r §asold gold_helmet for §a$300 §a(1 items at $300 each).
+2013-03-01 23:24:47 [INFO] theundecided issued server command: /fly
+2013-03-01 23:24:52 [INFO] theundecided issued server command: /fly
+2013-03-01 23:25:04 [INFO] theundecided issued server command: /invsee ry
+2013-03-01 23:25:10 [INFO] theundecided issued server command: /repair
+2013-03-01 23:25:15 [INFO] theundecided issued server command: /repair all
+2013-03-01 23:25:59 [INFO] [0;39m<TheRealElmo[0;39m> hey matt[m
+2013-03-01 23:26:16 [INFO] [0;39m<TheRealElmo[0;39m> think I could get those 4 enderpearls i lost in the save crash the other night?[m
+2013-03-01 23:26:24 [INFO] theundecided issued server command: /msg TheRealElmo yessup
+2013-03-01 23:26:48 [INFO] theundecided issued server command: /invsee TheRealElmo
+2013-03-01 23:26:57 [INFO] [0;39m<TheRealElmo[0;39m> :D[m
+2013-03-01 23:26:59 [INFO] theundecided issued server command: /say that right?
+2013-03-01 23:26:59 [INFO] [theundecided] that right?
+2013-03-01 23:26:59 [INFO] [35;1m[Server] that right?[m
+2013-03-01 23:27:25 [INFO] arctos issued server command: /home
+2013-03-01 23:27:32 [INFO] [31;1mDeadbolt: (Admin) theundecided opened a container owned by Ryanb1009[m
+2013-03-01 23:27:36 [INFO] [31;1mDeadbolt: (Admin) theundecided opened a container owned by Ryanb1009[m
+2013-03-01 23:28:24 [INFO] theundecided issued server command: /invsee Ryanb1009
+2013-03-01 23:30:48 [INFO] theundecided issued server command: /invsee Ryanb1009
+2013-03-01 23:31:46 [INFO] theundecided issued server command: /broadcast elmo did you see the library of congress
+2013-03-01 23:31:46 [INFO] [0;39m[33;22m[[31;22mBroadcast[33;22m][32;1m elmo did you see the library of congress[m
+2013-03-01 23:34:41 [INFO] theundecided issued server command: //set stonebrick
+2013-03-01 23:34:52 [INFO] theundecided issued server command: //set stonebrick
+2013-03-01 23:35:15 [INFO] theundecided issued server command: //set stonebrick
+2013-03-01 23:35:36 [INFO] theundecided issued server command: //set stonebrick
+2013-03-01 23:35:44 [INFO] Connection reset
+2013-03-01 23:35:44 [INFO] SammeyChar lost connection: disconnect.genericReason
+2013-03-01 23:35:48 [INFO] SammeyChar[/66.215.222.125:64734] logged in with entity id 232233 at ([world] 226.64172895407094, 64.0, 330.1591472440371)
+2013-03-01 23:36:12 [INFO] theundecided issued server command: //set stonebrick
+2013-03-01 23:36:36 [INFO] theundecided issued server command: //set stonebrick
+2013-03-01 23:37:05 [INFO] theundecided issued server command: /gamemode survival apathetic3cstasy
+2013-03-01 23:37:09 [INFO] arctos[/97.90.183.92:60152] logged in with entity id 234015 at ([world] 214.143810548776, 63.0, 342.0589312823936)
+2013-03-01 23:37:10 [INFO] Read timed out
+2013-03-01 23:37:26 [INFO] theundecided issued server command: /broadcast ....you joined JUST intime for me to shut it down and save......
+2013-03-01 23:37:26 [INFO] [0;39m[33;22m[[31;22mBroadcast[33;22m][32;1m ....you joined JUST intime for me to shut it down and save......[m
+2013-03-01 23:37:31 [INFO] [0;39m<TheRealElmo[0;39m> lol[m
+2013-03-01 23:37:48 [INFO] Connection reset
+2013-03-01 23:37:48 [INFO] Ryanb1009 lost connection: disconnect.quitting
+2013-03-01 23:37:55 [INFO] theundecided issued server command: /say shutting down
+2013-03-01 23:37:55 [INFO] [theundecided] shutting down
+2013-03-01 23:37:55 [INFO] [35;1m[Server] shutting down[m
+2013-03-01 23:37:59 [INFO] Connection reset
+2013-03-01 23:37:59 [INFO] apathetic3cstasy lost connection: disconnect.quitting
+2013-03-01 23:37:59 [INFO] theundecided issued server command: /stop
+2013-03-01 23:37:59 [INFO] theundecided: Stopping the server..[m
+2013-03-01 23:37:59 [INFO] Stopping server
+2013-03-01 23:37:59 [INFO] [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.10.1
+2013-03-01 23:37:59 [INFO] [EssentialsChat] Disabling EssentialsChat v2.10.1
+2013-03-01 23:37:59 [INFO] [EssentialsSpawn] Disabling EssentialsSpawn v2.10.1
+2013-03-01 23:37:59 [INFO] [EssentialsProtect] Disabling EssentialsProtect v2.10.1
+2013-03-01 23:38:00 [INFO] [Essentials] Disabling Essentials v2.10.1
+2013-03-01 23:38:00 [INFO] [Deadbolt] Disabling Deadbolt v2.2
+2013-03-01 23:38:00 [INFO] [VoxelMail] Disabling VoxelMail v1.01
+2013-03-01 23:38:00 [INFO] [VoxelMore] Disabling VoxelMore v1.4
+2013-03-01 23:38:00 [INFO] VoxelMore version 1.4 is disabled!
+2013-03-01 23:38:00 [INFO] [LaserPointer] Disabling LaserPointer v0.3
+2013-03-01 23:38:00 [INFO] [LaserPointer] Version 0.3 disabled.
+2013-03-01 23:38:00 [INFO] [WorldEdit] Disabling WorldEdit v5.5.1
+2013-03-01 23:38:00 [INFO] [VoxelUpdate] Disabling VoxelUpdate v1.2.5-jnks12
+2013-03-01 23:38:00 [INFO] Saving players
+2013-03-01 23:38:00 [WARNING] DSCT: socket closed
+2013-03-01 23:38:00 [INFO] Closing listening thread
+2013-03-01 23:38:01 [INFO] Saving worlds
+2013-03-01 23:38:01 [INFO] Saving chunks for level 'world'/Overworld
+2013-03-01 23:38:02 [INFO] Saving chunks for level 'world_nether'/Nether
+2013-03-01 23:38:02 [INFO] Saving chunks for level 'world_the_end'/The End
+2013-03-01 23:38:02 [INFO] Stopping server
+2013-03-01 23:38:02 [INFO] Saving players
